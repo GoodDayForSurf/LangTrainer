@@ -512,10 +512,10 @@ It's nice to know that we're on the same wavelength.
 Alright, I take it all back. It wasn't your fault.
 
 Ты точно уверен что выключил утюг?
-Are you positive that you've unplagged the iron?
+Are you positive that you've unplugged the iron?
 
-Как насчет а куска пирога за счет заведения?
-How about a piece of pie on the house?
+Как насчет куска пирога за счет заведения?
+How about a piece of pie on the house? // Идиома: on the house - за счет заведения
 
 Будь к нему снисходительнее.
 Cut him some slack.
