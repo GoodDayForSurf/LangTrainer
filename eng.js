@@ -1,4 +1,4 @@
-const DATA = `
+export const DATA = `
 Извините за беспокойство.
 Sorry to bother you
 
@@ -437,7 +437,7 @@ Take it with you, just in case.
 В любом случае мы могли бы поговорить завтра на работе.
 In any case/Anyway, we could talk at work tomorrow.
 
-Сейчас неподходящий момент для обсуждения этого вопроса.
+Сейчас не подходящий момент для обсуждения этого вопроса.
 This would not be an opportune moment to press the issue.
 Now is not the right time to discuss this issue.
 

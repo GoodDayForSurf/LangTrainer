@@ -1,3 +1,5 @@
+import { DATA } from './eng.js';
+
 let PHRASES = [];
 
 const $ = selector => document.querySelector(selector);
