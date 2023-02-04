@@ -520,8 +520,8 @@ How about a piece of pie on the house? // Идиома: on the house - за сч
 Будь к нему снисходительнее.
 Cut him some slack.
 
-How's that even possible?
 Как это вообще возможно?
+How's that even possible?
 
 Это выше моего понимания!
 This is just beyond me!
