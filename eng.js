@@ -231,7 +231,7 @@ I'm good
 My friend is, so to speak, a walking encyclopedia
 
 Я просто разъясняю тебе ход своих мыслей, так сказать
-I'm just walking you throght my mental process, so to speak
+I'm just walking you through my mental process, so to speak
 
 Когда будешь уходить из офиса убедись что выключен свет.
 When you leave the office, make sure the lights are off.
@@ -591,10 +591,10 @@ You are quite the cardsharp.
 Каждый раз когда смотрю свои старые видео меня коробит.
 Every time i watch my videos, i cringe.
 
-- Я была тоак счастлива когда он сделал мне предложение. - Еще бы, не удивительно.
+- Я была так счастлива когда он сделал мне предложение. - Еще бы, не удивительно.
 - I was so happy when he proposed to me. - I bet you were. // I bet - еще бы!
 
-- Держу пари, он опазадет. - Он всегда опазывает.
+- Держу пари, он опоздает. - Он всегда опаздывает.
 - I bet he'll be late. - He always is.
 
 Если подумать, потеря работы на самом деле пошла мне на пользу.
