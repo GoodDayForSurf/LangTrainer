@@ -42,5 +42,11 @@ class CardState {
 load().then( () => {
    const cardState = new CardState();
    $('#app').addEventListener('click', () => cardState.next());
+   document.addEventListener("keyup", function(event) {
+      if (event.code === "Space") {
+         cardState.next();
+      }
+   });
+
    cardState.next();
 })

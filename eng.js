@@ -357,11 +357,11 @@ I see your point, but i don't think there is anything we can do about it now.
 Я спросил ее об этом напрямую.
 I asked her point-blank about this.
 
-Все что вы считаете провалом, на самом деле просто необходимый шаг на вашем путе к успеху
-Anything you consider as a failure is really just a nescessary step on your jorney to success.
+Все что вы считаете провалом, на самом деле просто необходимый шаг на вашем пути к успеху
+Anything you consider as a failure is really just a necessary step on your journey to success.
 Whatever you think of as failure is actually just a necessary step on the road to success.
 
-Я взал за правило(стараюсь) не водится с плохими людьми
+Я взял за правило(стараюсь) не водится с плохими людьми
 I make a point of not having familiarity with bad people.
 
 В этом то и вся суть науки.
