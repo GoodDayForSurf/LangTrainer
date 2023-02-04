@@ -529,8 +529,8 @@ This is just beyond me!
 Почему бы нам не сделать это в выходные? - А мы можем решить это по ходу дела?
 -Why don't we do it this weekend? - Can we just play it by ear? // идиома play it by ear
 
-You've got the wrong idea.
 Вы все не так поняли/Вы меня не так поняли
+You've got the wrong idea.
 
 В школе ее обзывали из-за ее веса.
 At school they called her names because of her weight.
