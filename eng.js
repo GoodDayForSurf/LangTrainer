@@ -206,7 +206,7 @@ If i'm not mistaken, it took him two year to complete this
 Я буду на связи
 I'll keep in touch
 
-Я вижу ты несколько нпраяжен
+Я вижу ты несколько напряжен
 I can tell you're a little tense
 
 Я неравнодушен к ней
@@ -331,7 +331,7 @@ I don't understand why you make a big deal out of it.
 It's not a big deal if you can't pay me back right now.
 
 Это не такая уж и большая проблема. Думаю я могу с ней разобраться.
-This is not a big problem, i think a can deal with it.
+It's not a big problem, I think i can deal with it.
 
 Смирись.
 Deal with it.
@@ -355,6 +355,7 @@ I'll come(get) straight to the point.
 I see your point, but i don't think there is anything we can do about it now.
 
 Я спросил ее об этом напрямую.
+I directly asked her about this.
 I asked her point-blank about this.
 
 Все что вы считаете провалом, на самом деле просто необходимый шаг на вашем пути к успеху
@@ -401,7 +402,7 @@ Let's go to a restaurant. It's on me. - Ok, You sold me
 Ничего себе! / Неужели?
 You don't say! // зависит от контекста может звучать как сарказм
 
-Слышал тебя уволили с работы. - На самом деле меня уволили, хотя, какая разница. Я безработный теперь.
+Слышал что ты ушел с работы. - На самом деле меня уволили, хотя, какая разница. Я безработный теперь.
 I heard you quit your job. - Actually(in fact) i was fired but it's same difference. I'm unemplyed now.
 
 Не пойми меня неправильно.
@@ -489,10 +490,10 @@ I'm happy you're safe and sound. We've been worried about you.
 I'm glad you're safe and sound. We were worried about you.
 
 Не хочу сглазить. Но думаю я сдам экзамен.
-I don't whant to jinx it, bu i think i'll pass the exam.
+I don't want to jinx it, but i think i'll pass the exam.
 
 Список желаний (прежде чем сыграть в ящик)
-A Backet list.
+A backet list.
 
 Мой ноутбук завис, поэтому я выключил его и снова включил, и это сработало
 My laptop froze so I turned it off and back on, and that did the trick.
@@ -567,7 +568,7 @@ Look who's talking.
 What are your pet peeves? // pet peeves - идиома
 
 - Переезжать куда либо где ты никогда не был это большая ошибка. - Я так не думаю, уверен все будет хорошо.
-- Moving somewhere you've never been is huge mistake. -I don't see it that way. I'm sure everything will be OK. // Устойчивая фраза "I don't see it that way" (Я так не думаю)
+- Moving somewhere you've never been is huge mistake. - I don't see it that way. I'm sure everything will be OK. // Устойчивая фраза "I don't see it that way" (Я так не думаю)
 
 Не вешай мне лапшу!
 Don't give me that!
