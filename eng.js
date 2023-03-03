@@ -185,8 +185,8 @@ No offense, but you're not the best swimmer.
 Я не шучу. Я серьезно.
 I'm not kidding. I mean it.
 
-That's awesome!
 Это круто!
+That's awesome!
 
 Это облом.
 That's a bummer.
@@ -219,6 +219,7 @@ She has a thing for chocolate
 It's my decision and it has nothing to do with you.
 
 Ты не имеешь права говорить мне что делать
+You have no right to tell me what to do
 You have no business telling me what to do
 
 Если ты продолжишь бездельничать мне ничего не останется кроме как уволить тебя
@@ -263,11 +264,15 @@ I'm so parched
 Поэтому поверь, я знаю каково это
 So believe me, i know exactly how you feel.
 
-Было сложно, но я отлично справился
-It was challenging but i nailed it. (It was hard but I managed)
+Было сложно, но я отлично справился.
+It was hard but I managed.
+It was challenging but i nailed it.
 
 В какое чудное время мы живем!
 What a time to be alive!
+
+Решил сделать что-нибудь приятное для тебя.
+Thought I'd (I would) do something nice for you.
 
 Нравится тебе это или нет, ты должен оплачивать счета.
 (Whether you) like it or not, you have to pay bills.
@@ -458,10 +463,10 @@ I thought they would help me, but unfortunately that was not the case.
 I would've never learned English if it wasn't for you.
 
 Когда я впервые услышал эту песню, она мне не понравилась, но теперь, она, похоже, начинает мне нравиться.
-When I first heard this song, i didn't like it, but now it seems, to be growing me.
+When I first heard this song, i didn't like it, but now it seems, is growing on me.
 
 Мое тайное пристрастие
-My guilty plesure
+My guilty pleasure
 
 Спасибо, что составили мне компанию
 Thanks for keeping me company.
@@ -537,7 +542,7 @@ You've got the wrong idea.
 At school they called her names because of her weight.
 At school, she was called names because of her weight.
 
-Не дави на меня, оставь в покое.
+Отстань/Да ладно?!.
 Give me a break.
 
 Ты не представляешь!
