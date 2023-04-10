@@ -2,6 +2,45 @@ export const DATA = `
 Извините за беспокойство.
 Sorry to bother you
 
+Мне не нужно завтра вставать рано
+I don't have to get up early tomorrow
+
+На твоем месте, я бы не стал этого делать.
+If I were you, I wouldn't do this.
+
+Я собирался сказать тебе, но забыл.
+I was going to tell you, but I forgot.
+
+Он не только проявил к вам неуважение, он солгал вам.
+Not only did he disrespect you, he lied to you
+
+Я позвоню тебе, когда приеду домой.
+I will call you when I arrive (get) home.
+
+Эта картина стоит целое состояние.
+This painting is worth a fortune.
+
+Если бы я знал, что она там, я бы поздоровался.
+If I had known that she was there, I would have said  hello.
+
+Я думаю, он мог попасть в тюрьму за то, что он сделал
+I think he could put in prison for what he did
+
+Интересно, с кем она разговаривала на вечеринке.
+I wonder who she was talking to at the party.
+
+Лишь бы он перестал это делать. Это так раздражает!
+If only he would stop doing it. It's so annoying!
+
+Мне нравится эта работа, но я думаю, что мне будет трудно привыкнуть к работе по ночам.
+I like the job, but I think it'll be difficult to get used to working nights.
+
+Ты должен был сказать мне немедленно. Сейчас уже поздно.
+You should have told me immediately. Now it's too late.
+
+The boat sank, but they were able to swim to the shore.
+Лодка затонула, но они смогли доплыть до берега.
+
 Послушай, это не важно. Это настоящая любовь.
 Look, it doesn't matter. It's true love.
 
