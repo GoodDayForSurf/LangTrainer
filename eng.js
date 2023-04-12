@@ -234,7 +234,7 @@ That's a bummer.
 No wonder this didn't work
 
 Не то чтобы нам не понравился комик, просто мы не для этого покупали билет.
-It's not that we don't like the comedian. It's just that that's not why we'd bought the ticket.
+It's not that we didn't like the comedian, it's just that we didn't buy the ticket for it.
 
 Ничего себе!
 No way!
