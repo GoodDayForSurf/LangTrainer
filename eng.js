@@ -38,8 +38,26 @@ I like the job, but I think it'll be difficult to get used to working nights.
 Ты должен был сказать мне немедленно. Сейчас уже поздно.
 You should have told me immediately. Now it's too late.
 
-The boat sank, but they were able to swim to the shore.
+Я проголодался и пошел искать ресторан. Так я и заблудился.
+I got hungry and went to look for a restaurant. That's how I got lost.
+
+Здесь легко запутаться.
+It's easy to get confused here.
+
+Это просто вылетело из головы
+It just slipped my mind
+
+Иногда мне приходится работать круглосуточно.
+Sometimes I have to work around the clock.
+
+Тебе не скучно жить в маленьком городе?
+Don't you get bored living in a small town?
+
+Во сколько ты пришел домой вечером?
+What time did you get home in the evening?
+
 Лодка затонула, но они смогли доплыть до берега.
+The boat sank, but they were able to swim to the shore.
 
 Послушай, это не важно. Это настоящая любовь.
 Look, it doesn't matter. It's true love.
