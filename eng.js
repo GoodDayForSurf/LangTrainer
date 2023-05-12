@@ -35,6 +35,57 @@ If only he would stop doing it. It's so annoying!
 За эти деньги ты мог бы купить вдвое больше
 For this money you could buy twice as mach
 
+Если это сложно запомнить, то будет еще сложнее забыть
+If it's hard to remember, it will be even harder to forget
+
+Если бы он учился больше, он бы прошел тест
+If he had studied more, he would have passed the test
+
+Если бы было холодно, мы бы не вышли на улицу
+If it was cold we wouldn't go outside
+
+Если было холодно, мы не выходили на улицу
+If it was cold, we didn't go outside
+
+Будешь ли ты нуждаться во мне когда мне будет 64?
+Will you still need me when I'm sixty-four?
+
+Я думал, что он будет богатым человеком
+I thought he would be a rich man  //согласование времен: если главное предложение в прошедшем то will -> would
+
+Я думал, что он богатый человек
+I thought he was a rich man  //согласование времен: если главное в прошедшем то present simple -> past simple
+
+Я думал, что он был богатым человеком
+I thought he had been a rich man  //согласование времен: если главное в прошедшем то past simple -> past perfect
+
+Я сказал тебе, что позавтракал
+I told you I had had my breakfast  //согласование времен: если главное в прошедшем то past simple -> past perfect
+
+Как же я люблю это!
+How much I love it!
+
+Я горжусь тобой
+I'm proud of you
+
+Нам не хватило только два дня для того что бы закончить наш проект
+We missed only two days to finish our project
+
+У меня не было проблем с тем, чтобы убедить их купить билеты
+I had no problem to convince them into buying the tickets
+
+Большие шансы, что вы в конечном итоге будете работать по ночам
+Big chances that you will end up working nights
+
+Кто знает твое имя? - Никто! Но скоро будут!
+Who knows your name? - Nobody! But soon they will!
+
+Берегись ярости терпеливого!
+Beware the fury of a patient one!
+
+Я был там в тот же самый день
+I was there on the very same day
+
 К своим сорока он имел все о чем можно мечтать
 By his forty he had everything a man could dream about
 
@@ -312,7 +363,7 @@ So, let me get this straight, you've lost my camera, haven't you?
 Ничего не могу поделать
 I can't help it
 
-- Я подумываю устоиться на эту работу. - вперед, действуй!
+- Я подумываю устроиться на эту работу. - вперед, действуй!
 - I'm thinking of applying for that job. - go for it!
 
 Не терпится поехать туда и провести остаток нашей жизни вместе.
@@ -389,7 +440,7 @@ If you want to keep your job then get a clue and start arriving on time.
 Get lost!
 
 Может эти и не кажется чем-то важным, но для меня это много значит.
-That may not seem like a bige deal, but for me it means the world.
+That may not seem like a big deal, but for me it means the world.
 It may not seem like such a big deal, but it means a lot to me.
 
 Тоже мне большое дело! Ерунда.
