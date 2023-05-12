@@ -32,6 +32,15 @@ I wonder who she was talking to at the party.
 Лишь бы он перестал это делать. Это так раздражает!
 If only he would stop doing it. It's so annoying!
 
+За эти деньги ты мог бы купить вдвое больше
+For this money you could buy twice as mach
+
+К своим сорока он имел все о чем можно мечтать
+By his forty he had everything a man could dream about
+
+Я горю желанием услышать от тебя хорошие новости
+I am looking forward to hearing from you a good news.
+
 Мне нравится эта работа, но я думаю, что мне будет трудно привыкнуть к работе по ночам.
 I like the job, but I think it'll be difficult to get used to working nights.
 
