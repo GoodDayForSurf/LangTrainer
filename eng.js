@@ -86,6 +86,18 @@ Beware the fury of a patient one!
 Я был там в тот же самый день
 I was there on the very same day
 
+Чего? / Еще раз? (повтори)
+Come again?
+
+Тебе то что?
+What's it to you?
+
+И что?
+What of it?
+
+Ты чего?
+What's with you?
+
 К своим сорока он имел все о чем можно мечтать
 By his forty he had everything a man could dream about
 
