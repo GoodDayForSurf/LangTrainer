@@ -231,10 +231,11 @@ Check it out. We're on TV.
 I like doing this. For real.
 
 Я определенно понимаю тебя, но что я могу сделать для тебя взамен?
-I certainly see you point, but what could i possibly do for you in return?
+I definitely understand you, but what can I do for you in return?
+I certainly see your point, but what could i possibly do for you in return?
 
 Знаешь, в глубине души, я знал что я другой.
-You know, deep down, i knew i was different.
+You know, deep down, I knew I was different.
 
 Знаешь что? Я скучаю по ней тоже.
 You know what? I miss her too.
@@ -242,7 +243,7 @@ You know what? I miss her too.
 - Я тебе перезвоню. - Нет, не перезвонишь!
 - I'll call you back. - No, You won't!
 
-Давно не видились!
+Давно не виделись!
 Long time no see!
 
 Я открою/отвечу
@@ -393,7 +394,7 @@ I'm so parched
 Поэтому поверь, я знаю каково это
 So believe me, i know exactly how you feel.
 
-Было сложно, но я отлично справился.
+Было сложно, но я управился.
 It was hard but I managed.
 It was challenging but i nailed it.
 
@@ -451,7 +452,10 @@ If you want to keep your job then get a clue and start arriving on time.
 Проваливай!
 Get lost!
 
-Может эти и не кажется чем-то важным, но для меня это много значит.
+-Вы закончили свой проект? - Хотелось бы/ Если бы
+-Have you finished your project? - I wish / If only
+ 
+Может это и не кажется чем-то важным, но для меня это много значит.
 That may not seem like a big deal, but for me it means the world.
 It may not seem like such a big deal, but it means a lot to me.
 
