@@ -543,6 +543,19 @@ You don't say! // зависит от контекста может звучат
 Слышал что ты ушел с работы. - На самом деле меня уволили, хотя, какая разница. Я безработный теперь.
 I heard you quit your job. - Actually(in fact) i was fired but it's same difference. I'm unemployed now.
 
+Едва они встали на якорь как разразился сильнейший шторм.
+As soon as they anchored, a huge storm broke out.
+Barely had they anchored an enormous storm broke out. // had идет перед they т.к. в начале идет barely.
+
+Едва я приехал, как зазвонил телефон.
+Hardly had I arrived when the phone rang. // had идет перед they т.к. в начале идет hardly.
+
+Едва она закончила говорить, как разразились аплодисменты.
+Scarcely had she finished speaking when the applause erupted. // had идет перед they т.к. в начале идет scarcely.
+
+Редко когда я видел такой красивый закат.
+Rarely have I seen such a beautiful sunset. // had идет перед they т.к. в начале идет rarely.
+
 Не пойми меня неправильно.
 Don't get me wrong.
 
