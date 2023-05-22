@@ -288,7 +288,7 @@ Just lost in thought.
 Можешь не продолжать.
 Say no more.
 
-Нет, мы все прекрасно понимаем. В смысле, такое случается, верно?
+Нет, мы полностью все понимаем. В смысле, такое случается, верно?
 No, we totally understand. I mean, that happens, right?
 
 Дело в том, что я не знал что это твоя машина
@@ -440,7 +440,7 @@ I'm super careful not to get in trouble
 Займись своей жизнью
 Get a life
 
-Спустись на землю, из этого ничего не выйдет
+Будь реалистом, это не сработает.
 Get real, it's not going to work.
 
 Тебе нужно взять себя в руки и разобраться c этим
@@ -452,8 +452,8 @@ If you want to keep your job then get a clue and start arriving on time.
 Проваливай!
 Get lost!
 
--Вы закончили свой проект? - Хотелось бы/ Если бы
--Have you finished your project? - I wish / If only
+-Вы закончили свой проект вовремя? - Хотелось бы/ Если бы
+-Did you finish your project on time? - I wish / If only
  
 Может это и не кажется чем-то важным, но для меня это много значит.
 That may not seem like a big deal, but for me it means the world.
@@ -541,7 +541,7 @@ Let's go to a restaurant. It's on me. - Ok, You sold me
 You don't say! // зависит от контекста может звучать как сарказм
 
 Слышал что ты ушел с работы. - На самом деле меня уволили, хотя, какая разница. Я безработный теперь.
-I heard you quit your job. - Actually(in fact) i was fired but it's same difference. I'm unemplyed now.
+I heard you quit your job. - Actually(in fact) i was fired but it's same difference. I'm unemployed now.
 
 Не пойми меня неправильно.
 Don't get me wrong.
@@ -549,7 +549,7 @@ Don't get me wrong.
 Наконец то/давно пора! Я ждал больше часа!
 It's about time! i've been waiting for over an hour!
 
-Я понятия не имею, что делать в этой ситуации, поэтому я просто плыву по течению и посмотрим что из этого выйдет.
+Я понятия не имею, что делать в этой ситуации, поэтому я просто плыву по течению и посмотрим что получиться.
 I have no idea what to do about this situation, so i'm just gonna go with the flow and see what happens.
 
 Ты говоришь по-английски так же как и раньше, когда жил в сша? - Даже и близко нет. Забыл почти все что выучил.
@@ -827,5 +827,4 @@ I started to deal with it
 We never used to see them, except for during August.
 
 - Вы курите? - Нет, раньше курил, но больше нет.
-- Do you smoke? - No, I used to but don't any more.
-`
+- Do you smoke? - No, I used to but don't any more.`
