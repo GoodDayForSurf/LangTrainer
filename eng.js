@@ -547,6 +547,23 @@ I heard you quit your job. - Actually(in fact) i was fired but it's same differe
 As soon as they anchored, a huge storm broke out.
 Barely had they anchored an enormous storm broke out. // had идет перед they т.к. в начале идет barely.
 
+Наш рейс задержали из-за плохой погоды
+Our flight was delayed because of bad weather.
+Our flight was delayed due to bad weather.
+
+Школа была закрыта на день из-за того не было света.
+The school was closed for a day because of a power outage.
+
+Это случилось из-за пожара.
+It happened because of the fire.
+It was caused by the fire.
+
+Шампанское вызывает у меня головную боль
+Champagne gives me a headache
+
+Ошибка произошла из-за халатности
+The error was due to negligence
+
 Едва я приехал, как зазвонил телефон.
 Hardly had I arrived when the phone rang. // had идет перед they т.к. в начале идет hardly.
 
