@@ -554,6 +554,18 @@ Our flight was delayed due to bad weather.
 Школа была закрыта на день из-за того не было света.
 The school was closed for a day because of a power outage.
 
+Нам интересно почему вы нам никогда не звоните
+We are curious about why you never called us.
+
+Интересно посмотреть что случиться дальше
+I'm curious to see what will happen
+
+У вас есть это в другом цвете?
+Do you have it in a different color?
+
+Мне интересно узнать тове мнение
+I was curious to know your point of view. // Хотя речь о данном моменте "was" добавляет вежливости
+
 Это случилось из-за пожара.
 It happened because of the fire.
 It was caused by the fire.
