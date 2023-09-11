@@ -554,6 +554,42 @@ Our flight was delayed due to bad weather.
 Школа была закрыта на день из-за того не было света.
 The school was closed for a day because of a power outage.
 
+Когда я ем слишком много сахара у меня появляется сыпь.
+When i eat too much sugar I get a rash
+
+Если будет дождь я останусь дома
+If it rains I will stay home // Хотя условие и про будущее но используется Present Simple
+
+Если вы заполните эту форму, я обработаю вашу заявку
+If you will fill out this form, I will process your application // will в условии только для вежливости, можно без него
+
+Если бы у меня было много денег, я бы путешествовал по миру
+If I had a lot of money I would travel the world // Условие 2-го типа. Т.к. условие не реально оно в Past Simple
+
+Если бы мне не нужно было работать завтра я бы пришел к тебе
+If I didn't have to work tomorrow, I would come to you
+If I didn't have to work tomorrow I would come over to your place // Условие 2-го типа. Т.к. условие не реально оно в Past Simple
+
+Если бы я усерднее занимался я бы сдал экзамен
+If I had studied harder I would have passed the exam // Условие 3-го типа. Если бы что то было в прошлом
+
+Если бы я не проспал, Я бы сейчас был на работе
+If I hadn't overslept I would be at work right now // Нереальное условие в прошлом и нереальное настоящее
+
+Если бы я принял то предложение о работе то сейчас зарабатывал бы больше
+If I had taken that job offer I would be making more money now // Нереальное условие в прошлом и нереальное настоящее
+
+Если бы она послушала мой совет то сейчас у нее бы не было проблем
+If she had listened to my advise she wouldn't be in trouble. // Нереальное условие в прошлом и нереальное настоящее
+If she had taken my advice, she wouldn't have had a problem.
+
+Если бы они не пропустили автобус они были бы уже здесь
+If they hadn't missed the bus they would be here already. // Нереальное условие в прошлом и нереальное настоящее
+
+Если бы я не пропустил так много занятий я бы так не отстал
+If I hadn't skipped so many classes I wouldn't be so behind // Нереальное условие в прошлом и нереальное настоящее
+If I hadn't been skipping so many classes, I wouldn't be so behind.
+
 Нам интересно почему вы нам никогда не звоните
 We are curious about why you never called us.
 
