@@ -383,13 +383,16 @@ I can't help it
 I can't wait to go in there and spend the rest of our life together.
 
 Люди должны знать правду и если это будет стоить мне работы, так тому и быть.
-People need to know the truth. And if that costs me my job, so bi it.
+People need to know the truth. And if that costs me my job, so be it.
 
 Умираю с голоду, мне нужно что-нибудь съесть прямо сейчас или я потеряю сознание
 i'm starving i need to eat something right now otherwise i will pass out.
 
 У меня в горле пересохло
 I'm so parched
+
+Если бы он пошел в университет то сейчас мог бы иметь работу получше
+If he had gone to university, he might have a better job now.
 
 Поэтому поверь, я знаю каково это
 So believe me, i know exactly how you feel.
@@ -531,7 +534,7 @@ The day she moved to the states was a turning point in her life.
 Терпение не моя сильная сторона / мое слабое место.
 Patience isn't my strong point / is my weak point.
 
-Я запомню это навсегда.
+Я запомню это навсегда (Это останется со мной навсегда).
 It's going to stay with me forever.
 
 Давай сходим в ресторан, я угощаю. Согласен, убедил.
