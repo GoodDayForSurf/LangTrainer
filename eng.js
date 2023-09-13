@@ -352,7 +352,7 @@ It's my decision and it has nothing to do with you.
 You have no right to tell me what to do
 You have no business telling me what to do
 
-Если ты продолжишь бездельничать мне ничего не останется кроме как уволить тебя
+Если ты продолжишь бездельничать, у меня не будет другого выбора, кроме как уволить тебя.
 If you keep slacking off, i'll have no choice but to fire you
 
 Мне достаточно, не нужно
@@ -554,7 +554,7 @@ Barely had they anchored an enormous storm broke out. // had идет перед
 Our flight was delayed because of bad weather.
 Our flight was delayed due to bad weather.
 
-Школа была закрыта на день из-за того не было света.
+Школу закрыли на сутки из-за отключения электроэнергии.
 The school was closed for a day because of a power outage.
 
 Когда я ем слишком много сахара у меня появляется сыпь.
