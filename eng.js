@@ -5,6 +5,49 @@ Sorry to bother you
 Мне не нужно завтра вставать рано
 I don't have to get up early tomorrow
 
+Это произошло (прямо) на моих глазах
+it happened (right) before my eyes
+
+Вы не против если мы сделаем музыку чуть погромче?
+Do you mind if we turn up the music a little bit // интересно что используется present simple
+
+Что ты предпочитаешь пойти в кино или остаться дома?
+Would you rather go to the movies or stay at home? // без to
+
+Как бы ты отнесся если бы мы украсили твою комнату?
+How would you feel if we decorated your room? // смысловая часть в past simple
+
+Не мог бы прояснить свою позицию насчет этих проблем?
+Would you clarify your stands on this issues?
+
+Что за дела с этим новым рестораном?
+What is the deal with that new restaurant?
+
+Вы увлекаетесь пешим туризмом?
+Are you into hiking?
+
+Я жду когда он уедет?
+I'm waiting for him to leave
+
+Подожди когда я закончу
+Wait for me to finish
+
+Я не хочу ждать когда откроется это кафе
+I don't want to wait for this cafe to open.
+
+Это было мило но довольно банально и предсказуемо
+It was nice but a little cheesy
+
+Этот продукт стоящий
+This product is legit
+
+остроумный, пушистый, очаровательный, яркий, крепкий (надежный)
+witty, fuzzy, charming, vivid, sturdy
+
+
+Как ты относишься к коротким видео?
+What is your take on short-time videos?
+
 На твоем месте, я бы не стал этого делать.
 If I were you, I wouldn't do this.
 
