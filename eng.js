@@ -328,7 +328,81 @@ I told you so.
 Да так, просто задумался.
 Just lost in thought.
 
-Можешь не продолжать.
+Я трачу много денег в последнее время
+I have been spending much (a lot of) money lately 
+
+Я невероятно занят в последнее время
+I have been incredibly busy lately // busy не употребляется в ing форме поэтому тут он используется в V3
+
+Я пытаюсь разобраться во всем этом бардаке последние два дня.
+I've been trying to sort out all this mess for the last two days.
+
+Мы знаем друг друга с детства поэтому я могу положиться на него.
+We have been known each other since childhood so I can rely on him.
+
+Я буду ждать твоего сообщения.
+I will be waiting for your message. // Если сказать will wait это будет соответствовать "Я подожду" 
+
+Я достигну среднего уровня к следующему месяцу
+I will have reached intermediate level by next month. // т.е. указывается конкретный момент с помощью "к" то нужно использовать perfect, если сказать в следующем месяце то будет обычное future
+
+Я закончу смотреть это видео к тому времени как она придет
+I'll have finished to watch this video by the time she comes
+I'll have finished watching this video by the time she arrives.
+
+Предполагаю они закончат сооружать мост к следующему лету.
+I suppose they will have finished constructing the bridge by next Summer.
+
+Когда она пришла я смотрел тот фильм около часа
+When she came I had been watching that movie for about an hour
+
+Она искала свою сумку почти два часа до того как я ее нашел.
+She had been looking for her bag almost two hours before I found it.
+
+Я так долго жду этого!
+I have been waiting for it for so long!
+
+Он ожидает что заработает эти деньги к следующему году.
+He expects he will has earned this money by next year.
+
+Это только что было сделано.
+It has just been done. // perfect в пассивном залоге
+
+Как уже сказали, ситуация не такая простая.
+As it has already been said the situation is not so simple.
+
+Эти данные сейчас анализируются
+This data are being analyzed now
+This data is currently being analyzed
+
+Когда я пришел туда обсуждались очень важные вещи.
+When I came there the very important things where being discussed.
+
+Я планирую что следующий уровень будет достигнут к концу этого месяца.
+I plan the next level will be reached by the end of this month.
+
+Как мне кажется эта работа будет закончена к завтрашнему дню.
+As it seems to me this work will have been finished by tomorrow. // указан конкретный момент с помощью "к" значит perfect. + passive
+
+Только что все было сделано должным образом (как надо).
+Everything has just been done properly (as it should be.). // Passive 
+
+Как долго ты это делаешь?
+How long have you been doing this?
+
+Я жду тебя уже пол часа
+I've been waiting for you for about half an hour
+
+Он всегда был верен своим принципам и убеждениям
+He's always been faithful to his principles and beliefs 
+
+Должен сказать что мы знаем друг друга очень давно
+I have to say that we have known each other for a very long time // тут perfect continuous но know не ставиться в -ing
+
+Это невероятно трудный день и я никогда не чувствовал себя таким утомленным (усталым)
+It's an incredible difficult day and I've never felt so exhausted (tired)
+
+Можешь не пролжать (Ни слова больше)
 Say no more.
 
 Нет, мы полностью все понимаем. В смысле, такое случается, верно?
