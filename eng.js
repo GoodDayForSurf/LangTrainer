@@ -375,6 +375,18 @@ As it has already been said the situation is not so simple.
 This data are being analyzed now
 This data is currently being analyzed
 
+Не могли бы вы оказать мне услугу и одолжить мне свои конспекты к предстоящему экзамену?
+Could you do me a favor and lend me your notes for the upcoming exam?
+
+Она следовала своей страсти к искусству, назло (несмотря на) неодобрению своей семьи.
+She pursued her passion for art in spite of her family's disapproval. // pursue - продолжать что то делать
+
+I не ходил в художественную школу (раньше, никогда)
+I didn't use to go art school.
+
+Нет никакой необходимости удлинять этот курс.
+There is no need to lengthen this course. 
+
 Когда я пришел туда обсуждались очень важные вещи.
 When I came there the very important things where being discussed.
 
