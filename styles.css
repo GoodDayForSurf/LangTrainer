@@ -14,8 +14,6 @@ body {
     flex-flow: column;
     height: 100vh;
     width: 100vw;
-
-
 }
 
 #buttons-container {
@@ -44,15 +42,11 @@ body {
     margin-bottom: 1em;
 }
 
-#answer {
-
-}
-
 comment {
     display: block;
     color: black;
-    background: aliceblue;
-    border-radius: 25%;
+    background: blueviolet;
+    border-radius: 5%;
     padding: 12px;
     margin-top: 12px;
     font-size: smaller;

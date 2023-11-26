@@ -310,7 +310,7 @@ There is no point.
 Нет смысла пытаться быть кем-то другим.
 There is no point in trying to be someone else.
 
-Я так понимаю, разговор не очень удался?
+Я так понимаю, разговор прошел не очень хорошо?
 I take it the talk didn't go too well?
 
 Это не так уж и важно.
