@@ -45,8 +45,8 @@ body {
 comment {
     display: block;
     color: black;
-    background: blueviolet;
-    border-radius: 5%;
+    background: #a6ff4ba8;
+    border-radius: 20px;
     padding: 12px;
     margin-top: 12px;
     font-size: smaller;

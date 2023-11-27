@@ -11,8 +11,11 @@ it happened (right) before my eyes
 Вы не против если мы сделаем музыку чуть погромче?
 Do you mind if we turn up the music a little bit // интересно что используется present simple
 
-Что ты предпочитаешь пойти в кино или остаться дома?
+Ты бы лучше пошел в кино или остался дома?
 Would you rather go to the movies or stay at home? // без to
+
+Что ты предпочитаешь пойти в кино или остаться дома?
+What do you prefer to go to the cinema or stay at home?
 
 Как бы ты отнесся если бы мы украсили твою комнату?
 How would you feel if we decorated your room? // смысловая часть в past simple
@@ -72,7 +75,7 @@ I think he could put in prison for what he did
 Интересно, с кем она разговаривала на вечеринке.
 I wonder who she was talking to at the party.
 
-Лишь бы он перестал это делать. Это так раздражает!
+Если бы только он перестал это делать. Это так раздражает!
 If only he would stop doing it. It's so annoying!
 
 За эти деньги ты мог бы купить вдвое больше
@@ -597,7 +600,7 @@ Big deal! // важно что без артикля
 Я не понимаю зачем ты делаешь из мухи слона
 I don't understand why you make a big deal out of it.
 
-Ничего страшного если ты не сможешь отдать мне долг сейчас.
+Ничего страшного если ты не можешь отдать мне долг сейчас.
 It's not a big deal if you can't pay me back right now.
 
 Это не такая уж и большая проблема. Думаю я могу с ней разобраться.
@@ -608,6 +611,7 @@ Deal with it.
 
 Я опоздал всего лишь на минуту, что здесь такого?
 I was only late by a minute. What's the big deal *here?
+I'm only a minute late, what's wrong with that?
 
 Хорошо, давай договоримся
 Ok, let's make deal.
@@ -780,7 +784,7 @@ All i'm saying if you leave this place you will get/be caught.
 Разберусь по ходу дела.
 I'll figure it out as i go.
 
-Возьми это на всякий случай.
+Возьми это с собой на всякий случай.
 Take it with you, just in case.
 
 В любом случае мы могли бы поговорить завтра на работе.
@@ -1022,7 +1026,7 @@ I can't believe you're taking her side!
 How should i know what they think about it?
 
 Тем больше причин оставить это в прошлом, верно?
-All the more reason to leave it behind, right?
+All the more reasons to leave it behind, right?
 
 Я все исправлю и все будет по-прежнему
 I'll fix it and it will all return/(go back) to normal // Устойчивый оборот: return/(go back) to normal
