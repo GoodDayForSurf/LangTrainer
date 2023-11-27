@@ -52,10 +52,40 @@ witty, fuzzy, charming, vivid, sturdy
 What is your take on short-time videos?
 
 На твоем месте, я бы не стал этого делать.
-If I were you, I wouldn't do this.
+If I were you, I wouldn't do this. // If i were you, I would (not) + глагол в нейтральной форме без to
 
 Я собирался сказать тебе, но забыл.
 I was going to tell you, but I forgot.
+
+Мне нужно только лишь немного больше времени что бы это сделать
+I just need some more time to get it done // I just need - Мне нужно только лишь
+
+Кажется я не могу избавиться от этой привычки
+I can't seem to get rid of (to break) this habit // I can't seem to ... кажется я не могу
+
+Это не стоит таких усилий
+It's not worth the effort // It is not worth ... - это не стоит того ...
+
+Я никогда не думал что мне будет грустно уходить с этой работы
+I never thought I would so sad quitting this job // I never thought I would ... - я никогда не думал что ..
+
+Несмотря ни на что я буду тебя поддержу
+No matter what I will always support you
+
+Я давно хотел с тобой поговорить
+I have been meaning to talk with you // I have been meaning to ... - уже некоторое время есть мысли что то сделать
+
+Что то хочется посмотреть хорошее кино сегодня
+I feel like watching a good movie
+
+Наконец то мы начали
+It's about time we started
+
+Не могу не улыбнуться когда слышу эту песню
+I can't help but smile when i hear this song // I can't help but - не могу не ... (не могу сдержаться что бы ...)
+
+Мы уже давно не разговаривали 
+It's been a while since we talked // It's been a while since - для выражения чего то чего давно не было
 
 Он не только проявил к вам неуважение, он солгал вам.
 Not only did he disrespect you, he lied to you
@@ -1024,6 +1054,15 @@ I can't believe you're taking her side!
 
 Откуда мне знать что они думают об этом?
 How should i know what they think about it?
+
+Я ни за что не пойду на вечеринку
+I am so not going to the party  // I'm so not + ...ing - очень сильное выражение нежелания
+
+Почему бы тебе не попробовать и посмотреть как пойдет?
+Why don't you give it a try and see how it goes?
+
+Этот фильм не такой уж и плохой
+This movie is not that bad // ...is not that ... - не такой уж и ...
 
 Тем больше причин оставить это в прошлом, верно?
 All the more reasons to leave it behind, right?
