@@ -51,6 +51,22 @@ witty, fuzzy, charming, vivid, sturdy
 Как ты относишься к коротким видео?
 What is your take on short-time videos?
 
+Расхаживать туда-сюда
+Pacing back and forth
+
+Почему ты держишь свой телефон вверх ногами
+Why are you holding your phone upside down
+
+Твоя футболка шиворот на выворот
+Your t-shirt is inside out
+
+Скоро увидишь
+wait and see // wait and see - устойчивый оборот
+
+Может быть около 30 мин от начала до конца
+Maybe about 30 minutes start to end // start to end - устойчивый оборот: от начала до конца
+
+
 На твоем месте, я бы не стал этого делать.
 If I were you, I wouldn't do this. // If i were you, I would (not) + глагол в нейтральной форме без to
 
