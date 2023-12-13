@@ -60,6 +60,21 @@ Why are you holding your phone upside down
 Твоя футболка шиворот на выворот
 Your t-shirt is inside out
 
+Его неясные объяснения только сделали ситуацию более запутанной (запутывающей).
+His unclear explanations only made the situation more confusing. // Нужно не путать: (I'm confused - я сбит с толку) (it's confusing thing - это запутанная (запутывающая нас) вещь)
+
+Эта погода такая депрессивная
+This weather is so depressing // надо понимать что характеристика погоды тут используется для описания влияния на нас поэтому -ing
+
+После концерта я был в восторге
+After the concert, I felt elated
+
+Это заставило меня чувствовать себя неловко
+It made me feel embarrassed
+
+Я доволен / удовлетворен / полон решимости
+I'm content / satisfied / determined // в content ударение на e
+
 Скоро увидишь
 wait and see // wait and see - устойчивый оборот
 
