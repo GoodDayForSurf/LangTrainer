@@ -615,7 +615,7 @@ All this noise is getting on my nerves.
 Знаешь, я всегда ненавидел когда ты заставляла меня все переделывать, но теперь я понимаю.
 You know, I always hated when you made me redo stuff(things), but now i get it(understand).
 
-Что ж, давай отбросим формальности и перейдем к сути.
+Что ж, давай пропустим формальности и перейдем к сути.
 Well, let's skip the formalities and get to the point (get down to business).
 
 Давай проясним. К чему ты клонишь?
@@ -648,9 +648,9 @@ If you want to keep your job then get a clue and start arriving on time.
 Проваливай!
 Get lost!
 
--Вы закончили свой проект вовремя? - Хотелось бы/ Если бы
+-Вы закончили свой проект вовремя? - Хотелось бы / Если бы
 -Did you finish your project on time? - I wish / If only
- 
+
 Может это и не кажется чем-то важным, но для меня это много значит.
 That may not seem like a big deal, but for me it means the world.
 It may not seem like such a big deal, but it means a lot to me.
@@ -697,8 +697,8 @@ I asked her point-blank about this.
 Anything you consider as a failure is really just a necessary step on your journey to success.
 Whatever you think of as failure is actually just a necessary step on the road to success.
 
-Я взял за правило(стараюсь) не водится с плохими людьми
-I make a point of not having familiarity with bad people.
+Я взял за правило(стараюсь) не иметь знакомства с плохими людьми
+I made it a rule not having familiarity with bad people.
 
 В этом то и вся суть науки.
 That's the whole point of science.
@@ -715,7 +715,7 @@ I just don't see the point in wasting money on these trinkets.
 И вас не беспокоит, что вы бескорыстны до самоотречения?
 And you're not worried you're being selfless to the point of self-denial?
 
-Вы упускаете суть. Я не имею в виду, что вам не нужно туда идти, я просто говорю, что вы должны быть хорошо подготовлены.
+Вы упускаете суть. Я не имею в виду, что вам не нужно туда идти, все что я говорю, это то что вам стоит быть хорошо подготовленным.
 You're missing the point. I don't mean you don't have to go there, all i'm saying is that you should be well-prepeared.
 
 На данный момент у нас есть идеи о том, как это сделать, но мы не можем сказать, что у нас есть готовое решение.
