@@ -319,7 +319,7 @@ Sorry. I did it again. My bad.
 Сначала ты должен дать мне пять.
 First, you have to give me a high five.
 
-Я так рад тебя видеть!
+Так здорово видеть тебя!
 It's so good to see you.
 
 Дай знать если что то понадобиться.
