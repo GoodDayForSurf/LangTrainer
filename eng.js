@@ -445,7 +445,7 @@ Could you do me a favor and lend me your notes for the upcoming exam?
 Она следовала своей страсти к искусству, назло (несмотря на) неодобрению своей семьи.
 She pursued her passion for art in spite of her family's disapproval. // pursue - продолжать что то делать
 
-I не ходил в художественную школу (раньше, никогда)
+A не ходил в художественную школу (раньше, никогда)
 I didn't use to go art school.
 
 Нет никакой необходимости удлинять этот курс.
@@ -722,7 +722,7 @@ You're missing the point. I don't mean you don't have to go there, all i'm sayin
 At this point in time we have ideas about how to do that, but we can't say we have got the solution in hand.
 At the moment we have ideas on how to do this, but we cannot say that we have a ready solution.
 
-День, когда она переехала в Штаты, стал поворотным моментом в ее жизни.
+День, когда она переехала в Штаты, был поворотным моментом в ее жизни.
 The day she moved to the states was a turning point in her life.
 
 Терпение не моя сильная сторона / мое слабое место.
