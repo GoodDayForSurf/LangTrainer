@@ -448,6 +448,9 @@ She pursued her passion for art in spite of her family's disapproval. // pursue 
 A не ходил в художественную школу (раньше, никогда)
 I didn't use to go art school.
 
+Я хочу, чтобы мы были друзьями.
+I want us to be friends.
+
 Нет никакой необходимости удлинять этот курс.
 There is no need to lengthen this course. 
 
