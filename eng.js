@@ -448,6 +448,33 @@ She pursued her passion for art in spite of her family's disapproval. // pursue 
 A не ходил в художественную школу (раньше, никогда)
 I didn't use to go art school.
 
+Они не имеют ничего общего
+They have nothing in common // in common - общее
+
+Вам следует забронировать столик заранее
+You should reserve a table in advance // in advance - заранее
+
+В конце концов она хорошо сдала экзамены
+In the end she did well in her exams // in the end - в конце концов
+
+Он рассказал по секрету что нашел новую работу
+He told in secret that he had found a new job. // in secret - по секрету
+
+Он помыл мою машину в обмен на карманные деньги.
+He washed my car in exchange for pocket money. // in exchange for - в обмен на
+
+Он скоро (мгновенно) вернется
+He will be back in no time // in no time - мгновенно
+
+Oн вернет деньги лично
+He will return the money personally (in person) // in person - лично
+
+Они проголосовали в пользу этого предложения
+They voted in favour of this proposal // in favour of - в пользу
+
+Он отвечает за эту работу
+He is in charge of for this work // in charge of - отвечать, быть ответственным за
+
 Я хочу, чтобы мы были друзьями.
 I want us to be friends.
 
