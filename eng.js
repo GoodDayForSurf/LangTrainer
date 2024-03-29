@@ -451,6 +451,9 @@ I didn't use to go art school.
 Они не имеют ничего общего
 They have nothing in common // in common - общее
 
+Я терпеть не могу пьющих людей
+I can't stand people drinking alcohol // can't stand - не выношу
+
 Вам следует забронировать столик заранее
 You should reserve a table in advance // in advance - заранее
 
