@@ -611,8 +611,11 @@ I can't wait to go in there and spend the rest of our life together.
 У меня не получиться / не успею
 I can't make it
 
-Я провожу тбя
+Я провожу тебя
 I will see you off
+
+Эти вещи не сочетаются друг с другом
+This things don't go together
 
 Мигом / очень скоро
 In no time
