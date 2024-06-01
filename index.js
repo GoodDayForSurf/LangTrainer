@@ -16,11 +16,47 @@ class CardState {
    question = '';
    answers = [];
    answersForShow = 0;
+   repeatQueue = [];
+   currentRepeatItem = null;
+
+   getItemFromRepeatQueue() {
+      const stages = {
+         1: 5,
+         2: 25,
+         3: 120,
+         4: 600,
+         5: 3600
+      };
+
+      return this.repeatQueue.find(item => Date.now() - item.showTime <= stages[item.stage]);
+   }
+
+   addItemToRepeatQueue() {
+      let item = this.repeatQueue.find(item => item.question === this.question);
+
+      if(!item) {
+         item = {
+            question: this.question,
+            answers: this.answers,
+            stage: 0,
+         }
+      }
+
+      item.stage++;
+      item.showTime = Date.now();
+
+      this.repeatQueue.push(item);
+   }
 
    initNewQuestion() {
-      [this.question, ...this.answers] = randomPhrase().split("\n");
+      const repeatItem = this.getItemFromRepeatQueue();
+      [this.question, ...this.answers] = repeatItem
+          ? [repeatItem.question, repeatItem.answers]
+          : randomPhrase().split("\n");
+
       $('#question').innerText = this.question;
       $('#answer').innerText = '';
+
       this.answersForShow = this.answers.length;
    }
 
@@ -32,6 +68,7 @@ class CardState {
 
    next(){
       if (this.answersForShow === 0 ) {
+         this.addItemToRepeatQueue();
          this.initNewQuestion();
       } else {
          this.showAnswer();
