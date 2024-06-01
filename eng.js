@@ -614,6 +614,9 @@ I can't make it
 Я провожу тебя
 I will see you off
 
+Она списала все мои долги
+She wrote off all my debts
+
 Эти вещи не сочетаются друг с другом
 This things don't go together
 
