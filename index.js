@@ -17,7 +17,6 @@ class CardState {
    answers = [];
    answersForShow = 0;
    repeatQueue = [];
-   currentRepeatItem = null;
 
    getItemFromRepeatQueue() {
       const stages = {
@@ -28,7 +27,7 @@ class CardState {
          5: 3600
       };
 
-      return this.repeatQueue.find(item => Date.now() - item.showTime <= 1000 * stages[item.stage]);
+      return this.repeatQueue.find(item => (Date.now() - item.showTime) <= (1000 * stages[item.stage]));
    }
 
    addItemToRepeatQueue() {
