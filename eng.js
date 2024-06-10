@@ -47,7 +47,6 @@ This product is legit
 остроумный, пушистый, очаровательный, яркий, крепкий (надежный)
 witty, fuzzy, charming, vivid, sturdy
 
-
 Как ты относишься к коротким видео?
 What is your take on short-time videos?
 
@@ -81,9 +80,8 @@ wait and see // wait and see - устойчивый оборот
 Может быть около 30 мин от начала до конца
 Maybe about 30 minutes start to end // start to end - устойчивый оборот: от начала до конца
 
-
 На твоем месте, я бы не стал этого делать.
-If I were you, I wouldn't do this. // If i were you, I would (not) + глагол в нейтральной форме без to
+If I were you, I wouldn't do this. // If I were you, I would (not) + глагол в нейтральной форме без to
 
 Я собирался сказать тебе, но забыл.
 I was going to tell you, but I forgot.
@@ -113,13 +111,13 @@ I feel like watching a good movie
 It's about time we started
 
 Не могу не улыбнуться когда слышу эту песню
-I can't help but smile when i hear this song // I can't help but - не могу не ... (не могу сдержаться что бы ...)
+I can't help but smile when I hear this song // I can't help but - не могу не ... (не могу сдержаться что бы ...)
 
 Мы уже давно не разговаривали 
 It's been a while since we talked // It's been a while since - для выражения чего то чего давно не было
 
 Он не только проявил к вам неуважение, он солгал вам.
-Not only did he disrespect you, he lied to you
+Not only did he disrespect you, he lied to you. // Когда предложение начинается с отрицательного или ограничивающего наречия, такого как "Not only," "Never," и т.д., требуется инверсия подлежащего и вспомогательного глагола. Т.е вспомогательный глагол ("did") ставится перед подлежащим.
 
 Я позвоню тебе, когда приеду домой.
 I will call you when I arrive (get) home.
@@ -181,7 +179,7 @@ We missed only two days to finish our project
 У меня не было проблем с тем, чтобы убедить их купить билеты
 I had no problem to convince them into buying the tickets
 
-Большие шансы, что вы в конечном итоге будете работать по ночам
+Большие шансы, что вы закончите (в конечном итоге)  работой по ночам
 Big chances that you will end up working nights
 
 Кто знает твое имя? - Никто! Но скоро будут!
@@ -208,8 +206,8 @@ What's with you?
 К своим сорока он имел все о чем можно мечтать
 By his forty he had everything a man could dream about
 
-Я горю желанием услышать от тебя хорошие новости
-I am looking forward to hearing from you a good news.
+Я с нетерпением жду от тебя хороших новостей
+I'm looking forward to good news from you
 
 Мне нравится эта работа, но я думаю, что мне будет трудно привыкнуть к работе по ночам.
 I like the job, but I think it'll be difficult to get used to working nights.
@@ -284,16 +282,16 @@ Keep up good work!
 Keep it up, you are doing great. 
 
 Здравствуйте, Дэвид, в смысле, сэр.
-Hello, David, i mean, sir.
+Hello, David, I mean, sir.
 
 Так, на чем мы остановились?
 Now, where were we?
 
 Ну, наверное, я лучше пойду.
-Well, i guess i better go.
+Well, I guess I better go.
 
 Тогда я, наверное, лучше потороплюсь.
-Then i guess i better hurry.
+Then I guess I better hurry.
 
 Боюсь, что здесь что-то не так, понимаешь?
 I'm afraid that there's something really wrong, you know?
@@ -326,7 +324,7 @@ It's so good to see you.
 Let me know if you need anything.
 
 Похоже я не успею (не смогу это сделать), просто не могу выбраться.
-Looks like i won't be able to make it. Just can't get out of it.
+Looks like I won't be able to make it. Just can't get out of it.
 
 Зацени, мы по телеку!
 Check it out. We're on TV.
@@ -339,7 +337,7 @@ I like doing this. For real.
 
 Я определенно понимаю тебя, но что я могу сделать для тебя взамен?
 I definitely understand you, but what can I do for you in return?
-I certainly see your point, but what could i possibly do for you in return?
+I certainly see your point, but what could I possibly do for you in return?
 
 Знаешь, в глубине души, я знал что я другой.
 You know, deep down, I knew I was different.
@@ -356,7 +354,7 @@ Long time no see!
 Я открою/отвечу
 I'll get it.
 
-- Ты слышал это? - ты про что?
+- Слышишь (что-то)? - типа что?
 - You hear something? - Like what?
 
 Почти все в моей семье катаются на коньках.
@@ -491,7 +489,7 @@ When I came there the very important things where being discussed.
 I plan the next level will be reached by the end of this month.
 
 Как мне кажется эта работа будет закончена к завтрашнему дню.
-As it seems to me this work will have been finished by tomorrow. // указан конкретный момент с помощью "к" значит perfect. + passive
+As it seems to me this work will be finished by tomorrow. // могут сказать что здесь перфект ...have been finished, но гугл переводчик переводит без него
 
 Только что все было сделано должным образом (как надо).
 Everything has just been done properly (as it should be.). // Passive 
@@ -518,7 +516,7 @@ Say no more.
 No, we totally understand. I mean, that happens, right?
 
 Дело в том, что я не знал что это твоя машина
-The point is, i didn't know that it was your car.
+The point is, I didn't know that it was your car.
 
 Я не знал что так будет
 I didn't see that coming
@@ -532,7 +530,7 @@ That's weird
 Я на это не куплюсь.
 I'm not buying it / I don't buy it.
 
-Очень жаль. Ты мне нравился.
+Очень плохо. Ты мне нравился.
 It's too bad. I did like you.
 
 Без обид, но ты не лучший пловец.
@@ -602,7 +600,7 @@ So, let me get this straight, you've lost my camera, haven't you?
 Ничего не могу поделать
 I can't help it
 
-- Я подумываю устроиться на эту работу. - вперед, действуй!
+- Я подумываю о подаче заявки на ту работу. - вперед, действуй!
 - I'm thinking of applying for that job. - go for it!
 
 Не терпится поехать туда и провести остаток нашей жизни вместе.
@@ -627,7 +625,7 @@ In no time
 People need to know the truth. And if that costs me my job, so be it.
 
 Умираю с голоду, мне нужно что-нибудь съесть прямо сейчас или я потеряю сознание
-i'm starving i need to eat something right now otherwise i will pass out.
+i'm starving I need to eat something right now otherwise I will pass out.
 
 У меня в горле пересохло
 I'm so parched
@@ -636,17 +634,17 @@ I'm so parched
 If he had gone to university, he might have a better job now.
 
 Поэтому поверь, я знаю каково это
-So believe me, i know exactly how you feel.
+So believe me, I know exactly how you feel.
 
 Было сложно, но я управился.
 It was hard but I managed.
-It was challenging but i nailed it.
+It was challenging but I nailed it.
 
 В какое чудное время мы живем!
 What a time to be alive!
 
 Решил сделать что-нибудь приятное для тебя.
-Thought I'd (I would) do something nice for you.
+I decided to do something nice for you.
 
 Нравится тебе это или нет, ты должен оплачивать счета.
 (Whether you) like it or not, you have to pay bills.
@@ -655,13 +653,13 @@ Thought I'd (I would) do something nice for you.
 I promise we'll get it done as quickly as possible.
 
 Как всегда был рад повидать вас, ребята, но я должен идти.
-It's always a pleasure seeing you guys, but i gotta get going.
+It's always a pleasure seeing you guys, but I gotta get going.
 
 Весь этот шум действует мне на нервы.
 All this noise is getting on my nerves.
 
 Знаешь, я всегда ненавидел когда ты заставляла меня все переделывать, но теперь я понимаю.
-You know, I always hated when you made me redo stuff(things), but now i get it(understand).
+You know, I always hated when you made me redo stuff(things), but now I get it(understand).
 
 Что ж, давай пропустим формальности и перейдем к сути.
 Well, let's skip the formalities and get to the point (get down to business).
@@ -672,8 +670,8 @@ Let's make it clear, what are you getting at?
 Не позволяй делам выйти из-под контроля.
 Don't let things get out of hand.
 
-Прежде чем я уйду, у меня есть несколько вещей в которых наду признаться (снять камень с души)
-Before i leave, i got a few things to get off my chest
+Прежде чем я уйду, у меня есть несколько вещей в которых надо признаться (снять камень с души)
+Before I leave, I got a few things to get off my chest
 
 Нам стоит собраться и поговорить
 We sholud get together and talk
@@ -712,8 +710,8 @@ I don't understand why you make a big deal out of it.
 Ничего страшного если ты не можешь отдать мне долг сейчас.
 It's not a big deal if you can't pay me back right now.
 
-Это не такая уж и большая проблема. Думаю я могу с ней разобраться.
-It's not a big problem, I think i can deal with it.
+Это не большая проблема. Думаю я могу с ней разобраться.
+It's not a big problem, I think I can deal with it.
 
 Смирись.
 Deal with it.
@@ -735,7 +733,7 @@ What's the point in doing this kind of work?
 I'll come(get) straight to the point.
 
 Я понимаю вашу точку зрения, но не думаю, что мы можем что-то с этим поделать.
-I see your point, but i don't think there is anything we can do about it now.
+I see your point, but I don't think there is anything we can do about it now.
 
 Я спросил ее об этом напрямую.
 I directly asked her about this.
@@ -786,7 +784,7 @@ Let's go to a restaurant. It's on me. - Ok, You sold me
 You don't say! // зависит от контекста может звучать как сарказм
 
 Слышал что ты ушел с работы. - На самом деле меня уволили, хотя, какая разница. Я безработный теперь.
-I heard you quit your job. - Actually(in fact) i was fired but it's same difference. I'm unemployed now.
+I heard you quit your job. - Actually(in fact) I was fired but it's same difference. I'm unemployed now.
 
 Едва они встали на якорь как разразился сильнейший шторм.
 As soon as they anchored, a huge storm broke out.
@@ -800,7 +798,7 @@ Our flight was delayed due to bad weather.
 The school was closed for a day because of a power outage.
 
 Когда я ем слишком много сахара у меня появляется сыпь.
-When i eat too much sugar I get a rash
+When I eat too much sugar I get a rash
 
 Если будет дождь я останусь дома
 If it rains I will stay home // Хотя условие и про будущее но используется Present Simple
@@ -838,7 +836,7 @@ If I hadn't been skipping so many classes, I wouldn't be so behind.
 Нам интересно почему вы нам никогда не звоните
 We are curious about why you never called us.
 
-Интересно посмотреть что случиться дальше
+Мне любопытно увидеть что случиться
 I'm curious to see what will happen
 
 У вас есть это в другом цвете?
@@ -875,8 +873,8 @@ It's about time! i've been waiting for over an hour!
 Я понятия не имею, что делать в этой ситуации, поэтому я просто плыву по течению и посмотрим что получиться.
 I have no idea what to do about this situation, so i'm just gonna go with the flow and see what happens.
 
-Ты говоришь по-английски так же как и раньше, когда жил в сша? - Даже и близко нет. Забыл почти все что выучил.
-Do you speak English as well as used to when you lived in the US? - not even close. I forgot almost everything i learned.
+Ты говоришь по-английски так же как и раньше, когда жил в сша? - Даже и близко нет. Забыл почти все что учил.
+Do you speak English as well as used to when you lived in the US? - not even close. I forgot almost everything I learned.
 
 Это должно означать, что он тебе действительно нравится. Это так, к слову.
 That must mean that you really like him. I'm just saying.
@@ -891,7 +889,7 @@ If you ask me this is a waste of money.
 All i'm saying if you leave this place you will get/be caught.
 
 Разберусь по ходу дела.
-I'll figure it out as i go.
+I'll figure it out as I go.
 
 Возьми это с собой на всякий случай.
 Take it with you, just in case.
@@ -912,14 +910,14 @@ Well, in that case let's go to another one.
 Говорят, завтра солнечно, и если это так, мы могли бы пойти в поход.
 They say, it will be sunny tomorrow, if that's the case, we could go hiking.
 
-Я думал, что они мне помогут, но, к сожалению, оказалось иначе.
+Я думал, что они мне помогут, но, к сожалению, оказалось иначе (это был не тот случай).
 I thought they would help me, but unfortunately that was not the case.
 
 Я бы никогда не выучил английский если бы не ты.
 I would've never learned English if it wasn't for you.
 
 Когда я впервые услышал эту песню, она мне не понравилась, но теперь, она, похоже, начинает мне нравиться.
-When I first heard this song, i didn't like it, but now it seems, is growing on me.
+When I first heard this song, I didn't like it, but now it seems, is growing on me.
 
 Мое тайное пристрастие
 My guilty pleasure
@@ -930,7 +928,7 @@ Thanks for keeping me company.
 Всего хорошего!
 Have a good one!
 
-Размечтался/Мечтать не вредно!
+Размечтался/Мечтать не вредно! (В твоих снах)
 In your dreams.
 
 Я ценю это.
@@ -951,7 +949,7 @@ I'm happy you're safe and sound. We've been worried about you.
 I'm glad you're safe and sound. We were worried about you.
 
 Не хочу сглазить. Но думаю я сдам экзамен.
-I don't want to jinx it, but i think i'll pass the exam.
+I don't want to jinx it, but I think i'll pass the exam.
 
 Список желаний (прежде чем сыграть в ящик)
 A backet list.
@@ -1051,7 +1049,7 @@ They are all scammers and they will use you in every possible way.
 You are quite the cardsharp.
 
 Каждый раз когда смотрю свои старые видео меня коробит.
-Every time i watch my videos, i cringe.
+Every time I watch my old videos, I cringe.
 
 - Я была так счастлива когда он сделал мне предложение. - Еще бы, не удивительно.
 - I was so happy when he proposed to me. - I bet you were. // I bet - еще бы!
@@ -1097,8 +1095,8 @@ That's no longer an option.
 That's an understatement!
 
 - В общем, что-нибудь подобное пропадало в последнее время? - Нет, в смысле, на сколько я знаю, нет.
-- Anyway, any things like that go missing lately? - No, i mean, not that i know of. // оборот not that i know of - на сколько я знаю, нет
-- In any case, has anything like this been missing lately? - No, i mean, not that i know of.
+- Anyway, any things like that go missing lately? - No, I mean, not that I know of. // оборот not that I know of - на сколько я знаю, нет
+- In any case, has anything like this been missing lately? - No, I mean, not that I know of.
 
 Так держать!
 That's the spirit!
@@ -1132,7 +1130,7 @@ You are going through hard times right now, but I'm sure that things will get be
 I can't believe you're taking her side!
 
 Откуда мне знать что они думают об этом?
-How should i know what they think about it?
+How should I know what they think about it?
 
 Я ни за что не пойду на вечеринку
 I am so not going to the party  // I'm so not + ...ing - очень сильное выражение нежелания
