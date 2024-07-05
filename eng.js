@@ -96,7 +96,7 @@ I can't seem to get rid of (to break) this habit // I can't seem to ... каже
 It's not worth the effort // It is not worth ... - это не стоит того ...
 
 Я никогда не думал что мне будет грустно уходить с этой работы
-I never thought I would so sad quitting this job // I never thought I would ... - я никогда не думал что ..
+I never thought I would be so sad quitting (to leave) this job // I never thought I would ... - я никогда не думал что ..
 
 Несмотря ни на что я буду тебя поддержу
 No matter what I will always support you
@@ -285,7 +285,7 @@ Keep it up, you are doing great.
 Hello, David, I mean, sir.
 
 Так, на чем мы остановились?
-Now, where were we?
+So, where were we? (So where are we?)
 
 Ну, наверное, я лучше пойду.
 Well, I guess I better go.
@@ -443,7 +443,7 @@ Could you do me a favor and lend me your notes for the upcoming exam?
 Она следовала своей страсти к искусству, назло (несмотря на) неодобрению своей семьи.
 She pursued her passion for art in spite of her family's disapproval. // pursue - продолжать что то делать
 
-A не ходил в художественную школу (раньше, никогда)
+Я не ходил в художественную школу (раньше, никогда)
 I didn't use to go art school.
 
 Они не имеют ничего общего
@@ -451,6 +451,9 @@ They have nothing in common // in common - общее
 
 Я терпеть не могу пьющих людей
 I can't stand people drinking alcohol // can't stand - не выношу
+
+Хотя (несмотря на тот факт что) он не любил это, он был рад что сделал это
+Although (despite the fact that) he didn't like it, he was glad he did it.
 
 Вам следует забронировать столик заранее
 You should reserve a table in advance // in advance - заранее
@@ -1123,8 +1126,7 @@ I should know.
 Alright then.
 
 У тебя сейчас "черная полоса", но я уверен все скоро наладится.
-You're going through a rough patch right now, but I'm sure things get better soon.
-You are going through hard times right now, but I'm sure that things will get better soon.
+You are going through hard times (rough patch) right now, but I'm sure that things will get better soon.
 
 Я не могу поверить что ты на ее строрне!
 I can't believe you're taking her side!
