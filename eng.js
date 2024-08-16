@@ -458,6 +458,27 @@ Although (despite the fact that) he didn't like it, he was glad he did it.
 Вам следует забронировать столик заранее
 You should reserve a table in advance // in advance - заранее
 
+Как дела (как всё?)
+How's everything?
+
+Я неважно себя чувствую
+I'm not feeling well
+
+Я в деле. Я с этим разберусь.
+I'm on it (I'm in). I'll handle it.
+
+Оно того не стоит.
+It's not worth it.
+
+Я просто смотрю (в магазине).
+I'm just browsing.
+
+Рад помочь (ответ на спасибо)
+I's my pleasure.
+
+Можешь сделать мне одолжение?
+Could you do me a favor?
+
 В конце концов она хорошо сдала экзамены
 In the end she did well in her exams // in the end - в конце концов
 
