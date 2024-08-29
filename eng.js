@@ -464,6 +464,26 @@ How's everything?
 Я неважно себя чувствую
 I'm not feeling well
 
+Это маловероятно
+This is unlikely.
+It's a long shot.
+
+Я сделаю все возможное
+I'm gonna (I'll) do my best
+
+Я ничего не могу (с собой) поделать.
+I can't help it
+
+Я не определился.
+i'm on the fence (about it) // Когда выбираешь что-то и вроде бы все подходит
+
+Тебе решать
+It's up to you
+
+Я в затруднительном положении.
+I'm in a difficult situation
+I'm in a tight spot
+
 Я в деле. Я с этим разберусь.
 I'm on it (I'm in). I'll handle it.
 
@@ -866,7 +886,7 @@ I'm curious to see what will happen
 У вас есть это в другом цвете?
 Do you have it in a different color?
 
-Мне интересно узнать тове мнение
+Мне интересно узнать твое мнение
 I was curious to know your point of view. // Хотя речь о данном моменте "was" добавляет вежливости
 
 Это случилось из-за пожара.
