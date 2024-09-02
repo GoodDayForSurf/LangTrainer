@@ -1101,6 +1101,9 @@ Every time I watch my old videos, I cringe.
 - Держу пари, он опоздает. - Он всегда опаздывает.
 - I bet he'll be late. - He always is.
 
+Не парься / не переживай
+Don't sweat it
+
 Если подумать, потеря работы на самом деле пошла мне на пользу.
 If you think about it, losing my job was actually a good thing.
 Come to think of it, losing my job did me good.
