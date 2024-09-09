@@ -697,6 +697,7 @@ I decided to do something nice for you.
 I promise we'll get it done as quickly as possible.
 
 Как всегда был рад повидать вас, ребята, но я должен идти.
+As always it was nice seeing you guys, but I have to go.
 It's always a pleasure seeing you guys, but I gotta get going.
 
 Весь этот шум действует мне на нервы.
