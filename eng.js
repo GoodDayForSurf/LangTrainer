@@ -887,7 +887,7 @@ I got my phone fixed // GOT smth v3 - я получил какую-то вещь
 Я заставил(заставил) их смеяться 
 I got they laughing // GOT + smb + verbING - сделать так что бы кто-то начал что-то делать 
 
-Мою машину уще чинил когда я пришел
+Мою машину уще чинили когда я пришел
 My car was getting (being) fixed when I came  // being и getting взаимо заменяемы. (лучше использовать getting вместо being в случаях been being)
 
 Если бы они не пропустили автобус они были бы уже здесь
