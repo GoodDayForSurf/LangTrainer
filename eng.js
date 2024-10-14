@@ -563,6 +563,7 @@ No, we totally understand. I mean, that happens, right?
 The point is, I didn't know that it was your car.
 
 Я не знал что так будет
+I didn't know it would be like this
 I didn't see that coming
 
 Фу, какая гадость!
@@ -869,10 +870,37 @@ If I had taken that job offer I would be making more money now // Нереаль
 
 Если бы она послушала мой совет то сейчас у нее бы не было проблем
 If she had listened to my advise she wouldn't be in trouble. // Нереальное условие в прошлом и нереальное настоящее
-If she had taken my advice, she wouldn't have had a problem.
+If she had taken my advice, she wouldn't have any problems now.
+
+В тот же миг, я испугался
+Instantly, I got scared
+
+У меня была возможность много путешествовать
+I got to travel a lot // get to + глагол получить возможность что то делать
+
+Я убедил его поговорить со мной
+I got him to talk with me // GOT + smb + TO verb  - Убедить кого то что то сделать
+
+Ме починили телефон
+I got my phone fixed // GOT smth v3 - я получил какую-то вещь v3. Фактически тут не ясно кто сделал, вы сами или вам, важно что эта уещь у вас теперь в новом состоянии
+
+Я заставил(заставил) их смеяться 
+I got they laughing // GOT + smb + verbING - сделать так что бы кто-то начал что-то делать 
+
+Мою машину уще чинил когда я пришел
+My car was getting (being) fixed when I came  // being и getting взаимо заменяемы. (лучше использовать getting вместо being в случаях been being)
 
 Если бы они не пропустили автобус они были бы уже здесь
 If they hadn't missed the bus they would be here already. // Нереальное условие в прошлом и нереальное настоящее
+
+Тебе не сойдет это с рук (тебе не получиться уйти от этого)
+You won't get away with it
+
+Не сходи с ума / не расстраивайся / не злись
+Don't get (mad / upset / angry)
+
+Я избавился от необходимости делать это
+I got out of doing this // I got out of - избавиться от необходимости, увильнуть
 
 Если бы я не пропустил так много занятий я бы так не отстал
 If I hadn't skipped so many classes I wouldn't be so behind // Нереальное условие в прошлом и нереальное настоящее
