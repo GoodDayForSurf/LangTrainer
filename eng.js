@@ -807,7 +807,7 @@ I just don't see the point in wasting money on these trinkets.
 И вас не беспокоит, что вы бескорыстны до самоотречения?
 And you're not worried you're being selfless to the point of self-denial?
 
-Вы упускаете суть. Я не имею в виду, что вам не нужно туда идти, все что я говорю, это то что вам стоит быть хорошо подготовленным.
+Вы упускаете суть. Я не имею в виду, не ходить туда, все что я говорю, это то что вам стоит быть хорошо подготовленным.
 You're missing the point. I don't mean you don't have to go there, all i'm saying is that you should be well-prepeared.
 
 На данный момент у нас есть идеи о том, как это сделать, но мы не можем сказать, что у нас есть готовое решение.
