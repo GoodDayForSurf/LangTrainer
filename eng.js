@@ -810,6 +810,18 @@ And you're not worried you're being selfless to the point of self-denial?
 Вы упускаете суть. Я не имею в виду, не ходить туда, все что я говорю, это то что вам стоит быть хорошо подготовленным.
 You're missing the point. I don't mean you don't have to go there, all i'm saying is that you should be well-prepeared.
 
+Я не думаю, что все это поместиться (войдет) туда
+I don't think it will all go in there
+
+Куда ставят тарелки?
+Where do plates go?
+
+Это доказывает, что я был прав
+It proves (goes to show) that I was right
+
+Он взял и сделал
+He went ahead and did it
+
 На данный момент у нас есть идеи о том, как это сделать, но мы не можем сказать, что у нас есть готовое решение.
 At this point in time we have ideas about how to do that, but we can't say we have got the solution in hand.
 At the moment we have ideas on how to do this, but we cannot say that we have a ready solution.
