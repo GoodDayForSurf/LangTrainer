@@ -813,6 +813,44 @@ You're missing the point. I don't mean you don't have to go there, all i'm sayin
 Я не думаю, что все это поместиться (войдет) туда
 I don't think it will all go in there
 
+Я хочу что бы вы не забывали этого
+I want you not to forget this.
+
+Я хочу что бы меня повысили.
+I want to be promoted.
+
+Я хочу что бы это увидели.
+I want this to be seen.
+
+Мои руки надо помыть.
+My hands need to be washed.
+
+Я хочу что бы было жарко.
+I want it to be hot.
+
+Я хочу что бы мне починили машину.
+I want (to have) my car fixed.
+
+Я хочу что бы было много добра.
+I want there to be a lot of goodness.
+
+Завтра будет 2 года как я здесь.
+Tomorrow it will be 2 years since I've been here.
+
+Он, кажется, все забыл.
+He seems to have forgotten everything.
+
+Закончив тренировку, я приступил к работе.
+After finishing workout I started working.
+Having workout finished I started working.
+
+Несмотря на то что я давно здесь живу, я не знаю язык.
+Even though I've lived here for a long time, I don't know the language.
+
+Известно, что он родился здесь.
+He is known to have born here.
+As you know, he was born here. // Как Известно, он родился здесь
+
 Куда ставят тарелки?
 Where do plates go?
 
