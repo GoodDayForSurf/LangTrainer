@@ -1251,8 +1251,14 @@ Alright then.
 У тебя сейчас "черная полоса", но я уверен все скоро наладится.
 You are going through hard times (rough patch) right now, but I'm sure that things will get better soon.
 
-Я не могу поверить что ты на ее строрне!
+Я не могу поверить что ты на ее стороне (принимаешь ее сторону)!
 I can't believe you're taking her side!
+
+Она не знает английский. Он тоже
+She doesn't know english. Neither does He (He doesn't either). 
+
+Она должна попробовать. Я тоже
+She has to try. I do too / So do I
 
 Откуда мне знать что они думают об этом?
 How should I know what they think about it?
