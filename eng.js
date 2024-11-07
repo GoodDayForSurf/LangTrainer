@@ -1260,6 +1260,22 @@ She doesn't know english. Neither does He (He doesn't either).
 Она должна попробовать. Я тоже
 She has to try. I do too / So do I
 
+Ты можешь остаться тут или пойти с нами
+You can either stay here or come with us
+
+Она не любит ни чай ни кофе
+She like neither tea nor coffee  // нельзя doesn't это двойное отрицание
+
+То ли ты это знаешь то ли нет - не важно
+Whether you know it or not is not important.
+
+Чем больше ты учишься тем больше понимаешь
+The more you study the better you understand
+
+Как и она так и я - богаты / Я как и она - богаты
+Both she and I are rich / I, like her, are rich.
+
+
 Откуда мне знать что они думают об этом?
 How should I know what they think about it?
 
