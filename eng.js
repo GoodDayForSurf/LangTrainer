@@ -1263,8 +1263,35 @@ She has to try. I do too / So do I
 Ты можешь остаться тут или пойти с нами
 You can either stay here or come with us
 
+Он сказал что они победят
+He said they would win // "он сказал" это прошедшее время, а "они победят" это будущее в прошедшем поэтому will -> would
+
+Он спросил меня приедут ли они
+He asked me if they would come. // согласование времен: будущие в прошедшем
+
 Она не любит ни чай ни кофе
 She like neither tea nor coffee  // нельзя doesn't это двойное отрицание
+
+Зачем ты это сделал
+Why would you do that? // если поставить did вместо would то это будет обычным вопросом. Would выражает больше удивления поступком
+
+Я бы хотел (я хочу) что бы она позвонила мне
+I wish she would call me
+
+Я бы давно вам рассказал
+I would have told you long ago
+
+Я продолжу, если нет возражений.
+I will continue if there are no objections.
+
+Потенциальные клиенты
+would-be clients
+
+Она не отвечала
+Shw wouldn't answer // если didn't то это просто факт, wouldn't подчеркивает что не отвечала т.к. не хотела (would прошедшая форма will)
+
+Мы проводили много времени вместе
+We would spend a lot of time together  // тут would синоним used to (обозначает что действие происходило много раз в прошлом)
 
 То ли ты это знаешь то ли нет - не важно
 Whether you know it or not is not important.
