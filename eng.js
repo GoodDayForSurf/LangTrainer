@@ -410,7 +410,7 @@ I will have reached intermediate level by next month. // т.е. указывае
 
 Я закончу смотреть это видео к тому времени как она придет
 I'll have finished to watch this video by the time she comes
-I'll have finished watching this video by the time she arrives.
+I will finish watching this video by the time she comes (arrives).
 
 Предполагаю они закончат сооружать мост к следующему лету.
 I suppose they will have finished constructing the bridge by next Summer.
@@ -541,7 +541,7 @@ Everything has just been done properly (as it should be.). // Passive
 Как долго ты это делаешь?
 How long have you been doing this?
 
-Я жду тебя уже пол часа
+Я жду тебя около полу часа
 I've been waiting for you for about half an hour
 
 Он всегда был верен своим принципам и убеждениям
