@@ -415,6 +415,24 @@ I will finish watching this video by the time she comes (arrives).
 Предполагаю они закончат сооружать мост к следующему лету.
 I suppose they will have finished constructing the bridge by next Summer.
 
+Я, возможно, скоро позвоню вам
+I might call you soon
+
+Если она пригласит, я, возможно, приду.
+If she invites me, I might come.
+
+Если бы она позвонила, я бы, наверное, пришел.
+If she had called, I probably would have come.
+
+Я бы сказал, тебе около 30
+I would say you are around 30
+
+Кто бы это мог быть?
+Who would that be?
+
+Я бы посоветовал тебе больше практиковаться
+I would advise you to practice more.
+
 Когда она пришла я смотрел тот фильм около часа
 When she came I had been watching that movie for about an hour
 
