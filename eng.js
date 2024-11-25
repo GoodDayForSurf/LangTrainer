@@ -430,6 +430,9 @@ I would say you are around 30
 Кто бы это мог быть?
 Who would that be?
 
+Я попрошу сантехника починить раковину
+I'll have the plumber fix the sink  // (fix без to) если вместо have использовать ask, значит что только попросят, have - сделают так что бы это произошло
+
 Я бы посоветовал тебе больше практиковаться
 I would advise you to practice more.
 
