@@ -86,6 +86,9 @@ If I were you, I wouldn't do this. // If I were you, I would (not) + глаго�
 Я собирался сказать тебе, но забыл.
 I was going to tell you, but I forgot.
 
+Это перебор!
+That's pushing it
+
 Мне нужно только лишь немного больше времени что бы это сделать
 I just need some more time to get it done // I just need - Мне нужно только лишь
 
