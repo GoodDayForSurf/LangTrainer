@@ -566,7 +566,7 @@ How long have you been doing this?
 I've been waiting for you for about half an hour
 
 Он всегда был верен своим принципам и убеждениям
-He's always been faithful to his principles and beliefs 
+He has always been faithful to his principles and beliefs 
 
 Должен сказать что мы знаем друг друга очень давно
 I have to say that we have known each other for a very long time // тут perfect continuous но know не ставиться в -ing
@@ -958,9 +958,9 @@ I got my phone fixed // GOT smth v3 - я получил какую-то вещь
 Я заставил(заставил) их смеяться 
 I got they laughing // GOT + smb + verbING - сделать так что бы кто-то начал что-то делать 
 
-Мою машину уще чинили когда я пришел
+Мою машину еще чинили когда я пришел
 My car was getting (being) fixed when I came  // being и getting взаимо заменяемы. (лучше использовать getting вместо being в случаях been being)
-
+ 
 Если бы они не пропустили автобус они были бы уже здесь
 If they hadn't missed the bus they would be here already. // Нереальное условие в прошлом и нереальное настоящее
 
