@@ -89,6 +89,9 @@ I was going to tell you, but I forgot.
 Это перебор!
 That's pushing it
 
+Сделано из (серебра) / сделано из (муки и воды) / сделано из (деталей машин)
+It's made of ... / It's made from ... / It's made out of ... // of - один материал не поменявший своего качества, from - ингридиенты, out of - неожиданные составляющие
+
 Кстати, мы почти закончили проект.
 By the way, we have almost finished the project
 
