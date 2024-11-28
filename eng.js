@@ -89,6 +89,15 @@ I was going to tell you, but I forgot.
 Это перебор!
 That's pushing it
 
+Кстати, мы почти закончили проект.
+By the way, we have almost finished the project
+
+Это, безусловно, лучшая пицца в городе
+This is by far the best pizza in town
+
+Они случайно встретились в парке
+They met by chance in the park
+
 Мне нужно только лишь немного больше времени что бы это сделать
 I just need some more time to get it done // I just need - Мне нужно только лишь
 
