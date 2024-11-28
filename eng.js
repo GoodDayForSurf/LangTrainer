@@ -90,7 +90,7 @@ I was going to tell you, but I forgot.
 That's pushing it
 
 Сделано из (серебра) / сделано из (муки и воды) / сделано из (деталей машин)
-It's made of ... / It's made from ... / It's made out of ... // of - один материал не поменявший своего качества, from - ингридиенты, out of - неожиданные составляющие
+It's made of ... / It's made from ... / It's made out of ... // of - один материал не поменявший своего качества, from - ингридиенты образующие новый материал, out of - материал изменён или использован нестандартным образом
 
 Кстати, мы почти закончили проект.
 By the way, we have almost finished the project
