@@ -415,7 +415,7 @@ I have been incredibly busy lately // busy не употребляется в in
 I've been trying to sort out all this mess for the last two days.
 
 Мы знаем друг друга с детства поэтому я могу положиться на него.
-We have been known each other since childhood so I can rely on him.
+We have known each other since childhood so I can rely on him.
 
 Я буду ждать твоего сообщения.
 I will be waiting for your message. // Если сказать will wait это будет соответствовать "Я подожду" 
