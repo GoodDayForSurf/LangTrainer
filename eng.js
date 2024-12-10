@@ -427,6 +427,9 @@ I will have reached intermediate level by next month. // т.е. указывае
 I'll have finished to watch this video by the time she comes
 I will finish watching this video by the time she comes (arrives).
 
+Если бы у меня был шанс, я бы посетил Мексику.
+If I had had a chance I would have visited Mexico.
+
 Предполагаю они закончат сооружать мост к следующему лету.
 I suppose they will have finished constructing the bridge by next Summer.
 
