@@ -685,7 +685,7 @@ So, let me get this straight, you've lost my camera, haven't you?
 I can't help it
 
 - Я подумываю о подаче заявки на ту работу. - вперед, действуй!
-- I'm thinking of applying for that job. - go for it!
+- I'm thinking about applying for that job. - go for it! // если сказать "thinking of" то значит просто появилась мысль 
 
 Не терпится поехать туда и провести остаток нашей жизни вместе.
 I can't wait to go in there and spend the rest of our life together.
@@ -1315,7 +1315,7 @@ He said they would win // "он сказал" это прошедшее врем
 He asked me if they would come. // согласование времен: будущие в прошедшем
 
 Она не любит ни чай ни кофе
-She like neither tea nor coffee  // нельзя doesn't это двойное отрицание
+She likes neither tea nor coffee  // нельзя doesn't это двойное отрицание
 
 Зачем ты это сделал
 Why would you do that? // если поставить did вместо would то это будет обычным вопросом. Would выражает больше удивления поступком
