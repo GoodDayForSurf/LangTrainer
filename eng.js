@@ -639,7 +639,7 @@ It's not that we didn't like the comedian, it's just that we didn't buy the tick
 No way!
 
 Если я не ошибаюсь, у него ушло 2 года что бы завершить это
-If i'm not mistaken, it took him two year to complete this
+If i'm not mistaken, it took him two years to complete this
 
 Я буду на связи
 I'll keep in touch
@@ -1066,8 +1066,8 @@ Take it with you, just in case.
 In any case/Anyway, we could talk at work tomorrow.
 
 Сейчас не подходящий момент для обсуждения этого вопроса.
-This would not be an opportune moment to press the issue.
 Now is not the right time to discuss this issue.
+This would not be an opportune moment to press the issue.
 
 Вот. На случай если нужно будет чем писать.
 Here. In case you need something to write with.
