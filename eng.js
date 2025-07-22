@@ -278,7 +278,7 @@ I have no idea, but it would be really great if she didn't do it(that) again (an
 Я знаю, я должен бы ненавидеть людей, но есть в них что-то такое..
 I know, i'm supposed to hate humans, but there's something about them
 
-Не спеши, не торопись жить. Неприятоности как придут так и уйдут.
+Не спеши, не торопись жить. Неприятоности придут и уйдут(пройдут).
 Take your time, don't live too fast. Troubles will come and they will pass.
 
 Как идут дела?
