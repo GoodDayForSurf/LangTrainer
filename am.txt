@@ -1,4 +1,3 @@
-export const DATA = `
 Я тоже хочу есть
 ես էլ եմ ուզում ուտել // yes el yem uzum utel
 
@@ -115,6 +114,3 @@ I know
 
 С кем?
 ում հետ? // um het?
-
-
-`

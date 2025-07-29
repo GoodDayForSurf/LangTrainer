@@ -1,16 +1,28 @@
-import { DATA } from './eng.js';
-
 let PHRASES = [];
-
+const dictionaries = [
+  {
+     name: "English", file: "eng.txt"
+  },
+   {
+      name: "Spanish basic", file: "esp-basic.txt"
+   },
+   {
+      name: "Spanish advanced", file: "esp-adv.txt"
+   },
+   {
+      name: "Armenian", file: "am.txt"
+   }
+]
 const $ = selector => document.querySelector(selector);
 
 async function load() {
-   PHRASES = DATA.split("\n\n");
+   
 }
 
 function randomPhrase() {
    return PHRASES[Math.round(Math.random() * PHRASES.length)];
 }
+let cardState;
 
 class CardState {
    stages = {
@@ -82,8 +94,7 @@ class CardState {
 
    initNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
-console.log('------initNewQuestion---->', repeatItem);
-
+      
       [this.question, ...this.answers] = repeatItem
           ? [repeatItem.question, ...repeatItem.answers]
           : randomPhrase().split("\n");
@@ -102,6 +113,10 @@ console.log('------initNewQuestion---->', repeatItem);
    }
 
    next(){
+      if(PHRASES.length < 1) {
+         return
+      }
+      
       if (this.answersForShow === 0 ) {
          this.initNewQuestion();
       } else {
@@ -114,15 +129,43 @@ console.log('------initNewQuestion---->', repeatItem);
    }
 }
 
-load().then( () => {
-   const cardState= new CardState();
+async function initDictionary(path) {
+   const resp = await fetch(path);
+   
+   const DATA = await resp.text();
+   
+   PHRASES = DATA.split(/\n\r?\n\r?/);
+}
 
-   $('#app').addEventListener('click', () => cardState.next());
+load().then( () => {
+   
+   const dictionariesSelectEl = $('#dictionaries-select');
+   let optionsHTML = dictionariesSelectEl.innerHTML;
+
+   dictionaries.forEach((dict) => {
+      optionsHTML +=`<option value="/${dict.file}">${dict.name}</option>`;
+   });
+
+   dictionariesSelectEl.innerHTML = optionsHTML;
+
+   $('#dictionaries-select').addEventListener('change', (e) => {
+      if(!e.target.value) {
+         return
+      }
+      
+      initDictionary(e.target.value).then(() => {
+         cardState= new CardState();
+         cardState.next()
+      });
+   });
+   
+   $('#card').addEventListener('click', () => cardState.next());
    document.addEventListener("keyup", function(event) {
       if (event.code === "Space") {
          cardState.next();
       }
    });
+   
 
-   cardState.next();
+  // cardState.next();
 })
