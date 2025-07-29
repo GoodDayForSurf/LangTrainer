@@ -143,7 +143,7 @@ load().then( () => {
    let optionsHTML = dictionariesSelectEl.innerHTML;
 
    dictionaries.forEach((dict) => {
-      optionsHTML +=`<option value="/${dict.file}">${dict.name}</option>`;
+      optionsHTML +=`<option value="${dict.file}">${dict.name}</option>`;
    });
 
    dictionariesSelectEl.innerHTML = optionsHTML;
