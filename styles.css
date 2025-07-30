@@ -12,8 +12,6 @@ select {
     padding: 12px 15px;
     text-align: center;
     border: none;
-    // border-radius: 8px;
-    // background: rgba(255, 255, 255, 0.9);
     color: #333;
     font-size: 16px;
     cursor: pointer;
@@ -21,11 +19,14 @@ select {
     background-color: lightblue;
 }
 
+@media screen and (max-width: 600px) {
+    select {
+        font-size: 36px;
+    }
+}
+
 select:focus {
     outline: none;
-    // background: white;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-    transform: translateY(-2px);
 }
 
 #app {
