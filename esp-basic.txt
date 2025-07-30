@@ -61,8 +61,8 @@ Espero que tengas un buen día
 Сделайте мне одолжение
 Ha'game un favor // Ha'game форма hacer в Imperativo
 
-Lo hare me man~ana
-Сделаю это завтра // hare форма hacer
+Сделаю это завтра 
+Lo haré mañana // hare форма hacer
 
 Я вижу что ответы правильные
 Veo que las respuestas son correctas
@@ -207,3 +207,6 @@ Te digo toda la verdad
 
 Я иду сейчас на свою работу
 Voy a mi trabajo ahora
+
+Мне кажется что это дешево / дорого
+Me parece que se borato / caro
