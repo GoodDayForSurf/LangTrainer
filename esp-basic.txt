@@ -344,7 +344,7 @@ Míralo desde el otro lado
 Puedo decirlo de nuevo/una vez mas
 
 Компьютер стоит две тысячи
-El ordenador cuesta dos mil
+El ordenador (La computadora) cuesta dos mil
 
 Я не хочу спать на этой старой и короткой кровати
 No quiero dormir en esta vieja y corta cama. // когда прилогательные стоят перед сущ. это добавляет эмоциональный оттенок
@@ -356,4 +356,4 @@ el dolor / dolor / enfermedad / enfermo / estar enfermo
 Me duele la cabeza // дословно: голова причиняет мне боль
 
 Я болею уже неделю
-Estoy enfermo desde hace una semana // для женщины правильно: Estoy enferma
+Estoy enfermo desde hace una semana // для женщины правильно: Estoy enferma. desde - с начала какого то времени, hace - "назад" (по отношению к текущему моменту)
