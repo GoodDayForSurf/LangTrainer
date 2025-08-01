@@ -16,12 +16,13 @@ select {
     font-size: 3vh;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-color: lightblue;
+    // background-color: lightblue;
+    background-color: lightpink;
 }
 
 @media screen and (orientation: portrait) {
     select {
-        font-size: 5vh;
+        font-size: 7vh;
     }
 }
 
