@@ -1,0 +1,397 @@
+быть – я есть, я был, я был (обычно), я буду, я был бы, чтобы я был, если бы я был
+ser – soy, fui, era, seré, sería, sea, fuera/fuese
+
+находиться – я нахожусь, я находился, я находился (обычно), я буду находиться, я находился бы, чтобы я находился, если бы я находился
+estar – estoy, estuve, estaba, estaré, estaría, esté, estuviera/estuviese
+
+иметь (вспом.) – я имею, я имел, я имел (обычно), я буду иметь, я имел бы, чтобы я имел, если бы я имел
+haber – he, hube, había, habré, habría, haya, hubiera/hubiese
+
+иметь – я имею, я имел, я имел (обычно), я буду иметь, я имел бы, чтобы я имел, если бы я имел
+tener – tengo, tuve, tenía, tendré, tendría, tenga, tuviera/tuviese
+
+делать – я делаю, я сделал, я делал (обычно), я буду делать, я делал бы, чтобы я делал, если бы я делал
+hacer – hago, hice, hacía, haré, haría, haga, hiciera/hiciese
+
+мочь – я могу, я мог, я мог (обычно), я смогу, я мог бы, чтобы я мог, если бы я мог
+poder – puedo, pude, podía, podré, podría, pueda, pudiera/pudiese
+
+сказать – я говорю, я сказал, я говорил (обычно), я скажу, я сказал бы, чтобы я сказал, если бы я сказал
+decir – digo, dije, decía, diré, diría, diga, dijera/dijese
+
+идти – я иду, я пошел, я ходил (обычно), я пойду, я пошел бы, чтобы я пошел, если бы я пошел
+ir – voy, fui, iba, iré, iría, vaya, fuera/fuese
+
+видеть – я вижу, я видел, я видел (обычно), я увижу, я видел бы, чтобы я видел, если бы я видел
+ver – veo, vi, veía, veré, vería, vea, viera/viese
+
+давать – я даю, я дал, я давал (обычно), я дам, я дал бы, чтобы я дал, если бы я дал
+dar – doy, di, daba, daré, daría, dé, diera/diese
+
+знать – я знаю, я узнал, я знал (обычно), я буду знать, я знал бы, чтобы я знал, если бы я знал
+saber – sé, supe, sabía, sabré, sabría, sepa, supiera/supiese
+
+хотеть – я хочу, я хотел, я хотел (обычно), я захочу, я хотел бы, чтобы я хотел, если бы я хотел
+querer – quiero, quise, quería, querré, querría, quiera, quisiera/quisiese
+
+прибывать – я прибываю, я прибыл, я прибывал (обычно), я прибуду, я прибыл бы, чтобы я прибыл, если бы я прибыл
+llegar – llego, llegué, llegaba, llegaré, llegaría, llegue, llegara/llegase
+
+проходить – я прохожу, я прошел, я проходил (обычно), я пройду, я прошел бы, чтобы я прошел, если бы я прошел
+pasar – paso, pasé, pasaba, pasaré, pasaría, pase, pasara/pasase
+
+быть должным – я должен, я был должен, я был должен (обычно), я буду должен, я был бы должен, чтобы я был должен, если бы я был должен
+deber – debo, debí, debía, deberé, debería, deba, debiera/debiese
+
+класть – я кладу, я положил, я клал (обычно), я положу, я положил бы, чтобы я положил, если бы я положил
+poner – pongo, puse, ponía, pondré, pondría, ponga, pusiera/pusiese
+
+казаться – я кажусь, я казался, я казался (обычно), я буду казаться, я казался бы, чтобы я казался, если бы я казался
+parecer – parezco, parecí, parecía, pareceré, parecería, parezca, pareciera/pareciese
+
+оставаться – я остаюсь, я остался, я оставался (обычно), я останусь, я остался бы, чтобы я остался, если бы я остался
+quedar – quedo, quedé, quedaba, quedaré, quedaría, quede, quedara/quedase
+
+верить – я верю, я поверил, я верил (обычно), я поверю, я поверил бы, чтобы я поверил, если бы я поверил
+creer – creo, creí, creía, creeré, creería, crea, creyera/creyese
+
+говорить – я говорю, я говорил, я говорил (обычно), я буду говорить, я говорил бы, чтобы я говорил, если бы я говорил
+hablar – hablo, hablé, hablaba, hablaré, hablaría, hable, hablara/hablase
+
+нести – я несу, я нес, я нес (обычно), я понесу, я нес бы, чтобы я нес, если бы я нес
+llevar – llevo, llevé, llevaba, llevaré, llevaría, lleve, llevara/llevase
+
+оставлять – я оставляю, я оставил, я оставлял (обычно), я оставлю, я оставил бы, чтобы я оставил, если бы я оставил
+dejar – dejo, dejé, dejaba, dejaré, dejaría, deje, dejara/dejase
+
+следовать – я следую, я следовал, я следовал (обычно), я буду следовать, я следовал бы, чтобы я следовал, если бы я следовал
+seguir – sigo, seguí, seguía, seguiré, seguiría, siga, siguiera/siguiese
+
+находить – я нахожу, я нашел, я находил (обычно), я найду, я нашел бы, чтобы я нашел, если бы я нашел
+encontrar – encuentro, encontré, encontraba, encontraré, encontraría, encuentre, encontrara/encontrase
+
+звать – я зову, я звал, я звал (обычно), я позову, я звал бы, чтобы я звал, если бы я звал
+llamar – llamo, llamé, llamaba, llamaré, llamaría, llame, llamara/llamase
+
+приходить – я прихожу, я пришел, я приходил (обычно), я приду, я пришел бы, чтобы я пришел, если бы я пришел
+venir – vengo, vine, venía, vendré, vendría, venga, viniera/viniese
+
+думать – я думаю, я думал, я думал (обычно), я буду думать, я думал бы, чтобы я думал, если бы я думал
+pensar – pienso, pensé, pensaba, pensaré, pensaría, piense, pensara/pensase
+
+выходить – я выхожу, я вышел, я выходил (обычно), я выйду, я вышел бы, чтобы я вышел, если бы я вышел
+salir – salgo, salí, salía, saldré, saldría, salga, saliera/saliese
+
+возвращаться – я возвращаюсь, я вернулся, я возвращался (обычно), я вернусь, я вернулся бы, чтобы я вернулся, если бы я вернулся
+volver – vuelvo, volví, volvía, volveré, volvería, vuelva, volviera/volviese
+
+брать – я беру, я взял, я брал (обычно), я возьму, я взял бы, чтобы я взял, если бы я взял
+tomar – tomo, tomé, tomaba, tomaré, tomaría, tome, tomara/tomase
+
+знать (быть знакомым) – я знаю, я узнал, я знал (обычно), я буду знать, я знал бы, чтобы я знал, если бы я знал
+conocer – conozco, conocí, conocía, conoceré, conocería, conozca, conociera/conociese
+
+жить – я живу, я жил, я жил (обычно), я буду жить, я жил бы, чтобы я жил, если бы я жил
+vivir – vivo, viví, vivía, viviré, viviría, viva, viviera/viviese
+
+чувствовать – я чувствую, я чувствовал, я чувствовал (обычно), я буду чувствовать, я чувствовал бы, чтобы я чувствовал, если бы я чувствовал
+sentir – siento, sentí, sentía, sentiré, sentiría, sienta, sintiera/sintiese
+
+пытаться – я пытаюсь, я пытался, я пытался (обычно), я буду пытаться, я пытался бы, чтобы я пытался, если бы я пытался
+tratar – trato, traté, trataba, trataré, trataría, trate, tratara/tratase
+
+смотреть – я смотрю, я смотрел, я смотрел (обычно), я буду смотреть, я смотрел бы, чтобы я смотрел, если бы я смотрел
+mirar – miro, miré, miraba, miraré, miraría, mire, mirara/mirase
+
+считать, рассказывать – я считаю/рассказываю, я считал/рассказал, я считал/рассказывал (обычно), я буду считать/рассказывать, я считал/рассказывал бы, чтобы я считал/рассказывал, если бы я считал/рассказывал
+contar – cuento, conté, contaba, contaré, contaría, cuente, contara/contase
+
+начинать – я начинаю, я начал, я начинал (обычно), я начну, я начал бы, чтобы я начал, если бы я начал
+empezar – empiezo, empecé, empezaba, empezaré, empezaría, empiece, empezara/empezase
+
+ждать – я жду, я ждал, я ждал (обычно), я буду ждать, я ждал бы, чтобы я ждал, если бы я ждал
+esperar – espero, esperé, esperaba, esperaré, esperaría, espere, esperara/esperase
+
+искать – я ищу, я искал, я искал (обычно), я буду искать, я искал бы, чтобы я искал, если бы я искал
+buscar – busco, busqué, buscaba, buscaré, buscaría, busque, buscara/buscase
+
+входить – я вхожу, я вошел, я входил (обычно), я войду, я вошел бы, чтобы я вошел, если бы я вошел
+entrar – entro, entré, entraba, entraré, entraría, entre, entrara/entrase
+
+работать – я работаю, я работал, я работал (обычно), я буду работать, я работал бы, чтобы я работал, если бы я работал
+trabajar – trabajo, trabajé, trabajaba, trabajaré, trabajaría, trabaje, trabajara/trabajase
+
+писать – я пишу, я писал, я писал (обычно), я буду писать, я писал бы, чтобы я писал, если бы я писал
+escribir – escribo, escribí, escribía, escribiré, escribiría, escriba, escribiera/escribiese
+
+терять – я теряю, я потерял, я терял (обычно), я потеряю, я потерял бы, чтобы я потерял, если бы я потерял
+perder – pierdo, perdí, perdía, perderé, perdería, pierda, perdiera/perdiese
+
+производить – я произвожу, я произвел, я производил (обычно), я буду производить, я производил бы, чтобы я производил, если бы я производил
+producir – produzco, produje, producía, produciré, produciría, produzca, produjera/produjese
+
+происходить – я происхожу, я произошел, я происходил (обычно), я произойду, я произошел бы, чтобы я произошел, если бы я произошел
+ocurrir – ocurro, ocurrí, ocurría, ocurriré, ocurriría, ocurra, ocurriera/ocurriese
+
+понимать – я понимаю, я понял, я понимал (обычно), я пойму, я понял бы, чтобы я понял, если бы я понял
+entender – entiendo, entendí, entendía, entenderé, entendería, entienda, entendiera/entendiese
+
+просить – я прошу, я просил, я просил (обычно), я попрошу, я просил бы, чтобы я просил, если бы я просил
+pedir – pido, pedí, pedía, pediré, pediría, pida, pidiera/pidiese
+
+получать – я получаю, я получил, я получал (обычно), я получу, я получил бы, чтобы я получил, если бы я получил
+recibir – recibo, recibí, recibía, recibiré, recibiría, reciba, recibiera/recibiese
+
+помнить – я помню, я помнил, я помнил (обычно), я буду помнить, я помнил бы, чтобы я помнил, если бы я помнил
+recordar – recuerdo, recordé, recordaba, recordaré, recordaría, recuerde, recordara/recordase
+
+заканчивать – я заканчиваю, я закончил, я заканчивал (обычно), я закончу, я закончил бы, чтобы я закончил, если бы я закончил
+terminar – termino, terminé, terminaba, terminaré, terminaría, termine, terminara/terminase
+
+позволять – я позволяю, я позволил, я позволял (обычно), я позволю, я позволил бы, чтобы я позволил, если бы я позволил
+permitir – permito, permití, permitía, permitiré, permitiría, permita, permitiera/permitiese
+
+появляться – я появляюсь, я появился, я появлялся (обычно), я появлюсь, я появился бы, чтобы я появился, если бы я появился
+aparecer – aparezco, aparecí, aparecía, apareceré, aparecería, aparezca, apareciera/apareciese
+
+достигать – я достигаю, я достиг, я достигал (обычно), я достигну, я достиг бы, чтобы я достиг, если бы я достиг
+conseguir – consigo, conseguí, conseguía, conseguiré, conseguiría, consiga, consiguiera/consiguiese
+
+начинать – я начинаю, я начал, я начинал (обычно), я начну, я начал бы, чтобы я начал, если бы я начал
+comenzar – comienzo, comencé, comenzaba, comenzaré, comenzaría, comience, comenzara/comenzase
+
+служить – я служу, я служил, я служил (обычно), я буду служить, я служил бы, чтобы я служил, если бы я служил
+servir – sirvo, serví, servía, serviré, serviría, sirva, sirviera/sirviese
+
+вынимать – я вынимаю, я вынул, я вынимал (обычно), я выну, я вынул бы, чтобы я вынул, если бы я вынул
+sacar – saco, saqué, sacaba, sacaré, sacaría, saque, sacara/sacase
+
+нуждаться – я нуждаюсь, я нуждался, я нуждался (обычно), я буду нуждаться, я нуждался бы, чтобы я нуждался, если бы я нуждался
+necesitar – necesito, necesité, necesitaba, necesitaré, necesitaría, necesite, necesitara/necesitase
+
+поддерживать – я поддерживаю, я поддерживал, я поддерживал (обычно), я буду поддерживать, я поддерживал бы, чтобы я поддерживал, если бы я поддерживал
+mantener – mantengo, mantuve, mantenía, mantendré, mantendría, mantenga, mantuviera/mantuviese
+
+оказываться – я оказываюсь, я оказался, я оказывался (обычно), я окажусь, я оказался бы, чтобы я оказался, если бы я оказался
+resultar – resulto, resulté, resultaba, resultaré, resultaría, resulte, resultara/resultase
+
+читать – я читаю, я читал, я читал (обычно), я буду читать, я читал бы, чтобы я читал, если бы я читал
+leer – leo, leí, leía, leeré, leería, lea, leyera/leyese
+
+падать – я падаю, я упал, я падал (обычно), я упаду, я упал бы, чтобы я упал, если бы я упал
+caer – caigo, caí, caía, caeré, caería, caiga, cayera/cayese
+
+менять – я меняю, я менял, я менял (обычно), я буду менять, я менял бы, чтобы я менял, если бы я менял
+cambiar – cambio, cambié, cambiaba, cambiaré, cambiaría, cambie, cambiara/cambiase
+
+представлять – я представляю, я представил, я представлял (обычно), я представлю, я представил бы, чтобы я представил, если бы я представил
+presentar – presento, presenté, presentaba, presentaré, presentaría, presente, presentara/presentase
+
+создавать – я создаю, я создал, я создавал (обычно), я создам, я создал бы, чтобы я создал, если бы я создал
+crear – creo, creé, creaba, crearé, crearía, cree, creara/crease
+
+открывать – я открываю, я открыл, я открывал (обычно), я открою, я открыл бы, чтобы я открыл, если бы я открыл
+abrir – abro, abrí, abría, abriré, abriría, abra, abriera/abriese
+
+рассматривать – я рассматриваю, я рассматривал, я рассматривал (обычно), я буду рассматривать, я рассматривал бы, чтобы я рассматривал, если бы я рассматривал
+considerar – considero, consideré, consideraba, consideraré, consideraría, considere, considerara/considerase
+
+слышать – я слышу, я слышал, я слышал (обычно), я услышу, я слышал бы, чтобы я слышал, если бы я слышал
+oír – oigo, oí, oía, oiré, oiría, oiga, oyera/oyese
+
+заканчивать – я заканчиваю, я закончил, я заканчивал (обычно), я закончу, я закончил бы, чтобы я закончил, если бы я закончил
+acabar – acabo, acabé, acababa, acabaré, acabaría, acabe, acabara/acabase
+
+превращать – я превращаю, я превратил, я превращал (обычно), я превращу, я превратил бы, чтобы я превратил, если бы я превратил
+convertir – convierto, convertí, convertía, convertiré, convertiría, convierta, convirtiera/convirtiese
+
+выигрывать – я выигрываю, я выиграл, я выигрывал (обычно), я выиграю, я выиграл бы, чтобы я выиграл, если бы я выиграл
+ganar – gano, gané, ganaba, ganaré, ganaría, gane, ganara/ganase
+
+формировать – я формирую, я сформировал, я формировал (обычно), я сформирую, я сформировал бы, чтобы я сформировал, если бы я сформировал
+formar – formo, formé, formaba, formaré, formaría, forme, formara/formase
+
+приносить – я приношу, я принес, я приносил (обычно), я принесу, я принес бы, чтобы я принес, если бы я принес
+traer – traigo, traje, traía, traeré, traería, traiga, trajera/trajese
+
+разделять – я разделяю, я разделил, я разделял (обычно), я разделю, я разделил бы, чтобы я разделил, если бы я разделил
+partir – parto, partí, partía, partiré, partiría, parta, partiera/partiese
+
+умирать – я умираю, я умер, я умирал (обычно), я умру, я умер бы, чтобы я умер, если бы я умер
+morir – muero, morí, moría, moriré, moriría, muera, muriera/muriese
+
+принимать – я принимаю, я принял, я принимал (обычно), я приму, я принял бы, чтобы я принял, если бы я принял
+aceptar – acepto, acepté, aceptaba, aceptaré, aceptaría, acepte, aceptara/aceptase
+
+реализовать – я реализую, я реализовал, я реализовывал (обычно), я реализую, я реализовал бы, чтобы я реализовал, если бы я реализовал
+realizar – realizo, realicé, realizaba, realizaré, realizaría, realice, realizara/realizase
+
+предполагать – я предполагаю, я предположил, я предполагал (обычно), я предположу, я предположил бы, чтобы я предположил, если бы я предположил
+suponer – supongo, supuse, suponía, supondré, supondría, suponga, supusiera/supusiese
+
+понимать – я понимаю, я понял, я понимал (обычно), я пойму, я понял бы, чтобы я понял, если бы я понял
+comprender – comprendo, comprendí, comprendía, comprenderé, comprendería, comprenda, comprendiera/comprendiese
+
+достигать – я достигаю, я достиг, я достигал (обычно), я достигну, я достиг бы, чтобы я достиг, если бы я достиг
+lograr – logro, logré, lograba, lograré, lograría, logre, lograra/lograse
+
+объяснять – я объясняю, я объяснил, я объяснял (обычно), я объясню, я объяснил бы, чтобы я объяснил, если бы я объяснил
+explicar – explico, expliqué, explicaba, explicaré, explicaría, explique, explicara/explicase
+
+спрашивать – я спрашиваю, я спросил, я спрашивал (обычно), я спрошу, я спросил бы, чтобы я спросил, если бы я спросил
+preguntar – pregunto, pregunté, preguntaba, preguntaré, preguntaría, pregunte, preguntara/preguntase
+
+трогать, играть (на инструменте) – я трогаю/играю, я трогал/играл, я трогал/играл (обычно), я потрогаю/сыграю, я трогал/играл бы, чтобы я трогал/играл, если бы я трогал/играл
+tocar – toco, toqué, tocaba, tocaré, tocaría, toque, tocara/tocase
+
+признавать – я признаю, я признал, я признавал (обычно), я признаю, я признал бы, чтобы я признал, если бы я признал
+reconocer – reconozco, reconocí, reconocía, reconoceré, reconocería, reconozca, reconociera/reconociese
+
+учиться – я учусь, я учился, я учился (обычно), я буду учиться, я учился бы, чтобы я учился, если бы я учился
+estudiar – estudio, estudié, estudiaba, estudiaré, estudiaría, estudie, estudiara/estudiase
+
+достигать – я достигаю, я достиг, я достигал (обычно), я достигну, я достиг бы, чтобы я достиг, если бы я достиг
+alcanzar – alcanzo, alcancé, alcanzaba, alcanzaré, alcanzaría, alcance, alcanzara/alcanzase
+
+рождаться – я рождаюсь, я родился, я рождался (обычно), я рожусь, я родился бы, чтобы я родился, если бы я родился
+nacer – nazco, nací, nacía, naceré, nacería, nazca, naciera/naciese
+
+руководить – я руковожу, я руководил, я руководил (обычно), я буду руководить, я руководил бы, чтобы я руководил, если бы я руководил
+dirigir – dirijo, dirigí, dirigía, dirigiré, dirigiría, dirija, dirigiera/dirigiese
+
+бежать – я бегу, я бежал, я бегал (обычно), я побегу, я бежал бы, чтобы я бежал, если бы я бежал
+correr – corro, corrí, corría, correré, correría, corra, corriera/corriese
+
+использовать – я использую, я использовал, я использовал (обычно), я буду использовать, я использовал бы, чтобы я использовал, если бы я использовал
+utilizar – utilizo, utilicé, utilizaba, utilizaré, utilizaría, utilice, utilizara/utilizase
+
+платить – я плачу, я платил, я платил (обычно), я заплачу, я платил бы, чтобы я платил, если бы я платил
+pagar – pago, pagué, pagaba, pagaré, pagaría, pague, pagara/pagase
+
+помогать – я помогаю, я помог, я помогал (обычно), я помогу, я помог бы, чтобы я помог, если бы я помог
+ayudar – ayudo, ayudé, ayudaba, ayudaré, ayudaría, ayude, ayudara/ayudase
+
+нравиться – я нравлюсь, я нравился, я нравился (обычно), я понравлюсь, я нравился бы, чтобы я нравился, если бы я нравился
+gustar – gusto, gusté, gustaba, gustaré, gustaría, guste, gustara/gustase
+
+играть – я играю, я играл, я играл (обычно), я буду играть, я играл бы, чтобы я играл, если бы я играл
+jugar – juego, jugué, jugaba, jugaré, jugaría, juegue, jugara/jugase
+
+слушать – я слушаю, я слушал, я слушал (обычно), я буду слушать, я слушал бы, чтобы я слушал, если бы я слушал
+escuchar – escucho, escuché, escuchaba, escucharé, escucharía, escuche, escuchara/escuchase
+
+выполнять – я выполняю, я выполнил, я выполнял (обычно), я выполню, я выполнил бы, чтобы я выполнил, если бы я выполнил
+cumplir – cumplo, cumplí, cumplía, cumpliré, cumpliría, cumpla, cumpliera/cumpliese
+
+предлагать – я предлагаю, я предложил, я предлагал (обычно), я предложу, я предложил бы, чтобы я предложил, если бы я предложил
+ofrecer – ofrezco, ofrecí, ofrecía, ofreceré, ofrecería, ofrezca, ofreciera/ofreciese
+
+# Испанские глаголы (часть 2) - русско-испанский список
+
+открывать – я открываю, я открыл, я открывал (обычно), я открою, я открыл бы, чтобы я открыл, если бы я открыл
+abrir – abro, abrí, abría, abriré, abriría, abra, abriera/abriese
+
+рассматривать – я рассматриваю, я рассматривал, я рассматривал (обычно), я буду рассматривать, я рассматривал бы, чтобы я рассматривал, если бы я рассматривал
+considerar – considero, consideré, consideraba, consideraré, consideraría, considere, considerara/considerase
+
+слышать – я слышу, я слышал, я слышал (обычно), я услышу, я слышал бы, чтобы я слышал, если бы я слышал
+oír – oigo, oí, oía, oiré, oiría, oiga, oyera/oyese
+
+заканчивать – я заканчиваю, я закончил, я заканчивал (обычно), я закончу, я закончил бы, чтобы я закончил, если бы я закончил
+acabar – acabo, acabé, acababa, acabaré, acabaría, acabe, acabara/acabase
+
+превращать – я превращаю, я превратил, я превращал (обычно), я превращу, я превратил бы, чтобы я превратил, если бы я превратил
+convertir – convierto, convertí, convertía, convertiré, convertiría, convierta, convirtiera/convirtiese
+
+выигрывать – я выигрываю, я выиграл, я выигрывал (обычно), я выиграю, я выиграл бы, чтобы я выиграл, если бы я выиграл
+ganar – gano, gané, ganaba, ganaré, ganaría, gane, ganara/ganase
+
+формировать – я формирую, я сформировал, я формировал (обычно), я сформирую, я сформировал бы, чтобы я сформировал, если бы я сформировал
+formar – formo, formé, formaba, formaré, formaría, forme, formara/formase
+
+приносить – я приношу, я принес, я приносил (обычно), я принесу, я принес бы, чтобы я принес, если бы я принес
+traer – traigo, traje, traía, traeré, traería, traiga, trajera/trajese
+
+разделять – я разделяю, я разделил, я разделял (обычно), я разделю, я разделил бы, чтобы я разделил, если бы я разделил
+partir – parto, partí, partía, partiré, partiría, parta, partiera/partiese
+
+умирать – я умираю, я умер, я умирал (обычно), я умру, я умер бы, чтобы я умер, если бы я умер
+morir – muero, morí, moría, moriré, moriría, muera, muriera/muriese
+
+принимать – я принимаю, я принял, я принимал (обычно), я приму, я принял бы, чтобы я принял, если бы я принял
+aceptar – acepto, acepté, aceptaba, aceptaré, aceptaría, acepte, aceptara/aceptase
+
+реализовать – я реализую, я реализовал, я реализовывал (обычно), я реализую, я реализовал бы, чтобы я реализовал, если бы я реализовал
+realizar – realizo, realicé, realizaba, realizaré, realizaría, realice, realizara/realizase
+
+предполагать – я предполагаю, я предположил, я предполагал (обычно), я предположу, я предположил бы, чтобы я предположил, если бы я предположил
+suponer – supongo, supuse, suponía, supondré, supondría, suponga, supusiera/supusiese
+
+понимать – я понимаю, я понял, я понимал (обычно), я пойму, я понял бы, чтобы я понял, если бы я понял
+comprender – comprendo, comprendí, comprendía, comprenderé, comprendería, comprenda, comprendiera/comprendiese
+
+достигать – я достигаю, я достиг, я достигал (обычно), я достигну, я достиг бы, чтобы я достиг, если бы я достиг
+lograr – logro, logré, lograba, lograré, lograría, logre, lograra/lograse
+
+объяснять – я объясняю, я объяснил, я объяснял (обычно), я объясню, я объяснил бы, чтобы я объяснил, если бы я объяснил
+explicar – explico, expliqué, explicaba, explicaré, explicaría, explique, explicara/explicase
+
+спрашивать – я спрашиваю, я спросил, я спрашивал (обычно), я спрошу, я спросил бы, чтобы я спросил, если бы я спросил
+preguntar – pregunto, pregunté, preguntaba, preguntaré, preguntaría, pregunte, preguntara/preguntase
+
+трогать, играть (на инструменте) – я трогаю/играю, я трогал/играл, я трогал/играл (обычно), я потрогаю/сыграю, я трогал/играл бы, чтобы я трогал/играл, если бы я трогал/играл
+tocar – toco, toqué, tocaba, tocaré, tocaría, toque, tocara/tocase
+
+признавать – я признаю, я признал, я признавал (обычно), я признаю, я признал бы, чтобы я признал, если бы я признал
+reconocer – reconozco, reconocí, reconocía, reconoceré, reconocería, reconozca, reconociera/reconociese
+
+учиться – я учусь, я учился, я учился (обычно), я буду учиться, я учился бы, чтобы я учился, если бы я учился
+estudiar – estudio, estudié, estudiaba, estudiaré, estudiaría, estudie, estudiara/estudiase
+
+достигать – я достигаю, я достиг, я достигал (обычно), я достигну, я достиг бы, чтобы я достиг, если бы я достиг
+alcanzar – alcanzo, alcancé, alcanzaba, alcanzaré, alcanzaría, alcance, alcanzara/alcanzase
+
+рождаться – я рождаюсь, я родился, я рождался (обычно), я рожусь, я родился бы, чтобы я родился, если бы я родился
+nacer – nazco, nací, nacía, naceré, nacería, nazca, naciera/naciese
+
+руководить – я руковожу, я руководил, я руководил (обычно), я буду руководить, я руководил бы, чтобы я руководил, если бы я руководил
+dirigir – dirijo, dirigí, dirigía, dirigiré, dirigiría, dirija, dirigiera/dirigiese
+
+бежать – я бегу, я бежал, я бегал (обычно), я побегу, я бежал бы, чтобы я бежал, если бы я бежал
+correr – corro, corrí, corría, correré, correría, corra, corriera/corriese
+
+использовать – я использую, я использовал, я использовал (обычно), я буду использовать, я использовал бы, чтобы я использовал, если бы я использовал
+utilizar – utilizo, utilicé, utilizaba, utilizaré, utilizaría, utilice, utilizara/utilizase
+
+платить – я плачу, я платил, я платил (обычно), я заплачу, я платил бы, чтобы я платил, если бы я платил
+pagar – pago, pagué, pagaba, pagaré, pagaría, pague, pagara/pagase
+
+помогать – я помогаю, я помог, я помогал (обычно), я помогу, я помог бы, чтобы я помог, если бы я помог
+ayudar – ayudo, ayudé, ayudaba, ayudaré, ayudaría, ayude, ayudara/ayudase
+
+нравиться – я нравлюсь, я нравился, я нравился (обычно), я понравлюсь, я нравился бы, чтобы я нравился, если бы я нравился
+gustar – gusto, gusté, gustaba, gustaré, gustaría, guste, gustara/gustase
+
+играть – я играю, я играл, я играл (обычно), я буду играть, я играл бы, чтобы я играл, если бы я играл
+jugar – juego, jugué, jugaba, jugaré, jugaría, juegue, jugara/jugase
+
+слушать – я слушаю, я слушал, я слушал (обычно), я буду слушать, я слушал бы, чтобы я слушал, если бы я слушал
+escuchar – escucho, escuché, escuchaba, escucharé, escucharía, escuche, escuchara/escuchase
+
+выполнять – я выполняю, я выполнил, я выполнял (обычно), я выполню, я выполнил бы, чтобы я выполнил, если бы я выполнил
+cumplir – cumplo, cumplí, cumplía, cumpliré, cumpliría, cumpla, cumpliera/cumpliese
+
+предлагать – я предлагаю, я предложил, я предлагал (обычно), я предложу, я предложил бы, чтобы я предложил, если бы я предложил
+ofrecer – ofrezco, ofrecí, ofrecía, ofreceré, ofrecería, ofrezca, ofreciera/ofreciese
+
+открывать (что-то новое) – я открываю, я открыл, я открывал (обычно), я открою, я открыл бы, чтобы я открыл, если бы я открыл
+descubrir – descubro, descubrí, descubría, descubriré, descubriría, descubra, descubriera/descubriese
+
+поднимать – я поднимаю, я поднял, я поднимал (обычно), я подниму, я поднял бы, чтобы я поднял, если бы я поднял
+levantar – levanto, levanté, levantaba, levantaré, levantaría, levante, levantara/levantase
+
+пытаться – я пытаюсь, я пытался, я пытался (обычно), я буду пытаться, я пытался бы, чтобы я пытался, если бы я пытался
+intentar – intento, intenté, intentaba, intentaré, intentaría, intente, intentara/intentase
+
+использовать – я использую, я использовал, я использовал (обычно), я буду использовать, я использовал бы, чтобы я использовал, если бы я использовал
+usar – uso, usé, usaba, usaré, usaría, use, usara/usase
