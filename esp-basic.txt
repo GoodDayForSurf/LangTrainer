@@ -133,8 +133,8 @@ Empezaron a discutir el proyecto a pesar de la ausencia de todos los participant
 Мы пытались убедить его не увольняться, но он уже принял окончательное решение.
 Tratamos de convencerlo de no renunciar, pero ya había tomado una decisión definitiva.
 
-Шум с улицы начал сильно мешать мне сосредоточиться на работе.
-El ruido de la calle empezó a molestarme mucho mientras intentaba concentrarme en el trabajo.
+Шум улицы начал сильно мешать мне сосредоточиться на работе.
+El ruido de la calle empezó a molestarme mucho mientras intentaba concentrarme en el trabajo. // mientras — союз («в то время как, пока»).  intentaba — Imperfecto (процесс в прошлом) от intentar = пытался.
 
 Она взяла с полки старую книгу, чтобы перечитать её в спокойной обстановке.
 Tomó un libro viejo del estante para volver a leerlo en un ambiente tranquilo.
@@ -148,7 +148,7 @@ Le pidieron al camarero que explicara de qué estaba hecho el plato antes de hac
 Тебя подождать?
 ¿Te espero? // хотя дословно "Я тебя жду?"
 
-Ладно, в другой раз тогда
+Ок, в другой раз тогда
 Vale, otro dia entonces // хотя "раз" это "vez" но otro vez = еще раз
 
 Я говорю по испански лучше чем прежде
@@ -235,7 +235,7 @@ Necesito tu consejo y apoyo.
 Я хочу купить эту старую вещь
 Quiero comprar esta cosa vieja
 
-Я предпочитаю делать это таким образом.
+Я предпочитаю делать это так.
 Prefiero hacerlo asi
 
 Мне нравятся эти дешевые ложки и вилки
@@ -497,7 +497,7 @@ Termino de trabajar el miércoles a las siete de la tarde.. // de всегда �
 Termino de descansar y empiezo a jugar al tenis.
 
 Мне нужно начать переводить эту статью.
-Necesito empezar a traducir este artículo.
+Tengo que empezar a traducir este artículo. // Tengo que - нужно (под действием обстоятельств)
 
 Я совершаю много ошибок, когда говорю быстро.
 Cometo muchos errores cuando hablo rápido. // cometer - совершать (ошибка, грехи, преступления)
