@@ -637,7 +637,7 @@ Estoy muy feliz de verte // если выражается эмоция, чувс
 Он ездит на машине, потому что так удобнее.
 Va en coche porque es más cómodo.
 
-Это стеклянное окно открыто а не закрыто
+Это стеклянное окно открыто, а не закрыто
 Esta ventana de vidrio está abierta, no cerrada.
 
 Ваше кофе почти готово
