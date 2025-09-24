@@ -639,3 +639,6 @@ Va en coche porque es más cómodo.
 
 Это стеклянное окно открыто а не закрыто
 Esta ventana de vidrio está abierta, no cerrada.
+
+Ваше кофе почти готово
+Tu café está casi listo
