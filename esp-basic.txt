@@ -642,3 +642,9 @@ Esta ventana de vidrio está abierta, no cerrada.
 
 Ваше кофе почти готово
 Tu café está casi listo
+
+Они снаружи а не внутри
+Están fuera, no dentro
+
+Нет ничего впереди ни позади
+No hay nada delante ni detrás
