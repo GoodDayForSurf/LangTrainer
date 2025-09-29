@@ -22,7 +22,67 @@ const dictionaries = [
 const $ = selector => document.querySelector(selector);
 
 async function load() {
-   
+   restoreState();
+   window.addEventListener('beforeunload', () => {
+      try { saveState(); } catch(e) {}
+   });
+}
+
+const STORAGE_KEY = 'langtrainer_state_v1';
+
+function saveState() {
+  try {
+    const dictionariesSelectEl = $('#dictionaries-select');
+    const state = {
+      dictFile: dictionariesSelectEl ? dictionariesSelectEl.value : null,
+      PHRASES,
+      cardState: cardState ? {
+        question: cardState.question,
+        answers: cardState.answers,
+        answersForShow: cardState.answersForShow,
+        repeatQueue: cardState.repeatQueue
+      } : null
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {
+    console.warn('Failed to save state', e);
+  }
+}
+
+function restoreState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return false;
+    const state = JSON.parse(raw);
+    if (!state) return false;
+
+    if (Array.isArray(state.PHRASES)) {
+      PHRASES = state.PHRASES;
+    }
+
+    cardState = new CardState();
+    if (state.cardState) {
+      cardState.question = state.cardState.question || '';
+      cardState.answers = Array.isArray(state.cardState.answers) ? state.cardState.answers : [];
+      cardState.answersForShow = typeof state.cardState.answersForShow === 'number' ? state.cardState.answersForShow : 0;
+      cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
+    }
+
+    const dictionariesSelectEl = $('#dictionaries-select');
+    if (dictionariesSelectEl && state.dictFile) {
+      dictionariesSelectEl.value = state.dictFile;
+    }
+
+    if (cardState.question) {
+      $('#question').innerText = cardState.question;
+      $('#answer').innerText = '';
+    }
+
+    return true;
+  } catch (e) {
+    console.warn('Failed to restore state', e);
+    return false;
+  }
 }
 
 function randomPhrase() {
@@ -96,6 +156,7 @@ class CardState {
       item.stage++;
 
       console.log('------addItemToRepeatQueue---->', item);
+      saveState();
    }
 
    initNewQuestion() {
@@ -109,6 +170,7 @@ class CardState {
       $('#answer').innerText = '';
 
       this.answersForShow = this.answers.length;
+      saveState();
    }
 
    showAnswer() {
@@ -116,6 +178,7 @@ class CardState {
       const [answer, comment] = this.answers.at(-this.answersForShow).split("//");
       $('#answer').innerHTML = `<div>${answer}</div>` + (comment ? `<comment>${comment || ''}</comment>` : '');
       this.answersForShow--;
+      saveState();
    }
 
    next(){
@@ -154,6 +217,14 @@ load().then( () => {
 
    dictionariesSelectEl.innerHTML = optionsHTML;
 
+  // ensure select reflects restored value if present
+  try {
+     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+     if (saved && saved.dictFile) {
+        dictionariesSelectEl.value = saved.dictFile;
+     }
+  } catch(e) { }
+
    $('#dictionaries-select').addEventListener('change', (e) => {
       if(!e.target.value) {
          return
@@ -162,6 +233,7 @@ load().then( () => {
       initDictionary(e.target.value).then(() => {
          cardState= new CardState();
          cardState.next()
+        saveState();
       });
    });
    
