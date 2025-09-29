@@ -35,7 +35,6 @@ function saveState() {
     const dictionariesSelectEl = $('#dictionaries-select');
     const state = {
       dictFile: dictionariesSelectEl ? dictionariesSelectEl.value : null,
-      PHRASES,
       cardState: cardState ? {
         question: cardState.question,
         answers: cardState.answers,
@@ -55,10 +54,6 @@ function restoreState() {
     if (!raw) return false;
     const state = JSON.parse(raw);
     if (!state) return false;
-
-    if (Array.isArray(state.PHRASES)) {
-      PHRASES = state.PHRASES;
-    }
 
     cardState = new CardState();
     if (state.cardState) {
@@ -224,6 +219,18 @@ load().then( () => {
         dictionariesSelectEl.value = saved.dictFile;
      }
   } catch(e) { }
+
+  // Always load PHRASES from the selected dictionary on startup
+  if (dictionariesSelectEl.value) {
+     initDictionary(dictionariesSelectEl.value).then(() => {
+        // Only initialize a new card if there wasn't a saved question
+        if (!cardState || !cardState.question) {
+           cardState = new CardState();
+           cardState.next();
+           saveState();
+        }
+     });
+  }
 
    $('#dictionaries-select').addEventListener('change', (e) => {
       if(!e.target.value) {
