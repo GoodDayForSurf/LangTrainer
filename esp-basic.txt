@@ -395,7 +395,7 @@ Uso esto cada día
 Vuelvo / regreso a casa temprano // volver и regresar - возвращаться, но volver можно так же использовать в значении сделать снова
 
 Я стараюсь (пытаюсь) делать это регулярно
-Trato hacerlo regularmente
+Intento (Trato de) hacerlo regularmente // intentar - пытаться, прилагать усилие. tratar de - стараться, прилагать усилие (чаще в лат. ам)
 
 Я пытаюсь это исправить.
 Trato de corregirlo // corregir - исправлять, corrijo - исправляю
@@ -530,7 +530,7 @@ Para aprobar el examen, tú tienes que estudiar más.
 De acuerdo. Yo tengo que ser más paciente
 
 Чтобы быть в форме, нужно есть много фруктов, а также заниматься спортом.
-Para estar en forma hay que comer mucha fruta y también hay que hacer deporte // // hay que + инфинитив = безличная форма выражения необходимости. Всегда в 3ем лице ед. числа
+Para estar en forma, hay que comer muchas frutas y también hacer deporte // // hay que + инфинитив = безличная форма выражения необходимости. Всегда в 3ем лице ед. числа
 
 Я хочу общаться с людьми которые живут в других странах
 Quiero comunicarme con personas que viven en otros países. // comunicar(se) - общаться
@@ -648,3 +648,6 @@ Están fuera, no dentro
 
 Нет ничего впереди ни позади
 No hay nada delante ni detrás
+
+Кто-то что-то просит меня каждый день
+Alguien me pide algo todos los días. // pedir - просить
