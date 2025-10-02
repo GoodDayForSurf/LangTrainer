@@ -56,7 +56,7 @@ El hecho de que ella tenga dinero no significa que nos lo vaya a dar // El hecho
 Hagan lo que hagan me da igual // Hagan форма hacer в Subjuentivo
 
 Не думаю, что она это знает
-No creo que ella lo sepa 
+No creo que ella lo sepa // sepa – форма subjuntivo от saber, тут subjuntivo т.к. предположение не реально, если бы было "думаю что.." то было бы sabe (обычное время).
 
 Надеюсь, у тебя будет хороший день
 Espero que tengas un buen día // tengas - subjuntivo форма для 2-е л. ед. ч. глагола tener
@@ -286,7 +286,7 @@ Ayer vi una gaviota.
 Я перестал думать о ней
 Deje` de pensar en ella // dejar - оставлять, dejar de + inf - перестать что то делать. Есть еще глагол quedar - оставлять. Но dejar это оставлять по своему желанию  
 
-Я думаю это слушком дорого
+Я думаю это слишком дорого
 Pienso que es demasiado caro
 
 Я думаю о тебе
@@ -305,7 +305,7 @@ Quiero quedarme aquí para siempre // quedar - оставаться
 Si no queres quedar como una cabra, no lo hages // quedar - оставаться, выглядеть. Тут вместо quedar больше подходит parecer, но quedar тоже можно
 
 Я думаю (мнение) / По моему мнению эти знания полезны
-Opino / En mi opinión que este conocimiento es útil.
+Opino / En mi opinión, estos conocimientos son útiles.
 
 Охотник поймал оленя в лесу
 El cazador cogio` un ciervo en el bosque // coger - взять, поймать, хватать, срывать с дерева (recoger - собирать). Синоним tomar (брать, принимать) - испании. В ЮА имеет сексуальный оттенок
@@ -388,7 +388,7 @@ Lo olvido a menudo  // a menudo - часто
 Я могу забыть эту вещь очень легко
 Puedo olvidar esta cosa muy facilmente
 
-Я ищу квартиру сейчас
+Я ищу (нахожусь в поиске) квартиру сейчас
 Estoy buscando un apartamento ahora  // buscar - искать
 
 Я хотел бы помочь тебе
@@ -457,9 +457,6 @@ Voy a descargar esta aplicación. // descargar - скачивание, разг�
 Я дам тебе знать, когда у меня будет время.
 Te daré saber cuando tenga tiempo
 
-Мой коллега всегда дает мне советы, даже если я об этом не прошу.
-Mi colega siempre me da consejos aunque no los pida. // pida - это Subjuntivo форма для первого лица глагола pedir - просить 
-
 Я даю ей немного времени, чтобы всё обдумать
 Le doy un poco de tiempo para pensar en todo.
 
@@ -499,11 +496,11 @@ De Bilbao a San Sebastián, hay un autobús que sale cada día a las 8:00
 Чтобы сдать экзамен, вам придется больше заниматься.
 Para aprobar el examen, tú tienes que estudiar más.
 
-Ладно. Мне нужно быть терпеливее.
-De acuerdo. Yo tengo que ser más paciente
+Согласен. Мне нужно быть терпеливее.
+De acuerdo. Tengo que ser más paciente
 
 Чтобы быть в форме, нужно есть много фруктов, а также заниматься спортом.
-Para estar en forma, hay que comer muchas frutas y también hacer deporte // // hay que + инфинитив = безличная форма выражения необходимости. Всегда в 3ем лице ед. числа
+Para estar en forma, hay que comer muchas frutas y también hacer deporte // hay que + инфинитив = безличная форма выражения необходимости. Всегда в 3ем лице ед. числа
 
 Я хочу общаться с людьми которые живут в других странах
 Quiero comunicarme con personas que viven en otros países. // comunicar(se) - общаться
