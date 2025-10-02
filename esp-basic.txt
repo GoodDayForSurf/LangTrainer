@@ -511,8 +511,8 @@ Necesito discutir una cosa contigo.
 Мне нужно тренироваться больше
 Necesito entrenar más
 
-Я тренирую свою память, выполняя эти трудные упражнения
-Entreno mi memoria haciendo estos difíciles ejercicios
+Я тренирую свою память, делая эти трудные упражнения
+Entreno mi memoria haciendo estos ejercicios difíciles
 
 Мне нравиться прогуливаться в парке
 Me gusto pasear por el parque
@@ -624,3 +624,9 @@ Alguien me pide algo todos los días. // pedir - просить
 
 Cделай это! Открой окно и закрой дверь!
 ¡Hazlo! ¡Abre la ventana y cierra la puerta!
+
+Так как он много занимался, он сдал экзамен
+Al estudiar mucho, aprobó el examen // al + infinitivo - "когда...", "так как...", "благодаря тому что..."
+
+Когда он вошёл в зал, все замолчали.
+Al entrar en la sala, todos se callaron. // al + infinitivo - "когда...", "так как...", "благодаря тому что..."
