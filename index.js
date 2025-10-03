@@ -28,21 +28,28 @@ async function load() {
    });
 }
 
-const STORAGE_KEY = 'langtrainer_state_v1';
+const STORAGE_NS = 'langtrainer_state_v2';
+const SELECTED_DICT_KEY = `${STORAGE_NS}:selected`;
+
+function getStateKey(dictFile) {
+  return `${STORAGE_NS}:dict:${dictFile || 'unknown'}`;
+}
 
 function saveState() {
   try {
     const dictionariesSelectEl = $('#dictionaries-select');
-    const state = {
-      dictFile: dictionariesSelectEl ? dictionariesSelectEl.value : null,
-      cardState: cardState ? {
-        question: cardState.question,
-        answers: cardState.answers,
-        answersForShow: cardState.answersForShow,
-        repeatQueue: cardState.repeatQueue
-      } : null
-    };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    const dictFile = dictionariesSelectEl ? dictionariesSelectEl.value : null;
+    if (!dictFile) return;
+
+    const state = cardState ? {
+      question: cardState.question,
+      answers: cardState.answers,
+      answersForShow: cardState.answersForShow,
+      repeatQueue: cardState.repeatQueue
+    } : null;
+
+    localStorage.setItem(getStateKey(dictFile), JSON.stringify(state));
+    localStorage.setItem(SELECTED_DICT_KEY, dictFile);
   } catch (e) {
     console.warn('Failed to save state', e);
   }
@@ -50,23 +57,25 @@ function saveState() {
 
 function restoreState() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const dictionariesSelectEl = $('#dictionaries-select');
+    const selected = localStorage.getItem(SELECTED_DICT_KEY);
+    if (dictionariesSelectEl && selected) {
+      dictionariesSelectEl.value = selected;
+    }
+
+    const dictFile = dictionariesSelectEl ? dictionariesSelectEl.value : selected;
+    if (!dictFile) return false;
+
+    const raw = localStorage.getItem(getStateKey(dictFile));
     if (!raw) return false;
     const state = JSON.parse(raw);
     if (!state) return false;
 
     cardState = new CardState();
-    if (state.cardState) {
-      cardState.question = state.cardState.question || '';
-      cardState.answers = Array.isArray(state.cardState.answers) ? state.cardState.answers : [];
-      cardState.answersForShow = typeof state.cardState.answersForShow === 'number' ? state.cardState.answersForShow : 0;
-      cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
-    }
-
-    const dictionariesSelectEl = $('#dictionaries-select');
-    if (dictionariesSelectEl && state.dictFile) {
-      dictionariesSelectEl.value = state.dictFile;
-    }
+    cardState.question = state.question || '';
+    cardState.answers = Array.isArray(state.answers) ? state.answers : [];
+    cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
+    cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
 
     if (cardState.question) {
       $('#question').innerText = cardState.question;
@@ -214,35 +223,56 @@ load().then( () => {
 
   // ensure select reflects restored value if present
   try {
-     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
-     if (saved && saved.dictFile) {
-        dictionariesSelectEl.value = saved.dictFile;
-     }
+    const savedDict = localStorage.getItem(SELECTED_DICT_KEY);
+    if (savedDict) {
+      dictionariesSelectEl.value = savedDict;
+    }
   } catch(e) { }
 
   // Always load PHRASES from the selected dictionary on startup
   if (dictionariesSelectEl.value) {
-     initDictionary(dictionariesSelectEl.value).then(() => {
-        // Only initialize a new card if there wasn't a saved question
-        if (!cardState || !cardState.question) {
-           cardState = new CardState();
-           cardState.next();
-           saveState();
-        }
-     });
+    initDictionary(dictionariesSelectEl.value).then(() => {
+      // If we already restored a question, do nothing. Otherwise start fresh.
+      if (!cardState || !cardState.question) {
+        cardState = new CardState();
+        cardState.next();
+        saveState();
+      }
+    });
   }
 
-   $('#dictionaries-select').addEventListener('change', (e) => {
-      if(!e.target.value) {
-         return
+  $('#dictionaries-select').addEventListener('change', (e) => {
+    const dictFile = e.target.value;
+    if (!dictFile) return;
+
+    // Persist selection immediately
+    try { localStorage.setItem(SELECTED_DICT_KEY, dictFile); } catch(e) {}
+
+    initDictionary(dictFile).then(() => {
+      // Try restore state for this dictionary
+      const raw = localStorage.getItem(getStateKey(dictFile));
+      if (raw) {
+        try {
+          const state = JSON.parse(raw);
+          cardState = new CardState();
+          cardState.question = state.question || '';
+          cardState.answers = Array.isArray(state.answers) ? state.answers : [];
+          cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
+          cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
+          if (cardState.question) {
+            $('#question').innerText = cardState.question;
+            $('#answer').innerText = '';
+            return;
+          }
+        } catch(e) { /* fall through to fresh start */ }
       }
-      
-      initDictionary(e.target.value).then(() => {
-         cardState= new CardState();
-         cardState.next()
-        saveState();
-      });
-   });
+
+      // Fresh start if no saved state
+      cardState = new CardState();
+      cardState.next();
+      saveState();
+    });
+  });
    
    $('#card').addEventListener('click', () => cardState.next());
    document.addEventListener("keyup", function(event) {
