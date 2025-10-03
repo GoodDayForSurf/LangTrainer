@@ -22,7 +22,6 @@ const dictionaries = [
 const $ = selector => document.querySelector(selector);
 
 async function load() {
-   restoreState();
    window.addEventListener('beforeunload', () => {
       try { saveState(); } catch(e) {}
    });
@@ -34,13 +33,13 @@ function saveState() {
   try {
     const dictionariesSelectEl = $('#dictionaries-select');
     const state = {
-      dictFile: dictionariesSelectEl ? dictionariesSelectEl.value : null,
+      dictFile: dictionariesSelectEl.value,
       cardState: cardState ? {
         question: cardState.question,
         repeatQueue: cardState.repeatQueue
       } : null
     };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(STORAGE_KEY + '-' + dictionariesSelectEl.value, JSON.stringify(state));
   } catch (e) {
     console.warn('Failed to save state', e);
   }
@@ -48,12 +47,14 @@ function saveState() {
 
 function restoreState() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return false;
-    const state = JSON.parse(raw);
-    if (!state) return false;
-
+    const dictFileName = $('#dictionaries-select').value;
+    const raw = localStorage.getItem(STORAGE_KEY + '-' + dictFileName);
     cardState = new CardState();
+    
+    if (!raw) return cardState;
+    
+    const state = JSON.parse(raw);
+    
     if (state.cardState) {
       cardState.question = state.cardState.question || '';
       cardState.answers = getAnswersForQuestion(cardState.question);
@@ -61,17 +62,12 @@ function restoreState() {
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
 
-    const dictionariesSelectEl = $('#dictionaries-select');
-    if (dictionariesSelectEl && state.dictFile) {
-      dictionariesSelectEl.value = state.dictFile;
-    }
-
     if (cardState.question) {
       $('#question').innerText = cardState.question;
       $('#answer').innerText = '';
     }
 
-    return true;
+    return cardState;
   } catch (e) {
     console.warn('Failed to restore state', e);
     return false;
@@ -224,37 +220,21 @@ load().then( () => {
 
    dictionariesSelectEl.innerHTML = optionsHTML;
 
-  // ensure select reflects restored value if present
-  try {
-     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
-     if (saved && saved.dictFile) {
-        dictionariesSelectEl.value = saved.dictFile;
-     }
-  } catch(e) { }
 
-  // Always load PHRASES from the selected dictionary on startup
-  if (dictionariesSelectEl.value) {
-     initDictionary(dictionariesSelectEl.value).then(() => {
-        // Only initialize a new card if there wasn't a saved question
-        if (!cardState || !cardState.question) {
-           cardState = new CardState();
-           cardState.next();
-           saveState();
+    $('#dictionaries-select').addEventListener('change', (e) => {
+        if(!e.target.value) {
+            return
         }
-     });
-  }
 
-   $('#dictionaries-select').addEventListener('change', (e) => {
-      if(!e.target.value) {
-         return
-      }
-      
-      initDictionary(e.target.value).then(() => {
-         cardState= new CardState();
-         cardState.next()
-        saveState();
-      });
-   });
+        initDictionary(e.target.value).then(() => {
+            cardState = restoreState();
+            
+            if(!cardState.question) {
+                cardState.next();
+                saveState();
+            }
+        });
+    });
    
    $('#card').addEventListener('click', () => cardState.next());
    document.addEventListener("keyup", function(event) {
