@@ -62,11 +62,6 @@ function restoreState() {
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
 
-    if (cardState.question) {
-      $('#question').innerText = cardState.question;
-      $('#answer').innerText = '';
-    }
-
     return cardState;
   } catch (e) {
     console.warn('Failed to restore state', e);
@@ -228,11 +223,8 @@ load().then( () => {
 
         initDictionary(e.target.value).then(() => {
             cardState = restoreState();
-            
-            if(!cardState.question) {
-                cardState.next();
-                saveState();
-            }
+            cardState.next();
+            saveState();
         });
     });
    
