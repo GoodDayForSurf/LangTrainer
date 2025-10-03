@@ -55,8 +55,7 @@ function saveState() {
 
     const state = cardState ? {
       question: cardState.question,
-      // do not persist answers; they will be rebuilt from dictionary
-      answersForShow: cardState.answersForShow,
+      // do not persist answers or answersForShow; they will be rebuilt from dictionary
       // persist only required fields for repeatQueue
       repeatQueue: Array.isArray(cardState.repeatQueue)
         ? cardState.repeatQueue.map(item => ({
@@ -95,7 +94,8 @@ function restoreState() {
     cardState.question = state.question || '';
     // answers will be rebuilt after dictionary is loaded
     cardState.answers = [];
-    cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
+    // answersForShow will be recalculated from dictionary
+    cardState.answersForShow = 0;
     cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
 
     if (cardState.question) {
@@ -203,7 +203,7 @@ class CardState {
 
    showAnswer() {
       console.log('---showAnswer------->', [this.answers, this.answersForShow, this.answers.at(-this.answersForShow)])
-      const [answer, comment] = this.answers.at(-this.answersForShow).split("//");
+      const [answer, comment] = (this.answers.at(-this.answersForShow) || '').split("//");
       $('#answer').innerHTML = `<div>${answer}</div>` + (comment ? `<comment>${comment || ''}</comment>` : '');
       this.answersForShow--;
       saveState();
@@ -259,12 +259,16 @@ load().then( () => {
       // If we already restored any state, keep it; only create if none exists
       if (!cardState) {
         cardState = new CardState();
-        // if a question exists from restore, rebuild answers; otherwise start fresh
-        if (cardState.question) {
-          cardState.answers = getAnswersForQuestion(cardState.question);
-        } else {
-          cardState.next();
-        }
+      }
+
+      // if a question exists from restore, rebuild answers and answersForShow
+      if (cardState.question) {
+        cardState.answers = getAnswersForQuestion(cardState.question);
+        cardState.answersForShow = cardState.answers.length;
+        $('#question').innerText = cardState.question;
+        $('#answer').innerText = '';
+      } else {
+        cardState.next();
         saveState();
       }
     });
@@ -287,7 +291,7 @@ load().then( () => {
           cardState.question = state.question || '';
           // rebuild answers from dictionary
           cardState.answers = getAnswersForQuestion(cardState.question);
-          cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
+          cardState.answersForShow = cardState.answers.length;
           cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
           if (cardState.question) {
             $('#question').innerText = cardState.question;
