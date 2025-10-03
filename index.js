@@ -63,7 +63,8 @@ function restoreState() {
       dictionariesSelectEl.value = selected;
     }
 
-    const dictFile = dictionariesSelectEl ? dictionariesSelectEl.value : selected;
+    // Prefer saved selection; fallback to current select value
+    const dictFile = selected || (dictionariesSelectEl ? dictionariesSelectEl.value : null);
     if (!dictFile) return false;
 
     const raw = localStorage.getItem(getStateKey(dictFile));
