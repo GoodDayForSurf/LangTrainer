@@ -129,7 +129,7 @@ class CardState {
 
       return this.repeatQueue.find(item => {
          const period = (Date.now() - item.showTime) / 1000;
-         return  period > (this.stages[item.stage] || (3600 * 24 * 7))
+         return  period > this.stages[item.stage] || (period > 3600 * 24 * 7 && Math.random() > 0.5)
       });
    }
 
