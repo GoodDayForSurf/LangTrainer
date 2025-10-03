@@ -37,8 +37,6 @@ function saveState() {
       dictFile: dictionariesSelectEl ? dictionariesSelectEl.value : null,
       cardState: cardState ? {
         question: cardState.question,
-        answers: cardState.answers,
-        answersForShow: cardState.answersForShow,
         repeatQueue: cardState.repeatQueue
       } : null
     };
@@ -58,8 +56,8 @@ function restoreState() {
     cardState = new CardState();
     if (state.cardState) {
       cardState.question = state.cardState.question || '';
-      cardState.answers = Array.isArray(state.cardState.answers) ? state.cardState.answers : [];
-      cardState.answersForShow = typeof state.cardState.answersForShow === 'number' ? state.cardState.answersForShow : 0;
+      cardState.answers = getAnswersForQuestion(cardState.question);
+      cardState.answersForShow = 0;
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
 
@@ -81,9 +79,27 @@ function restoreState() {
 }
 
 function randomPhrase() {
-   return PHRASES[Math.round(Math.random() * PHRASES.length)];
+   let phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
+   
+   while(!cardState.repeatQueue.find(({question}) => question != phrase)) {
+       phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
+   }
+ 
+   return phrase;
 }
 let cardState;
+
+function getAnswersForQuestion(question) {
+    const entry = PHRASES.find(text => text.startsWith(question + '\n'));
+    
+    if(!entry) {
+        cardState.repeatQueue = cardState.repeatQueue.filter((item) => item.question !== question);
+        
+        return null;
+    }
+    
+    return entry.split("\n").slice(1);
+}
 
 class CardState {
    stages = {
@@ -125,21 +141,10 @@ class CardState {
       if(!item) {
          item = {
             question: this.question,
-            answers: this.answers,
             stage: 0,
          }
 
          this.repeatQueue.push(item);
-
-         PHRASES = PHRASES.reduce((acc, text) => {
-            if(!text.startsWith(this.question + '\n')) {
-               acc.push(text);
-            } else {
-               console.log('----ITEM REMOVED FROM PHRASES------>');
-            }
-
-            return acc;
-         }, []);
       }
 
       item.showTime = Date.now();
@@ -154,12 +159,19 @@ class CardState {
       saveState();
    }
 
-   initNewQuestion() {
+   getNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
-      
-      [this.question, ...this.answers] = repeatItem
-          ? [repeatItem.question, ...repeatItem.answers]
-          : randomPhrase().split("\n");
+
+       if (repeatItem) {
+           this.question = repeatItem.question;
+           this.answers = getAnswersForQuestion(this.question);
+       } 
+       
+       if(!repeatItem || !this.answers) {
+           const parts = randomPhrase().split("\n");
+           this.question = parts[0] || '';
+           this.answers = parts.slice(1);
+       }
 
       $('#question').innerText = this.question;
       $('#answer').innerText = '';
@@ -182,7 +194,7 @@ class CardState {
       }
       
       if (this.answersForShow === 0 ) {
-         this.initNewQuestion();
+         this.getNewQuestion();
       } else {
          this.showAnswer();
 
