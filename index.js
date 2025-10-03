@@ -232,8 +232,8 @@ load().then( () => {
   // Always load PHRASES from the selected dictionary on startup
   if (dictionariesSelectEl.value) {
     initDictionary(dictionariesSelectEl.value).then(() => {
-      // If we already restored a question, do nothing. Otherwise start fresh.
-      if (!cardState || !cardState.question) {
+      // If we already restored any state, keep it; only create if none exists
+      if (!cardState) {
         cardState = new CardState();
         cardState.next();
         saveState();
@@ -262,8 +262,12 @@ load().then( () => {
           if (cardState.question) {
             $('#question').innerText = cardState.question;
             $('#answer').innerText = '';
-            return;
+          } else {
+            // No current question: keep restored queues; UI will generate on next action
+            $('#question').innerText = '';
+            $('#answer').innerText = '';
           }
+          return;
         } catch(e) { /* fall through to fresh start */ }
       }
 
