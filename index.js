@@ -28,6 +28,18 @@ async function load() {
    });
 }
 
+function getAnswersForQuestion(question) {
+  try {
+    if (!question) return [];
+    const entry = PHRASES.find(text => text.startsWith(question + '\n'));
+    if (!entry) return [];
+    const parts = entry.split("\n");
+    return parts.slice(1);
+  } catch(e) {
+    return [];
+  }
+}
+
 const STORAGE_NS = 'langtrainer_state_v2';
 const SELECTED_DICT_KEY = `${STORAGE_NS}:selected`;
 
@@ -43,9 +55,16 @@ function saveState() {
 
     const state = cardState ? {
       question: cardState.question,
-      answers: cardState.answers,
+      // do not persist answers; they will be rebuilt from dictionary
       answersForShow: cardState.answersForShow,
-      repeatQueue: cardState.repeatQueue
+      // persist only required fields for repeatQueue
+      repeatQueue: Array.isArray(cardState.repeatQueue)
+        ? cardState.repeatQueue.map(item => ({
+            question: item.question,
+            stage: item.stage,
+            showTime: item.showTime
+          }))
+        : []
     } : null;
 
     localStorage.setItem(getStateKey(dictFile), JSON.stringify(state));
@@ -74,7 +93,8 @@ function restoreState() {
 
     cardState = new CardState();
     cardState.question = state.question || '';
-    cardState.answers = Array.isArray(state.answers) ? state.answers : [];
+    // answers will be rebuilt after dictionary is loaded
+    cardState.answers = [];
     cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
     cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
 
@@ -135,7 +155,6 @@ class CardState {
       if(!item) {
          item = {
             question: this.question,
-            answers: this.answers,
             stage: 0,
          }
 
@@ -166,10 +185,14 @@ class CardState {
 
    initNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
-      
-      [this.question, ...this.answers] = repeatItem
-          ? [repeatItem.question, ...repeatItem.answers]
-          : randomPhrase().split("\n");
+      if (repeatItem) {
+         this.question = repeatItem.question;
+         this.answers = getAnswersForQuestion(this.question);
+      } else {
+         const parts = randomPhrase().split("\n");
+         this.question = parts[0] || '';
+         this.answers = parts.slice(1);
+      }
 
       $('#question').innerText = this.question;
       $('#answer').innerText = '';
@@ -236,7 +259,12 @@ load().then( () => {
       // If we already restored any state, keep it; only create if none exists
       if (!cardState) {
         cardState = new CardState();
-        cardState.next();
+        // if a question exists from restore, rebuild answers; otherwise start fresh
+        if (cardState.question) {
+          cardState.answers = getAnswersForQuestion(cardState.question);
+        } else {
+          cardState.next();
+        }
         saveState();
       }
     });
@@ -257,7 +285,8 @@ load().then( () => {
           const state = JSON.parse(raw);
           cardState = new CardState();
           cardState.question = state.question || '';
-          cardState.answers = Array.isArray(state.answers) ? state.answers : [];
+          // rebuild answers from dictionary
+          cardState.answers = getAnswersForQuestion(cardState.question);
           cardState.answersForShow = typeof state.answersForShow === 'number' ? state.answersForShow : 0;
           cardState.repeatQueue = Array.isArray(state.repeatQueue) ? state.repeatQueue : [];
           if (cardState.question) {
