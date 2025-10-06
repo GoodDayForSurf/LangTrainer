@@ -92,35 +92,41 @@ function getAnswersForQuestion(question) {
     return entry.split("\n").slice(1);
 }
 
+function shuffleQueue(queue) {
+    return queue.reduce((res, item) => {
+        if ( Math.random() > 0.5 ) {
+            res.push(item);
+        } else {
+            res = [item].concat(res);
+        }
+        return res;
+    }, []);
+}
+
+const stages = {
+    1: 5,
+    2: 25,
+    3: 120,
+    4: 600,
+    5: 3600 * 3,
+    6: 3600 * 10,
+    7: 3600 * 25,
+    8: 3600 * 24 * 3
+};
+
 class CardState {
-   stages = {
-      1: 5,
-      2: 25,
-      3: 120,
-      4: 600,
-      5: 3600 * 3,
-      6: 3600 * 10,
-      7: 3600 * 25,
-      8: 3600 * 24 * 3
-   };
+
    question = '';
    answers = [];
    answersForShow = 0;
    repeatQueue = [];
 
    getItemFromRepeatQueue() {
-      this.repeatQueue = this.repeatQueue.reduce((res, item) => {
-         if ( Math.random() > 0.5 ) {
-            res.push(item);
-         } else {
-            res = [item].concat(res);
-         }
-         return res;
-      }, []);
+      this.repeatQueue = shuffleQueue(this.repeatQueue);
 
       return this.repeatQueue.find(item => {
          const period = (Date.now() - item.showTime) / 1000;
-         return  period > this.stages[item.stage] || (period > 3600 * 24 * 7 && Math.random() > 0.5)
+         return  period > stages[item.stage] || (period > 3600 * 24 * 7 && Math.random() > 0.5)
       });
    }
 
@@ -140,7 +146,7 @@ class CardState {
 
       item.showTime = Date.now();
 
-      if ((Date.now() - item.showTime) / 1000 > 2 * this.stages[item.stage]) {
+      if ((Date.now() - item.showTime) / 1000 > 2 * stages[item.stage]) {
          return;
       }
 
