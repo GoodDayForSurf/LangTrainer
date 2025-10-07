@@ -204,11 +204,12 @@ class CardState {
 }
 
 async function initDictionary(path) {
-   const resp = await fetch(path);
-   
-   const DATA = await resp.text();
-   
-   PHRASES = DATA.split(/\n\r?\n\r?/);
+    const resp = await fetch(path);
+
+    const DATA = await resp.text();
+
+    PHRASES = DATA.split(/\n\r?\n\r?/);
+    document.querySelector('#dict-size').textContent = PHRASES.length;
 }
 
 load().then( () => {
