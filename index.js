@@ -154,6 +154,7 @@ class CardState {
 
       console.log('------addItemToRepeatQueue---->', item);
       saveState();
+      document.querySelector('#queue-size').textContent = cardState.repeatQueue.length;
    }
 
    getNewQuestion() {
