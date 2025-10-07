@@ -631,5 +631,5 @@ Al entrar en la sala, todos se callaron. // al + infinitivo - "когда...", "
 На сегодня все?
 ¿Eso es todo por hoy?
 
-Скольк времени это займет?
+Сколько времени это займет?
 ¿Cuánto tiempo va a tomar? / ¿Cuánto tiempo tomará? / ¿Cuánto tiempo va a tardar? // tardar - занимать время (наличие тут tiempo вроде как не лишне хотя можно и без него)
