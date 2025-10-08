@@ -118,6 +118,10 @@ const stages = {
     8: 3600 * 24 * 3
 };
 
+function getItemSecondsPeriod(item) {
+    return (Date.now() - item.showTime) / 1000;
+}
+
 class CardState {
 
    question = '';
@@ -128,10 +132,8 @@ class CardState {
    getItemFromRepeatQueue() {
       this.repeatQueue = shuffleQueue(this.repeatQueue);
 
-      return this.repeatQueue.find(item => {
-         const period = (Date.now() - item.showTime) / 1000;
-         return  period > stages[item.stage] || (period > 3600 * 24 * 7 && Math.random() > 0.5)
-      });
+      return  this.repeatQueue.find(item => getItemSecondsPeriod(item) > stages[item.stage]) 
+        || (Math.random() > 0.5 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
    addItemToRepeatQueue() {
