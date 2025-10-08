@@ -30,19 +30,23 @@ async function load() {
 const STORAGE_KEY = 'langtrainer_state_v1';
 
 function saveState() {
-  try {
-    const dictionariesSelectEl = $('#dictionaries-select');
-    const state = {
-      dictFile: dictionariesSelectEl.value,
-      cardState: cardState ? {
-        question: cardState.question,
-        repeatQueue: cardState.repeatQueue
-      } : null
-    };
-    localStorage.setItem(STORAGE_KEY + '-' + dictionariesSelectEl.value, JSON.stringify(state));
-  } catch (e) {
-    console.warn('Failed to save state', e);
-  }
+    if (!(cardState.repeatQueue?.length > 1)) {
+        return;
+    }
+    
+    try {
+        const dictionariesSelectEl = $('#dictionaries-select');
+        const state = {
+            dictFile: dictionariesSelectEl.value,
+            cardState: cardState ? {
+                question: cardState.question,
+                repeatQueue: cardState.repeatQueue
+            } : null
+        };
+        localStorage.setItem(STORAGE_KEY + '-' + dictionariesSelectEl.value, JSON.stringify(state));
+    } catch (e) {
+        console.warn('Failed to save state', e);
+    }
 }
 
 function restoreState() {
