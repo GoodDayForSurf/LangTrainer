@@ -442,7 +442,7 @@ Te deseo suerte y salud. // desear - желать
 Хочу пожелать тебе успеха и всего наилучшего
 Quiero desearte éxito y todo lo mejor.
 
-Я бы Хотел спросить тебя об одной вещи
+Я бы хотел спросить тебя об одной вещи
 Me gustaría preguntarte sobre una cosa.
 
 Мне нужно найти эту вещь
