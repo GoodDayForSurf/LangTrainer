@@ -132,7 +132,7 @@ class CardState {
    getItemFromRepeatQueue() {
       this.repeatQueue = shuffleQueue(this.repeatQueue);
 
-      return  this.repeatQueue.find(item => getItemSecondsPeriod(item) > stages[item.stage]) 
+      return  this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]) 
         || (Math.random() > 0.5 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
