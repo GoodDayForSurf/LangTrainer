@@ -164,18 +164,17 @@ class CardState {
    getNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
       
-     
-
        if (repeatItem) {
            this.question = repeatItem.question;
            this.answers = getAnswersForQuestion(this.question);
-           console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * 60)])
+           console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * (repeatItem.stage > 4 ? 60*60 : 60)), repeatItem.stage > 4 ? 'h : 'm''])
        } 
        
        if(!repeatItem || !this.answers) {
            const parts = randomPhrase().split("\n");
            this.question = parts[0] || '';
            this.answers = parts.slice(1);
+           console.log('----NEW-item for queue----->',this.question);
        }
 
       $('#question').innerText = this.question;
@@ -199,7 +198,6 @@ class CardState {
       
       if (this.answersForShow === 0 ) {
          this.getNewQuestion();
-         console.log('------getNewQuestion--found-->');
       } else {
          this.showAnswer();
 
