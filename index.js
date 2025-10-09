@@ -167,7 +167,7 @@ class CardState {
        if (repeatItem) {
            this.question = repeatItem.question;
            this.answers = getAnswersForQuestion(this.question);
-           console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * (repeatItem.stage > 4 ? 60*60 : 60)), repeatItem.stage > 4 ? 'h' : 'm'])
+           console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * (repeatItem.stage > 3 ? 60*60 : 60)), repeatItem.stage > 3 ? 'h' : 'm'])
        } 
        
        if(!repeatItem || !this.answers) {
