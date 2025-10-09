@@ -163,10 +163,13 @@ class CardState {
 
    getNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
+      
+     
 
        if (repeatItem) {
            this.question = repeatItem.question;
            this.answers = getAnswersForQuestion(this.question);
+           console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * 60)])
        } 
        
        if(!repeatItem || !this.answers) {
