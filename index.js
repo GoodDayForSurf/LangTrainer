@@ -202,6 +202,7 @@ class CardState {
 
          if(this.answersForShow === 0) {
             this.addItemToRepeatQueue();
+             console.log('------addItemToRepeatQueue--done-->');
          }
       }
    }
