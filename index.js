@@ -183,7 +183,6 @@ class CardState {
    }
 
    showAnswer() {
-      console.log('---showAnswer------->', [this.answers, this.answersForShow, this.answers.at(-this.answersForShow)])
       const [answer, comment] = this.answers.at(-this.answersForShow).split("//");
       $('#answer').innerHTML = `<div>${answer}</div>` + (comment ? `<comment>${comment || ''}</comment>` : '');
       this.answersForShow--;
@@ -197,6 +196,7 @@ class CardState {
       
       if (this.answersForShow === 0 ) {
          this.getNewQuestion();
+         console.log('------getNewQuestion--found-->');
       } else {
          this.showAnswer();
 
