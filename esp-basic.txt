@@ -625,11 +625,11 @@ Alguien me pide algo todos los días. // pedir - просить
 Cделай это! Открой окно и закрой дверь!
 ¡Hazlo! ¡Abre la ventana y cierra la puerta!
 
-Так как он много занимался, он сдал экзамен
+Благодаря усердным занятиям, он сдал экзамен
 Al estudiar mucho, aprobó el examen // al + infinitivo - "когда...", "так как...", "благодаря тому что..."
 
-Когда он вошёл в зал, все замолчали.
-Al entrar en la sala, todos se callaron. // al + infinitivo - "когда...", "так как...", "благодаря тому что..."
+Войдя в зал, все замолчали.
+Al entrar en la sala, todos se callaron. // al + infinitivo - "когда...", "так как...", "благодаря тому что..." (в этом случае неизвестно лицо, это должно быть понятно из контекста)
 
 На сегодня все?
 ¿Eso es todo por hoy?
