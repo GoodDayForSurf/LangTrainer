@@ -443,7 +443,7 @@ Me siento feliz y saludable // sentir(se) - чувствовать(себя)
 Te deseo suerte y salud. // desear - желать
 
 Хочу пожелать тебе успеха и всего наилучшего
-Quiero desearte éxito y todo lo mejor.
+Quiero desearte éxito y todo lo mejor. // артикль lo нужен для образования существительного: lo mejor - лучшее
 
 Я бы хотел спросить тебя об одной вещи
 Me gustaría preguntarte sobre una cosa.

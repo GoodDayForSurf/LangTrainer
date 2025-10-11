@@ -76,7 +76,7 @@ function restoreState() {
 function randomPhrase() {
    let phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
    
-   while(cardState.repeatQueue.find(({question}) => question == phrase.split("\n")[0])) {
+   while(cardState.repeatQueue.find(({question}) => question == phrase?.split("\n")[0])) {
        phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
    }
  
@@ -203,7 +203,6 @@ class CardState {
 
          if(this.answersForShow === 0) {
             this.addItemToRepeatQueue();
-             console.log('------addItemToRepeatQueue--done-->');
          }
       }
    }
