@@ -21,6 +21,17 @@ const dictionaries = [
 ]
 const $ = selector => document.querySelector(selector);
 
+const stages = {
+    1: 7,
+    2: 30,
+    3: 180,
+    4: 600,
+    5: 3600 * 3,
+    6: 3600 * 10,
+    7: 3600 * 25,
+    8: 3600 * 24 * 3
+};
+
 async function load() {
    window.addEventListener('beforeunload', () => {
       try { saveState(); } catch(e) {}
@@ -107,17 +118,6 @@ function shuffleQueue(queue) {
     }, []);
 }
 
-const stages = {
-    1: 5,
-    2: 25,
-    3: 120,
-    4: 600,
-    5: 3600 * 3,
-    6: 3600 * 10,
-    7: 3600 * 25,
-    8: 3600 * 24 * 3
-};
-
 function getItemSecondsPeriod(item) {
     return (Date.now() - item.showTime) / 1000;
 }
@@ -131,7 +131,7 @@ class CardState {
 
    getItemFromRepeatQueue() {
       return  this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]) 
-        || (Math.random() > 0.5 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
+        || (Math.random() > 0.6 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
    addItemToRepeatQueue() {
