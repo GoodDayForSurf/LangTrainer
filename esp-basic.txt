@@ -25,8 +25,8 @@ Ella me hace aprender (estudiar) español los viernes  // с днями неде
 Мой босс заставляет меня это делать.
 Mi jefe me obliga a (manda) hacerlo. // obligar - обязывать, mandar - заставлять, велеть, отправлять
 
-идет дождь и идет снег, жарко/солнечно/ветрено/холодно/
-llueve и nieva, hace calor/sol/viento/frio // hace + про погоду. Кроме дождя и снега
+идет дождь и идет снег, жарко/солнечно/ветрено/холодно
+llueve y nieva, hace calor/sol/viento/frio // hace + про погоду. Кроме дождя и снега
 
 Вчера небо было пасмурно(затянуто), а сегодня облачно
 Ayer el cielo estaba cubierto y hoy está nublado
@@ -110,7 +110,7 @@ Voy a empezar a hacer ejercicio temprano el lunes.
 No voy a hacerlo
 
 Я не собираюсь за это платить.
-No voy a pagar por ello.
+No voy a pagar por esto.
 
 Поезд прибыл на станцию с опозданием из-за плохой погоды.
 El tren llegó a la estación con retraso debido al mal tiempo.
@@ -523,7 +523,7 @@ Por supuesto, no quiero parar
 Мне нужно обменять деньги здесь
 Necesito cambiar dinero aquí.
 
-Хотел бы поблагодорить тебя за твою поддержку и советы
+Хотел бы поблагодарить тебя за твою поддержку и советы
 Me gustaría agradecerte por tu apoyo y consejos.
 
 У меня нет слов, чтобы выразить тебе свою благодарность.
@@ -639,3 +639,6 @@ Al entrar en la sala, todos se callaron. // al + infinitivo - "когда...", "
 
 Сегодня жарко и солнечно, вчера было холодно, ветрено и шел дождь, а позавчера шел снег
 Hoy hace calor y sol, ayer hacía frío, viento y llovía, y anteayer nevaba // llueve - идет дождь, nieva - идет снег
+
+Я приму это к сведению. Приду в другой раз
+Lo tendré en cuenta. Vendré en otra ocasión // tendré и vendré - формы будущего времени для tener(иметь) venir(приходить)
