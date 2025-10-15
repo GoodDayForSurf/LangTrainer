@@ -77,6 +77,15 @@ function restoreState() {
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
 
+      cardState.repeatQueue.forEach(({ question }) => {
+          const index = PHRASES.findIndex((p) => p.startsWith(question));
+
+          if (index !== -1) {
+              PHRASES.splice(index, 1)[0];
+          }
+          console.log('-----PHRASES----->', PHRASES);
+      });
+    
     return cardState;
   } catch (e) {
     console.warn('Failed to restore state', e);
