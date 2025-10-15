@@ -1,4 +1,6 @@
-let PHRASES = [];
+const PHRASES = [];
+let NEW_PHRASES = [];
+
 const dictionaries = [
   {
      name: "English", file: "eng.txt"
@@ -81,9 +83,10 @@ function restoreState() {
           const index = PHRASES.findIndex((p) => p.startsWith(question));
 
           if (index !== -1) {
-              PHRASES.splice(index, 1)[0];
+              NEW_PHRASES = [...PHRASES];
+              NEW_PHRASES.splice(index, 1)[0];
           }
-          console.log('-----PHRASES----->', PHRASES);
+          console.log('-----PHRASES----->', NEW_PHRASES);
       });
     
     return cardState;
@@ -94,12 +97,8 @@ function restoreState() {
 }
 
 function randomPhrase() {
-   let phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
+   let phrase = NEW_PHRASES.length ? NEW_PHRASES[Math.round(Math.random() * (PHRASES.length - 1))] : null;
    
-   while(cardState.repeatQueue.find(({question}) => question == phrase?.split("\n")[0])) {
-       phrase = PHRASES[Math.round(Math.random() * PHRASES.length)];
-   }
- 
    return phrase;
 }
 let cardState;
@@ -139,7 +138,11 @@ class CardState {
    repeatQueue = [];
 
    getItemFromRepeatQueue() {
-      return  this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]) 
+       if (NEW_PHRASES.length === 0) {
+           return this.repeatQueue[Math.round(this.repeatQueue.length * Math.random()) - 1];
+       }
+       
+      return this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]) 
         || (Math.random() > 0.6 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
@@ -180,10 +183,14 @@ class CardState {
        } 
        
        if(!repeatItem || !this.answers) {
-           const parts = randomPhrase().split("\n");
-           this.question = parts[0] || '';
-           this.answers = parts.slice(1);
-           console.log('----NEW-item for queue----->',this.question);
+           const parts = randomPhrase()?.split("\n");
+           
+           if(parts) {
+               this.question = parts[0] || '';
+               this.answers = parts.slice(1);
+               console.log('----NEW-item for queue----->',this.question);
+           }
+           
        }
 
       $('#question').innerText = this.question;
@@ -201,7 +208,7 @@ class CardState {
    }
 
    next(){
-      if(PHRASES.length < 1) {
+      if(NEW_PHRASES.length < 1) {
          return
       }
       
