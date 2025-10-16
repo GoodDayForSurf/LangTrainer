@@ -229,7 +229,7 @@ async function initDictionary(path) {
 
     const DATA = await resp.text();
 
-    PHRASES = DATA.split(/\n\r?\n\r?/);
+    PHRASES.push(...DATA.split(/\n\r?\n\r?/));
     document.querySelector('#dict-size').textContent = PHRASES.length;
 }
 
