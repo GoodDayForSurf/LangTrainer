@@ -1,4 +1,4 @@
-const PHRASES = [];
+let PHRASES = [];
 let NEW_PHRASES = [];
 
 const dictionaries = [
@@ -229,7 +229,7 @@ async function initDictionary(path) {
 
     const DATA = await resp.text();
 
-    PHRASES.push(...DATA.split(/\n\r?\n\r?/));
+    PHRASES = DATA.split(/\n\r?\n\r?/);
     document.querySelector('#dict-size').textContent = PHRASES.length;
 }
 
