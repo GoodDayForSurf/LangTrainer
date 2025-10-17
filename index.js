@@ -141,10 +141,15 @@ class CardState {
            return this.repeatQueue[Math.round(this.repeatQueue.length * Math.random()) - 1];
        }
        
-      const item = this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
+      let item = this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
 
+       if (!item) {
+           item = (Math.random() > 0.6 && shuffleQueue(this.repeatQueue).find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4));
+           
+           item && console.log('---------Random from queue--->');
+       }
+       
        return item 
-         || (Math.random() > 0.6 && shuffleQueue(this.repeatQueue).find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
    addItemToRepeatQueue() {
