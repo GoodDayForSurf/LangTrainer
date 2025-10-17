@@ -86,9 +86,8 @@ function restoreState() {
           if (index !== -1) {
               NEW_PHRASES.splice(index, 1)[0];
           }
-          console.log('-----PHRASES----->', NEW_PHRASES);
       });
-    
+    console.log('-----PHRASES----->', NEW_PHRASES);
     return cardState;
   } catch (e) {
     console.warn('Failed to restore state', e);
@@ -142,8 +141,10 @@ class CardState {
            return this.repeatQueue[Math.round(this.repeatQueue.length * Math.random()) - 1];
        }
        
-      return this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]) 
-        || (Math.random() > 0.6 && this.repeatQueue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
+      const item = this.repeatQueue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
+
+       return item 
+         || (Math.random() > 0.6 && shuffleQueue(this.repeatQueue).find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4))
    }
 
    addItemToRepeatQueue() {
