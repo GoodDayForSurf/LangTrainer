@@ -78,12 +78,12 @@ function restoreState() {
       cardState.answersForShow = 0;
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
-
+      NEW_PHRASES = [...PHRASES];
+    
       cardState.repeatQueue.forEach(({ question }) => {
           const index = PHRASES.findIndex((p) => p.startsWith(question));
 
           if (index !== -1) {
-              NEW_PHRASES = [...PHRASES];
               NEW_PHRASES.splice(index, 1)[0];
           }
           console.log('-----PHRASES----->', NEW_PHRASES);
