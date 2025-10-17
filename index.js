@@ -81,13 +81,13 @@ function restoreState() {
       NEW_PHRASES = [...PHRASES];
     
       cardState.repeatQueue.forEach(({ question }) => {
-          const index = PHRASES.findIndex((p) => p.startsWith(question));
+          const index = NEW_PHRASES.findIndex((p) => p.startsWith(question));
 
           if (index !== -1) {
               NEW_PHRASES.splice(index, 1)[0];
           }
       });
-    console.log('-----PHRASES----->', NEW_PHRASES);
+    console.log('-----NEW_PHRASES----->', NEW_PHRASES);
     return cardState;
   } catch (e) {
     console.warn('Failed to restore state', e);
