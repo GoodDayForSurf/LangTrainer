@@ -96,7 +96,7 @@ function restoreState() {
 }
 
 function randomPhrase() {
-   let phrase = NEW_PHRASES.length ? NEW_PHRASES[Math.round(Math.random() * (PHRASES.length - 1))] : null;
+   let phrase = NEW_PHRASES.length ? NEW_PHRASES[Math.round(Math.random() * (NEW_PHRASES.length - 1))] : null;
    
    return phrase;
 }
