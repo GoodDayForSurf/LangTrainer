@@ -220,10 +220,6 @@ class CardState {
    }
 
    next(){
-      if(NEW_PHRASES.length < 1) {
-         return
-      }
-      
       if (this.answersForShow === 0 ) {
          this.getNewQuestion();
       } else {
