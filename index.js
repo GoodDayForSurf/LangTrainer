@@ -96,10 +96,14 @@ function restoreState() {
 }
 
 function randomPhrase() {
-   let phrase = NEW_PHRASES.length ? NEW_PHRASES[Math.round(Math.random() * (NEW_PHRASES.length - 1))] : null;
-   
-   return phrase;
+    const index = Math.round(Math.random() * (NEW_PHRASES.length - 1));
+    const phrase = NEW_PHRASES.length ? NEW_PHRASES[index] : null;
+
+    NEW_PHRASES.splice(index, 1);
+    
+    return phrase;
 }
+
 let cardState;
 
 function getAnswersForQuestion(question) {
@@ -138,6 +142,7 @@ class CardState {
 
    getItemFromRepeatQueue() {
        const queue = shuffleQueue(this.repeatQueue);
+       
        if (NEW_PHRASES.length === 0) {
            return queue[Math.round(queue.length * Math.random()) - 1];
        }
