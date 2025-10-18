@@ -352,9 +352,6 @@ Acabo de llegar // acabar de + inf - закончить что то делать
 Я зарабатываю достаточно денег
 Gano bastante dinero
 
-Я тебе не верю
-No te creo
-
 Я верю что важно знать это
 Creo que es importante saberlo.
 
@@ -458,7 +455,7 @@ Te haré saber cuando tenga tiempo // Te haré saber - устойчивое вы
 Le doy un poco de tiempo para pensar en todo. // после un poco обязательно de если речь о неисчисляемом существительном (вода, деньги, время)
 
 Я заканчиваю работать в среду в семь часов вечера 
-Termino de trabajar el miércoles a las siete de la tarde.. // de всегда после terminar если за ним глагол т.е. terminar de + глагол
+Termino de trabajar el miércoles a las siete de la tarde // de всегда после terminar если за ним глагол т.е. terminar de + глагол
 
 Я заканчиваю отдыхать и начинаю играть в теннис.
 Termino de descansar y empiezo a jugar al tenis.
@@ -487,8 +484,14 @@ Ella va a la oficina a pie, normalmente. Pero a veces, va en coche porque es má
 Из Бильбао в Сан-Себастьян есть автобус который отправляется каждый день в 8:00.
 De Bilbao a San Sebastián, hay un autobús que sale cada día a las 8:00
 
-Я тебе не верю! Ты мне врёшь! Почему ты смеёшься?
-¡No te creo! ¡Me estás mintiendo! ¿Por qué te estás riendo?
+Я тебе не верю!
+¡No te creo!
+
+Ты мне врёшь!
+¡Me estás mintiendo!
+
+Почему ты смеёшься?
+¿Por qué te estás riendo?
 
 Чтобы сдать экзамен, вам придется больше заниматься.
 Para aprobar el examen, tú tienes que estudiar más.

@@ -145,7 +145,6 @@ class CardState {
        
       let item = queue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
 
-
        if (!item) {
            if (NEW_PHRASES.length === 0) {
                console.log('-------QUEUE END--Random from queue--->');
