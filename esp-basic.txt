@@ -481,17 +481,17 @@ Ayer fui a la playa con mis compañeros de clase. // fui — это прошед
 Обычно она добирается до офиса пешком. Но иногда ездит на машине, потому что так удобнее.
 Ella va a la oficina a pie, normalmente. Pero a veces, va en coche porque es más cómodo
 
-Из Бильбао в Сан-Себастьян есть автобус который отправляется каждый день в 8:00.
-De Bilbao a San Sebastián, hay un autobús que sale cada día a las 8:00
+Из Бильбао в Сан-Себастьян есть автобус который отправляется каждый день в восемь.
+De Bilbao a San Sebastián, hay un autobús que sale cada día a las ocho
 
 Я тебе не верю!
 ¡No te creo!
 
 Ты мне врёшь!
-¡Me estás mintiendo!
+¡Me estás mintiendo! // mentir - лгать. miento/mientes/miente/mienten - лгу/лжешь/лжет/лгут. Estás mintiendo - ты лжешь
 
 Почему ты смеёшься?
-¿Por qué te estás riendo?
+¿Por qué te estás riendo? // reírse - смеятся. Так сложилось что считается возвратным глаголом поэтому тут "te"
 
 Чтобы сдать экзамен, вам придется больше заниматься.
 Para aprobar el examen, tú tienes que estudiar más.
@@ -517,7 +517,7 @@ Entreno mi memoria haciendo estos ejercicios difíciles
 Мне нравиться прогуливаться в парке
 Me gusta pasear por el parque
 
-конечно, я не хочу останавливаться
+Конечно, я не хочу останавливаться
 Por supuesto, no quiero parar
 
 Мне нужно обменять деньги здесь
