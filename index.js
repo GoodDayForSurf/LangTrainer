@@ -66,6 +66,8 @@ function restoreState() {
   try {
     const dictFileName = $('#dictionaries-select').value;
     const raw = localStorage.getItem(STORAGE_KEY + '-' + dictFileName);
+    NEW_PHRASES = [...PHRASES];
+      
     cardState = new CardState();
     
     if (!raw) return cardState;
@@ -78,7 +80,6 @@ function restoreState() {
       cardState.answersForShow = 0;
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
-      NEW_PHRASES = [...PHRASES];
     
       cardState.repeatQueue.forEach(({ question }) => {
           const index = NEW_PHRASES.findIndex((p) => p.startsWith(question));
