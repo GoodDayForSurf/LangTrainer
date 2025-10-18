@@ -143,16 +143,18 @@ class CardState {
    getItemFromRepeatQueue() {
        const queue = shuffleQueue(this.repeatQueue);
        
-       if (NEW_PHRASES.length === 0) {
-           return queue[Math.round(queue.length * Math.random()) - 1];
-       }
-       
       let item = queue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
 
+
        if (!item) {
-           item = (Math.random() > 0.6 && queue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4));
-           
-           item && console.log('---------Random from queue--->');
+           if (NEW_PHRASES.length === 0) {
+               console.log('-------QUEUE END--Random from queue--->');
+               return queue[Math.round(queue.length * Math.random()) - 1];
+           } else {
+               item = (Math.random() > 0.6 && queue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4));
+
+               item && console.log('---------Random from queue--->');
+           }
        }
        
        return item 
