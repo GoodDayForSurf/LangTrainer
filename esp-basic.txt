@@ -214,8 +214,8 @@ Prefiero hacerlo asi
 Мне нравятся эти дешевые ложки и вилки
 Me gustan estas cucharas y tenedores baratos.
 
-Мне нужно купить эту квартиру как можно быстрее
-Necesito comprar este apartamento lo antes (mas pronto) posible.
+Мне нужно купить эту квартиру как можно раньше
+Necesito comprar este apartamento lo antes posible // грамматически тут "lo" формирует из "antes posible" существительное которые отвечает на вопрос "когда"
 
 Я понимаю что могу это сделать
 Entiendo que puedo hacer esto.
@@ -239,10 +239,10 @@ Empiezo a entender cómo hacer esto. // empezar всегда требует пр
 Empezó a llover justo cuando salimos // justo cuando - как раз когда
 
 Я готовлюсь к поездке в другую страну
-Me preparo para un viaje a otro país.
+Me preparo para un viaje a otro país
 
-Я готовлюсь к этому тесту
-Me preparo para esta prueba.
+Я уже очень долго готовлюсь к этому тесту
+Llevo preparando este prueba desde hace mucho tiempo
 
 Я считаю это невозможным
 Lo considero imposible
