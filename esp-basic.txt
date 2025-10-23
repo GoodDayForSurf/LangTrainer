@@ -642,3 +642,9 @@ Hoy hace calor y sol, ayer hacía frío, viento y llovía, y anteayer nevaba // 
 
 Я приму это к сведению. Приду в другой раз
 Lo tendré en cuenta. Vendré en otra ocasión // tendré и vendré - формы будущего времени для tener(иметь) venir(приходить)
+
+Я в этом не уверен
+No estoy seguro de eso
+
+Боюсь, что ты прав
+Me temo que tienes razón
