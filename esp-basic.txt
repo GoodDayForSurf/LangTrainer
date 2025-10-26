@@ -654,3 +654,40 @@ Alguien lo ha olvidado
 
 Мне нужно аналогичное устройство
 Necesito un dispositivo similar
+
+Могу я оставить это тут?
+¿Puedo dejar esto aquí?
+
+Сосед(ка)
+Vecino(a)
+
+Коридор
+Pasillo
+
+Пол, потолок и стена
+Suelo, techo y pared
+
+Шкаф и зекало
+Armario y espejo
+
+Ковер и занавеска
+Alfombra y cortina
+
+Плита, духовка и микроволновка
+Estufa, Horno y Microondas
+
+Страшно
+Asustado / Asustada
+
+Смелый
+Valiente
+
+Ненависть и гнев
+Odio y enojo // Enojo — злость, раздражение, гнев
+
+Я отправил вам документы в последнем сообщении
+Te envié los documentos en el último mensaje. // enviar - отправлять
+
+
+
+
