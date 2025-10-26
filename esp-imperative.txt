@@ -13,7 +13,7 @@ Pon el libro en la mesa
 Выйди отсюда
 Sal de aquí
 
-Возьми зонт
+Возьми зонт, будет дождь
 Lleva el paraguas, va a llover // Lleva — повелительная форма от llevar («взять с собой», «носить»)
 
 Приходи пораньше
