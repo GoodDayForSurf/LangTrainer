@@ -661,8 +661,8 @@ Necesito un dispositivo similar
 Сосед(ка)
 Vecino(a)
 
-Коридор
-Pasillo
+Прихожая и коридор
+Entrada y pasillo
 
 Пол, потолок и стена
 Suelo, techo y pared
@@ -676,7 +676,7 @@ Alfombra y cortina
 Плита, духовка и микроволновка
 Estufa, Horno y Microondas
 
-Страшно
+Испуганный(ая)
 Asustado / Asustada
 
 Смелый
@@ -688,6 +688,23 @@ Odio y enojo // Enojo — злость, раздражение, гнев
 Я отправил вам документы в последнем сообщении
 Te envié los documentos en el último mensaje. // enviar - отправлять
 
+Почему ты ничего не принес?
+¿Por qué no trajiste nada?
+
+Я забыл принести документы
+Olvidé traer los documentos // traer - приносить
+
+Принеси мне одеяло.
+Tráeme una manta. // traer - приносить
+
+Это единственный размер
+Es la única talla // la talla - размер одежды, le tamaño - габаритный размер
+
+Где я могу взвесить овощи? - Весы находятся рядом с прилавком
+Donde puedo pesar las verduras? - La balanza esta al lado del mostrador
+
+широкий / узкий
+ancho / estrecho 
 
 
 
