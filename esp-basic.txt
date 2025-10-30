@@ -706,5 +706,9 @@ Donde puedo pesar las verduras? - La balanza esta al lado del mostrador
 широкий / узкий
 ancho / estrecho 
 
+Я сегодня уже пробовал это подключить, но сайт не работает
+Hoy ya he intentado conectarlo, pero la página no funciona
 
+Они вчера пробовали это сделать, но у них не получилось
+Ayer intentaron hacerlo, pero no lo lograron // lograr — добиваться, удаваться. Можно сказать более разговорно: no les salió - им не вышло (salir - выходить)
 
