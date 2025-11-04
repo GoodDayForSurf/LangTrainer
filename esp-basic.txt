@@ -647,7 +647,7 @@ Lo tendré en cuenta. Vendré en otra ocasión // tendré и vendré - форм�
 No estoy seguro de eso
 
 Боюсь, что ты прав
-Me temo que tienes razón
+Me temo que tienes razón // temer - бояться
 
 Кто то это забыл
 Alguien lo ha olvidado
@@ -665,7 +665,7 @@ Vecino(a)
 Entrada y pasillo
 
 Пол, потолок и стена
-Suelo, techo y pared
+Suelo, techo y pared // suelo - пол, грунт, а так же форма 1-го лица гл. soler - иметь обыкновение, напр: suelo ir allí = я обычно хожу туда
 
 Шкаф и зекало
 Armario y espejo
