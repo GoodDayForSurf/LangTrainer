@@ -14,6 +14,9 @@ const dictionaries = [
     {
         name: "Spanish imperative", file: "esp-imperative.txt"
     },
+    {
+        name: "Spanish B1 phrases", file: "esp-b1-phrases.txt"
+    },
    {
       name: "Spanish advanced", file: "esp-adv.txt"
    },
