@@ -346,7 +346,7 @@ Llevo viviendo aqui mucho tiempo // llevar = нести/носить/иметь 
 Он носит очки
 Lleva gafas  // llevar = нести/носить/иметь при себе/вести/продолжать
 
-Я (только что) пришёл
+Я (только что) прибыл
 Acabo de llegar // acabar de + inf - закончить что то делать только что
 
 Я зарабатываю достаточно денег
@@ -711,3 +711,24 @@ Hoy ya he intentado conectarlo, pero la página no funciona
 
 Они вчера пробовали это сделать, но у них не получилось
 Ayer intentaron hacerlo, pero no lo lograron // lograr — добиваться, удаваться. Можно сказать более разговорно: no les salió - им не вышло (salir - выходить)
+
+Тянуть и толкать
+tirar y empujar
+
+Потяни за веревку
+Tira de la cuerda // tira - императивная форма гл. tirar
+
+Не толкайся
+No empujes // empujes - субхутиво от empujar. В отрицательом императиве используется subjuntivo
+
+Хватит! Мне не приятно
+¡Basta! No me gusta // bastar - хватать, быть достаточным 
+
+Прекрати! мне не комфортно
+¡Para! Me siento incómodo(a) // parar - прекращать, останавливаться
+
+Хватит кричать!
+¡Basta de gritar!
+
+Остановись на минуту и подумай
+Detente un momento y piensa // detener(se) — останавливаться, притормаживать (не так резко по смыслу как parar) так же используется в смысле "задерживать" нарушителя
