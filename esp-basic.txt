@@ -518,7 +518,7 @@ Entreno mi memoria haciendo estos ejercicios difíciles
 Me gusta pasear por el parque
 
 Конечно, я не хочу останавливаться
-Por supuesto, no quiero parar
+Por supuesto, no quiero parar // parar - прекращать, останавливаться
 
 Мне нужно обменять деньги здесь
 Necesito cambiar dinero aquí.
@@ -649,8 +649,8 @@ No estoy seguro de eso
 Боюсь, что ты прав
 Me temo que tienes razón // temer - бояться
 
-Кто то это забыл
-Alguien lo ha olvidado
+Кто-то это оставил (забыл) тут
+Alguien se lo ha dejado aqui // dejar - оставлять. dejar(se) algo - забыть что-то. Можно сказать и olvidado (без se)
 
 Мне нужно аналогичное устройство
 Necesito un dispositivo similar
@@ -721,14 +721,22 @@ Tira de la cuerda // tira - императивная форма гл. tirar
 Не толкайся
 No empujes // empujes - субхутиво от empujar. В отрицательом императиве используется subjuntivo
 
-Хватит! Мне не приятно
-¡Basta! No me gusta // bastar - хватать, быть достаточным 
-
+Хватит! Мне не нравиться
+¡Basta! No me gusta // basta императивная форма гл. bastar - хватать, быть достаточным.
 Прекрати! мне не комфортно
 ¡Para! Me siento incómodo(a) // parar - прекращать, останавливаться
 
 Хватит кричать!
-¡Basta de gritar!
+¡Basta de gritar! // basta de + инф - хватит что-то делать. basta con + ... - достаточно того, что бы .. напр.: basta con decir la verdad - достаточно сказать правду
 
 Остановись на минуту и подумай
 Detente un momento y piensa // detener(se) — останавливаться, притормаживать (не так резко по смыслу как parar) так же используется в смысле "задерживать" нарушителя
+
+Он не внёс деньги на счёт, а наоборот, всё снял
+No ingresó dinero en su cuenta, sino que lo retiró todo // ingresar - войти, поступить (в организацию), внести (дньги). sino - а, а не, а наоборот (но в протиопоставлении)
+
+Я не стал работать, а занялся учёбой
+No me puse a trabajar, sino a estudiar // puse - стал (pretérito indefinido форма гл. poner). sino - а, а не, а наоборот (но в протиопоставлении)
+
+Он боялся, но всё-таки вошёл в здание
+Tenía miedo, sin embargo entró en el edificio // sin embargo - тем не менее, однако. Tenía - форма retérito imperfecto (состояние в прошлом) гл. tener - иметь;
