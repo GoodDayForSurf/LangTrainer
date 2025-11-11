@@ -86,14 +86,23 @@ function restoreState() {
       cardState.answersForShow = 0;
       cardState.repeatQueue = Array.isArray(state.cardState.repeatQueue) ? state.cardState.repeatQueue : [];
     }
-    
-      cardState.repeatQueue.forEach(({ question }) => {
+    const cleanedRepeatQueue = [];
+      cardState.repeatQueue.forEach((repeatItem) => {
+          const { question } = repeatItem;
           const index = NEW_PHRASES.findIndex((p) => p.startsWith(question));
+          
+          if(!PHRASES.find((p) => p.startsWith(question))) {
+              cleanedRepeatQueue.push(repeatItem)
+          }
 
           if (index !== -1) {
               NEW_PHRASES.splice(index, 1)[0];
           }
       });
+
+
+      cardState.repeatQueue = cleanedRepeatQueue;
+      
     console.log('-----NEW_PHRASES----->', NEW_PHRASES);
     return cardState;
   } catch (e) {

@@ -723,6 +723,7 @@ No empujes // empujes - субхутиво от empujar. В отрицатель
 
 Хватит! Мне не нравиться
 ¡Basta! No me gusta // basta императивная форма гл. bastar - хватать, быть достаточным.
+
 Прекрати! мне не комфортно
 ¡Para! Me siento incómodo(a) // parar - прекращать, останавливаться
 
@@ -733,10 +734,19 @@ No empujes // empujes - субхутиво от empujar. В отрицатель
 Detente un momento y piensa // detener(se) — останавливаться, притормаживать (не так резко по смыслу как parar) так же используется в смысле "задерживать" нарушителя
 
 Он не внёс деньги на счёт, а наоборот, всё снял
-No ingresó dinero en su cuenta, sino que lo retiró todo // ingresar - войти, поступить (в организацию), внести (дньги). sino - а, а не, а наоборот (но в протиопоставлении)
+No ingresó dinero en su cuenta, sino que lo retiró todo // ingresar - войти, поступить (в организацию), внести (дньги). sino - а, а не, а наоборот (но в протиопоставлении, только после отрицания)
 
 Я не стал работать, а занялся учёбой
 No me puse a trabajar, sino a estudiar // puse - стал (pretérito indefinido форма гл. poner). sino - а, а не, а наоборот (но в протиопоставлении)
 
 Он боялся, но всё-таки вошёл в здание
 Tenía miedo, sin embargo entró en el edificio // sin embargo - тем не менее, однако. Tenía - форма retérito imperfecto (состояние в прошлом) гл. tener - иметь;
+
+пустой/полный
+vacío/lleno
+
+Внезапно начался дождь
+De repente empezó a llover // De repente  - внезапно (букв. "из внезапности" т.к. repente - сущ. внезапность, неожиданность)
+
+Он вдруг остановился
+Se detuvo de repente // detuvo - detener - останавливаться (в форме pretérito indefinido)   
