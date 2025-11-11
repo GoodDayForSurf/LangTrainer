@@ -89,9 +89,9 @@ function restoreState() {
     const cleanedRepeatQueue = [];
       cardState.repeatQueue.forEach((repeatItem) => {
           const { question } = repeatItem;
-          const index = NEW_PHRASES.findIndex((p) => p.startsWith(question));
+          const index = NEW_PHRASES.findIndex((p) => p.startsWith(question + '\n'));
           
-          if(!PHRASES.find((p) => p.startsWith(question))) {
+          if(PHRASES.find((p) => p.startsWith(question +'\n'))) {
               cleanedRepeatQueue.push(repeatItem)
           }
 
