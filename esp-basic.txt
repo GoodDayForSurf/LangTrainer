@@ -716,7 +716,7 @@ Ayer intentaron hacerlo, pero no lo lograron // lograr — добиваться,
 tirar y empujar
 
 Потяни за веревку
-Tira de la cuerda // tira - императивная форма гл. tirar
+Tira de la cuerda // tira - императивная форма гл. tirar. Tirar - по смыслу "прилагать силу" не важно в каком направлении. Tirar de - тянуть, tirar - бросать, стрелять
 
 Не толкайся
 No empujes // empujes - субхутиво от empujar. В отрицательом императиве используется subjuntivo
@@ -749,4 +749,10 @@ vacío/lleno
 De repente empezó a llover // De repente  - внезапно (букв. "из внезапности" т.к. repente - сущ. внезапность, неожиданность)
 
 Он вдруг остановился
-Se detuvo de repente // detuvo - detener - останавливаться (в форме pretérito indefinido)   
+Se detuvo de repente // detuvo - detener - останавливаться (в форме pretérito indefinido)
+
+Не лезь в мои дела
+No te metas en mis asuntos // meter - помещать внутрь, класть, засовывать, вставлять. asunto - дело, вопрос, тема, ситуация, предмет разговора, проблема
+
+Он засунул руки в карманы, потому что было холодно
+Metió las manos en los bolsillos porque hacía frío // meter - помещать внутрь, класть, засовывать, вставлять
