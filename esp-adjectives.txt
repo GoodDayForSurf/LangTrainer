@@ -39,3 +39,6 @@ saciante
 
 приторный
 empalagoso
+
+ароматный
+oloroso
