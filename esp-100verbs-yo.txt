@@ -151,7 +151,7 @@ permitir
 появляться
 aparecer – aparezco, aparecí
 
-достигать
+добиваться
 conseguir – consigo, conseguí
 
 начинать
@@ -169,8 +169,8 @@ necesitar
 поддерживать
 mantener – mantengo, mantuve
 
-оказываться
-resultar – resulto, resulté, resultaba, resultaré, resultaría, resulte, resultara/resultase
+оказываться, выясняться
+resultar
 
 читать
 leer – leo, leí
