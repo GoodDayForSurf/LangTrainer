@@ -1,356 +1,308 @@
 быть
-ser – soy, fui, era
+ser – soy, fui, era // Soy profesor – Я учитель
 
 находиться (быть где-то, находиться в каком-то состоянии)
-estar – estoy, estuve, estaba
+estar – estoy, estuve, estaba // Estoy en casa – Я дома
 
 иметь
-tener – tengo, tuve, tenía
+tener – tengo, tuve, tenía // Tengo dos hijos – У меня двое детей
 
 делать
-hacer – hago, hice, hacía, haré
+hacer – hago, hice, hacía, haré // Hice la tarea – Я сделал домашнее задание
 
 мочь
-poder – puedo, pude
+poder – puedo, pude // No puedo venir – Я не могу прийти
 
 сказать
-decir – digo, dije, decía
+decir – digo, dije, decía // Dije la verdad – Я сказал правду
 
 идти
-ir – voy, fui, iba
+ir – voy, fui, iba // Voy al trabajo – Я иду на работу
 
 видеть
-ver – veo, vi
+ver – veo, vi // Vi la película – Я посмотрел фильм
 
 давать
-dar – doy, di, daba
+dar – doy, di, daba // Te doy mi palabra – Я даю тебе слово
 
-знать (какое то событие)
-saber – sé, supe, sabía
+знать (какое-то событие)
+saber – sé, supe, sabía // Supe la noticia ayer – Я узнал новость вчера
 
 хотеть
-querer – quiero, quise
+querer – quiero, quise // Quiero aprender español – Я хочу выучить испанский
 
 прибывать (в место)
-llegar – llego, llegué
+llegar – llego, llegué // Llegué tarde – Я приехал поздно
 
 проходить
-pasar – paso, pasé
+pasar – paso, pasé // Pasé el examen – Я сдал экзамен
 
 быть должным
-deber
+deber // Debo estudiar más – Я должен больше учиться
 
 класть
-poner – pongo, puse, ponía
+poner – pongo, puse, ponía // Puse el libro en la mesa – Я положил книгу на стол
 
 казаться
-parecer – parezco, parecí
+parecer – parezco, parecí // Me parece bien – Мне кажется, это нормально
 
 оставаться
-quedar – quedo, quedé
+quedar – quedo, quedé // Me quedé en casa – Я остался дома
 
 верить
-creer
+creer // Creo en ti – Я верю в тебя
 
 говорить
-hablar
+hablar // Hablo español – Я говорю по-испански
 
 носить
-llevar
+llevar // Llevo gafas – Я ношу очки
 
 оставлять
-dejar
+dejar // Dejé el trabajo – Я оставил работу
 
 следовать
-seguir
+seguir // Sigo adelante – Я продолжаю идти вперёд
 
 находить
-encontrar – encuentro, encontré
+encontrar – encuentro, encontré // Encontré las llaves – Я нашёл ключи
 
 звать, называть
-llamar
+llamar // Me llamo Juan – Меня зовут Хуан
 
 приходить
-venir – vengo, vine
+venir – vengo, vine // Vine temprano – Я пришёл рано
 
 думать
-pensar – pienso, pensé
+pensar – pienso, pensé // Pienso en ti – Я думаю о тебе
 
 выходить
-salir – salgo, salí
+salir – salgo, salí // Salí temprano – Я вышел рано
 
 возвращаться
-volver – vuelvo, volví
+volver – vuelvo, volví // Volví ayer – Я вернулся вчера
 
 брать
-tomar
+tomar // Tomé un café – Я выпил кофе
 
-знать (быть знакомым c чем/кем то)
-conocer – conozco, conocí
+знать (быть знакомым)
+conocer – conozco, conocí // Conozco Madrid – Я знаю Мадрид
 
 жить
-vivir
+vivir // Vivo en España – Я живу в Испании
 
 чувствовать
-sentir – siento, sentí
+sentir – siento, sentí // Siento frío – Мне холодно
 
 пытаться
-tratar – trato, traté
+tratar – trato, traté // Traté de ayudar – Я попытался помочь
 
 смотреть
-mirar
+mirar // Miro la televisión – Я смотрю телевизор
 
 считать, рассказывать
-contar – cuento, conté
+contar – cuento, conté // Te cuento la historia – Я рассказываю тебе историю
 
 начинать
-empezar – empiezo, empecé
+empezar – empiezo, empecé // Empecé a trabajar – Я начал работать
 
 ждать
-esperar
+esperar // Espero tu respuesta – Я жду твоего ответа
 
 искать
-buscar – busco, busqué
+buscar – busco, busqué // Busqué el teléfono – Я искал телефон
 
 входить
-entrar
+entrar // Entré en la habitación – Я вошёл в комнату
 
 работать
-trabajar
+trabajar // Trabajo mucho – Я много работаю
 
 писать
-escribir
+escribir // Escribí una carta – Я написал письмо
 
 терять
-perder – pierdo, perdí
+perder – pierdo, perdí // Perdí el dinero – Я потерял деньги
 
 производить
-producir – produzco, produje
+producir – produzco, produje // La empresa produjo coches – Компания произвела автомобили
 
 происходить (о событии)
-ocurrir
+ocurrir // Ocurrió un accidente – Произошла авария
 
 понимать (язык, значение)
-entender – entiendo, entendí
+entender – entiendo, entendí // Entiendo español – Я понимаю испанский
 
 просить
-pedir
+pedir // Pedí ayuda – Я попросил помощи
 
-получать (что-то)
-recibir
+получать
+recibir // Recibí un mensaje – Я получил сообщение
 
 помнить
-recordar – recuerdo, recordé
+recordar – recuerdo, recordé // Recuerdo ese día – Я помню тот день
 
 заканчивать
-terminar
+terminar // Terminé el trabajo – Я закончил работу
 
 позволять
-permitir
+permitir // No me permiten entrar – Мне не позволяют войти
 
 появляться
-aparecer – aparezco, aparecí
+aparecer – aparezco, aparecí // Apareció de repente – Он внезапно появился
 
 добиваться
-conseguir – consigo, conseguí
+conseguir – consigo, conseguí // Conseguí el objetivo – Я достиг цели
 
 начинать
-comenzar – comienzo, comencé
+comenzar – comienzo, comencé // Comencé el proyecto – Я начал проект
 
 служить
-servir
+servir // Sirve para aprender – Это служит для обучения
 
 вынимать, извлекать
-sacar – saco, saqué
+sacar – saco, saqué // Saqué el dinero – Я вынул деньги
 
 нуждаться
-necesitar
+necesitar // Necesito ayuda – Мне нужна помощь
 
 поддерживать
-mantener – mantengo, mantuve
+mantener – mantengo, mantuve // Mantuve la calma – Я сохранял спокойствие
 
 оказываться, выясняться
-resultar
+resultar // Resultó difícil – Оказалось трудно
 
 читать
-leer – leo, leí
+leer – leo, leí // Leí el libro – Я прочитал книгу
 
 падать
-caer – caigo, caí
+caer – caigo, caí // Me caí – Я упал
 
 менять
-cambiar
+cambiar // Cambié de opinión – Я изменил мнение
 
 представлять (показывать)
-presentar
+presentar // Presenté el proyecto – Я представил проект
 
 создавать
-crear – creo (так же как и верю), creé 
+crear – creo, creé // Creé una empresa – Я создал компанию
 
 открывать
-abrir
+abrir // Abrí la puerta – Я открыл дверь
 
 слышать
-oír – oigo, oí
+oír – oigo, oí // Oí un ruido – Я услышал шум
 
 заканчивать (только что)
-acabar
+acabar // Acabo de llegar – Я только что пришёл
 
 превращать, конвертировать
-convertir
+convertir // Convirtió el agua en vino – Он превратил воду в вино
 
 приносить
-traer – traigo, traje
+traer – traigo, traje // Traje un regalo – Я принёс подарок
 
 разделять
-partir
+partir // Partí el pan – Я разломал хлеб
 
 умирать
-morir – muero, morí
+morir – muero, morí // Murió joven – Он умер молодым
 
 принимать
-aceptar
+aceptar // Acepté la oferta – Я принял предложение
 
 реализовать
-realizar – realizo, realicé
+realizar – realizo, realicé // Realicé el plan – Я реализовал план
 
 предполагать
-suponer – supongo, supuse
+suponer – supongo, supuse // Supuse que era verdad – Я предположил, что это правда
 
 понимать (смысл)
-comprender
+comprender // Comprendo el problema – Я понимаю проблему
 
 достигать
-lograr
+lograr // Logré el éxito – Я добился успеха
 
 объяснять
-explicar – explico, expliqué
+explicar – explico, expliqué // Expliqué la lección – Я объяснил урок
 
 спрашивать
-preguntar
+preguntar // Pregunté la hora – Я спросил время
 
 трогать, играть (на инструменте)
-tocar – toco, toqué
+tocar – toco, toqué // Toco la guitarra – Я играю на гитаре
 
-узнавать (кого-то / что-то), признавать (факт, ошибку,)
-reconocer – reconozco, reconocí
+узнавать, признавать
+reconocer – reconozco, reconocí // Reconocí mi error – Я признал свою ошибку
 
 изучать
-estudiar
+estudiar // Estudio español – Я изучаю испанский
 
 достигать, достать
-alcanzar – alcanzo, alcancé
+alcanzar – alcanzo, alcancé // Alcancé el autobús – Я успел на автобус
 
 рождаться
-nacer – nazco, nací
+nacer – nazco, nací // Nací en 1980 – Я родился в 1980 году
 
 руководить
-dirigir
+dirigir – dirijo, dirigí // Dirijo el equipo – Я руковожу командой
 
 бежать
-correr
+correr // Corrí rápido – Я бежал быстро
 
 использовать
-utilizar – utilizo, utilicé
+utilizar – utilizo, utilicé // Utilicé el programa – Я использовал программу
 
 платить
-pagar – pago, pagué
+pagar – pago, pagué // Pagué la cuenta – Я оплатил счёт
 
 помогать
-ayudar
+ayudar // Ayudé a mi amigo – Я помог своему другу
 
 нравиться
-gustar
+gustar // Me gusta el café – Мне нравится кофе
 
 играть
-jugar – juego, jugué
+jugar – juego, jugué // Jugué al fútbol – Я играл в футбол
 
 слушать
-escuchar
+escuchar // Escucho música – Я слушаю музыку
 
 выполнять
-cumplir
+cumplir // Cumplí mi promesa – Я выполнил своё обещание
 
 предлагать
-ofrecer – ofrezco, ofrecí
-
-открывать
-abrir
-
-рассматривать (в значении обдумывать)
-considerar
-
-слышать
-oír – oigo, oí
-
-заканчивать (если только что)
-acabar
-
-выигрывать
-ganar
-
-формировать
-formar
-
-руководить
-dirigir – dirijo, dirigí
-
-бежать
-correr
-
-использовать
-utilizar – utilizo, utilicé
-
-платить 
-pagar – pago, pagué
-
-помогать
-ayudar
-
-нравиться
-gustar
-
-играть
-jugar – juego, jugué
-
-слушать
-escuchar
-
-выполнять
-cumplir
-
-предлагать
-ofrecer – ofrezco, ofrecí
+ofrecer – ofrezco, ofrecí // Ofrecí ayuda – Я предложил помощь
 
 открывать (что-то новое)
-descubrir
+descubrir // Descubrí la verdad – Я открыл правду
 
 поднимать
-levantar
+levantar // Levanté la mano – Я поднял руку
 
 пытаться
-intentar
+intentar // Intenté hacerlo – Я попытался это сделать
 
 использовать
-usar
+usar // Uso esta herramienta – Я использую этот инструмент
 
 пачкать, загрязнять
-manchar
+manchar // Manché la camisa – Я испачкал рубашку
 
 заворачивать, оборачивать
-envolver
+envolver // Envolví el regalo – Я завернул подарок
 
 избегать
-evitar
+evitar // Evité el problema – Я избежал проблемы
 
 посещать
-asistir a
+asistir a // Asistí a la reunión – Я присутствовал на встрече
 
 отзывать
-retirar
+retirar // Retiré el dinero – Я снял деньги
 
 делиться
-compartir
+compartir // Compartí la información – Я поделился информацией
 
 предупреждать
-avisar
+avisar // Te avisé – Я тебя предупредил
