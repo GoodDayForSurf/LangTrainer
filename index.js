@@ -184,7 +184,7 @@ class CardState {
    addItemToRepeatQueue() {
       if(!this.question) return;
 
-      let item = this.repeatQueue.find(item => item.question.indexOf(this.question) === 0);
+      let item = this.repeatQueue.find(item => item.question === this.question);
 
       if(!item) {
          item = {
