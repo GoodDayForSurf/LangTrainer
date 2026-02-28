@@ -130,7 +130,7 @@ producir – produzco, produje
 происходить (о событии)
 ocurrir
 
-понимать
+понимать (язык, значение)
 entender – entiendo, entendí
 
 просить
@@ -220,7 +220,7 @@ realizar – realizo, realicé
 предполагать
 suponer – supongo, supuse
 
-понимать
+понимать (смысл)
 comprender
 
 достигать
