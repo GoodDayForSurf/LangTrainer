@@ -64,7 +64,7 @@ llevar // Llevo gafas – Я ношу очки
 оставлять
 dejar // Dejé el trabajo – Я оставил работу
 
-следовать
+следовать, продолжать
 seguir // Sigo adelante – Я продолжаю идти вперёд
 
 находить
