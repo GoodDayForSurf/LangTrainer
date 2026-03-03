@@ -104,7 +104,7 @@ mirar // Miro la televisión – Я смотрю телевизор
 contar – cuento, conté // Te cuento la historia – Я рассказываю тебе историю
 
 начинать
-empezar – empiezo, empecé // Empecé a trabajar – Я начал работать
+empezar(empiezo, empecé), comenzar(comienzo, comencé) // comenzar - более книжный вариант.\n Empecé a trabajar – Я начал работать
 
 ждать
 esperar // Espero tu respuesta – Я жду твоего ответа
@@ -150,9 +150,6 @@ permitir // No me permiten entrar – Мне не позволяют войти
 
 появляться
 aparecer – aparezco, aparecí // Apareció de repente – Он внезапно появился
-
-начинать
-comenzar – comienzo, comencé // Comencé el proyecto – Я начал проект
 
 служить
 servir - sirvo, serví // Sirve para aprender – Это служит для обучения
