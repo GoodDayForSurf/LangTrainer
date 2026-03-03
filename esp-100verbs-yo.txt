@@ -109,6 +109,9 @@ empezar(empiezo, empecé), comenzar(comienzo, comencé) // comenzar - более
 ждать
 esperar // Espero tu respuesta – Я жду твоего ответа
 
+отправлять
+enviar, mandar // mandar - с оттенком воли (особенно если речь про людей "отправил детей в школу"), enviar - просто факт отправки
+
 искать
 buscar – busco, busqué // Busqué el teléfono – Я искал телефон
 
