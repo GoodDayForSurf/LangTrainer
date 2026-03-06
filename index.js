@@ -27,7 +27,7 @@ const dictionaries = [
       name: "Spanish advanced", file: "esp-adv.txt"
    },
    {
-      name: "Spanish 100 verbs for I", file: "esp-100verbs-yo.txt"
+      name: "Spanish common verbs", file: "esp-100verbs-yo.txt"
    },
    {
       name: "Armenian", file: "am.txt"

@@ -115,6 +115,9 @@ enviar, mandar // mandar - с оттенком воли (особенно есл
 искать
 buscar – busco, busqué // Busqué el teléfono – Я искал телефон
 
+ломать, разбивать
+romper // Romper el contrato - расторгнуть контракт
+
 входить
 entrar // Entré en la habitación – Я вошёл в комнату
 
@@ -288,6 +291,21 @@ levantar // Levanté la mano – Я поднял руку
 
 пытаться
 intentar, tratar de // intentar - акцент на результат (получилось или нет), tratar de - акцент на попытку (стараться)
+
+помещаться, быть возможным/уместным
+caber // Aquí caben cinco personas - Тут поместятся 5 человек. No me cabe otra opción - У меня нет другого выбора
+
+включать, зажигать, разжигать
+encender // Encendí la luz - я включил свет
+
+водить, управлять, cправляться
+manejar // Manejar un negocio - управлять бизнесом
+
+останавливать / прекращать действие
+parar // Hay que parar la discusión - Нужно остановить спор
+
+требовать, настаивать
+exigir // Exijo una explicación - Я требую объяснения
 
 использовать
 usar // Uso esta herramienta – Я использую этот инструмент
