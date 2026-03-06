@@ -298,6 +298,12 @@ caber // Aquí caben cinco personas - Тут поместятся 5 челове
 включать, зажигать, разжигать
 encender // Encendí la luz - я включил свет
 
+пробовать, попробовать
+probar // Probé hacerlo de otra manera — Я попробовал сделать это другим способом.
+
+предлагать, рекомендовать, намекать
+sugerir - sugiero, sugerí // Sugiero descansar un poco — Я предлагаю немного отдохнуть.
+
 водить, управлять, cправляться
 manejar // Manejar un negocio - управлять бизнесом
 
