@@ -233,7 +233,7 @@ suponer – supongo, supuse // Supuse que era verdad – Я предположи
 comprender // Comprendo el problema – Я понимаю проблему
 
 достигать, добиваться
-conseguir (consigo, conseguí), lograr, alcanzar (alcanzo, alcancé) // conseguir - акцент на усилии, lograr - акцент на факт того что получилось, alcanzar - акцент на степень достижениия  
+conseguir (consigo, conseguí), lograr, alcanzar (alcanzo, alcancé) // conseguir - акцент на усилии, lograr - суметь - акцент на факт того что получилось, alcanzar - акцент на степень достижениия  
 
 объяснять
 explicar – explico, expliqué // Expliqué la lección – Я объяснил урок
@@ -315,6 +315,12 @@ exigir // Exijo una explicación - Я требую объяснения
 
 использовать
 usar // Uso esta herramienta – Я использую этот инструмент
+
+иметь привычку (что-то делать)
+soler // В основном используется в связке с другими глаголами. Suelo levantarme temprano - обычно я встаю рано
+
+совать, вставлять, помещать что-то внутрь, вовлекать
+meter // Metió la llave en la cerradura - Он вставил ключ в замок
 
 пачкать, загрязнять
 manchar // Manché la camisa – Я испачкал рубашку
