@@ -58,8 +58,8 @@ creer // Creo en ti – Я верю в тебя
 говорить
 hablar // Hablo español – Я говорю по-испански
 
-носить
-llevar // Llevo gafas – Я ношу очки
+носить, иметь при себе
+llevar // Llevo gafas – Я ношу очки. llevar + гл. в форме причастия - делать что-то уже какое-то время: Llevo viviendo aqui mucho tiempo - Живу тут уже много времени
 
 оставлять
 dejar // Dejé el trabajo – Я оставил работу
