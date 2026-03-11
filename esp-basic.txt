@@ -538,7 +538,7 @@ Compramos comida en esta tienda.
 Я вижу что ты понимаешь хуже
 Veo que lo entiendes peor.
 
-Она не помнит номера улицы на которой он живет
+Она не помнит номера улицы на которой живет
 Ella no recuerda el número de la calle donde vive.
 
 Я имею привычку вставать рано
