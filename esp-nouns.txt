@@ -73,9 +73,6 @@ sierra
 рулетка (измерительная)
 cinta métrica
 
-уровень (строительный)
-nivel
-
 лестница
 escalera
 
@@ -112,8 +109,8 @@ cepillo
 тряпка
 trapo
 
-салфетка
 servilleta
+салфетка
 
 контейнер
 recipiente
@@ -136,41 +133,41 @@ lápiz
 boceto
 эскиз
 
-rocío
 роса
+rocío
 
-hoguera
 костер
+hoguera
 
-tela
 ткань
+tela
 
-barril
 ствол
+barril
 
-escoba
 метла
+escoba
 
-niebla
 туман
+niebla
 
-apio
 сельдерей
+apio
 
-trozo
 кусок
+trozo
 
-cadera
 бедро
+cadera
 
-codo
 локоть
+codo
 
-pepenillo
 маринованный огурец
+pepenillo
 
-El sabio
 Мудрец
+El sabio
 
-los obreros
 рабочие
+los obreros
