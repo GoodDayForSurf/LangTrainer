@@ -109,8 +109,8 @@ cepillo
 тряпка
 trapo
 
-servilleta
 салфетка
+servilleta
 
 контейнер
 recipiente
@@ -156,6 +156,12 @@ apio
 
 кусок
 trozo
+
+бровь
+ceja
+
+дым
+humo
 
 бедро
 cadera
