@@ -157,6 +157,9 @@ apio
 кусок
 trozo
 
+бровь
+ceja
+
 бедро
 cadera
 
