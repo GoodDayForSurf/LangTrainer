@@ -67,7 +67,7 @@ llave inglesa
 дрель
 taladro
 
-пила
+пила, горный хребет
 sierra
 
 рулетка (измерительная)
@@ -102,6 +102,9 @@ tirita
 
 бинт
 venda
+
+бизнес, дело
+negocio
 
 щётка
 cepillo
@@ -155,7 +158,7 @@ niebla
 apio
 
 кусок
-trozo
+trozo, pedazo // pedazo - либо больше, либо эмоционально/усиленно
 
 бровь
 ceja
@@ -168,6 +171,12 @@ cadera
 
 локоть
 codo
+
+спина
+espalda
+
+хвост, очередь
+cola
 
 маринованный огурец
 pepenillo
