@@ -1,9 +1,6 @@
 грязь
 barro, suciedad, contaminación // barro - грязь типа земли, suciedad - более обобщенно, contaminación - научно, загрязнение
 
-нитка
-hilo
-
 иголка
 aguja
 
@@ -15,6 +12,9 @@ botón
 
 молния (на одежде)
 cremallera
+
+нитка
+hilo
 
 верёвка
 cuerda
@@ -76,8 +76,14 @@ cinta métrica
 лестница
 escalera
 
+шерсть
+lana
+
 перчатки
 guantes
+
+шарф 
+bufanda
 
 фартук
 delantal
