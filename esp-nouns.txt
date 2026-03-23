@@ -91,6 +91,9 @@ delantal
 ведёрко
 cubito
 
+устройство, прибор
+dispositivo
+
 таз
 palangana
 

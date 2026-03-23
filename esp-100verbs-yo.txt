@@ -50,7 +50,7 @@ poner – pongo, puse, ponía // Puse el libro en la mesa – Я положил 
 parecer – parezco, parecí // Me parece bien – Мне кажется, это нормально
 
 оставаться
-quedar – quedo, quedé // Me quedé en casa – Я остался дома
+quedar – quedo, quedé // Me quedé en casa – Я остался дома. Solo quedan dos manzanas - осталось только два яблока
 
 верить
 creer // Creo en ti – Я верю в тебя
@@ -70,6 +70,12 @@ dejar // Dejé el trabajo – Я оставил работу
 следовать, продолжать
 seguir // Sigo adelante – Я продолжаю идти вперёд
 
+выдерживать, терпеть, переносить (физически или морально)
+aguantar // Los animales toleran mejor el frío que los humanos - Животные лучше переносят холод, чем люди
+
+жаловаться
+quejar(se) // Ella siempre se queja del frío - она всегда жалуется на холод
+
 находить
 encontrar – encuentro, encontré // Encontré las llaves – Я нашёл ключи
 
@@ -84,6 +90,9 @@ pensar – pienso, pensé // Pienso en ti – Я думаю о тебе
 
 выходить
 salir – salgo, salí // Salí temprano – Я вышел рано
+
+измерять
+medir - mido, medí
 
 возвращаться
 volver – vuelvo, volví // Volví ayer – Я вернулся вчера
