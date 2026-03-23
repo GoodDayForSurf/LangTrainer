@@ -76,7 +76,7 @@ cinta métrica
 лестница
 escalera
 
-шерсть
+шерсть (пряжа)
 lana
 
 перчатки
@@ -190,8 +190,11 @@ cola
 маринованный огурец
 pepenillo
 
-Мудрец
-El sabio
+кастрюля
+olla, cazo // cazo - маленькая кастрюля или ковшик
+
+мудрец
+sabio
 
 рабочие
 los obreros
