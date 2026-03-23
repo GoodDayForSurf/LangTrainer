@@ -198,3 +198,15 @@ sabio
 
 рабочие
 los obreros
+
+глубина
+profundidad // profundo - глубокий
+
+дно
+fondo
+
+берег
+orilla
+
+поверхность
+superficie
