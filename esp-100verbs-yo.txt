@@ -85,6 +85,9 @@ llamar // Me llamo Juan – Меня зовут Хуан
 приходить
 venir – vengo, vine // Vine temprano – Я пришёл рано
 
+убивать
+matar
+
 думать
 pensar – pienso, pensé // Pienso en ti – Я думаю о тебе
 
