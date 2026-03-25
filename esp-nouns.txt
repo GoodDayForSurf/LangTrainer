@@ -193,6 +193,12 @@ pepenillo
 кастрюля
 olla, cazo // cazo - маленькая кастрюля или ковшик
 
+миска
+cuenco
+
+угол
+esquina, ángulo // esquina - угол помещения, здания или улицы. ángulo - угол в геометрии
+
 мудрец
 sabio
 

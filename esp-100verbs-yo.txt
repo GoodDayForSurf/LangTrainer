@@ -218,7 +218,7 @@ abrir // Abrí la puerta – Я открыл дверь
 oír – oigo, oí // Oí un ruido – Я услышал шум
 
 заканчивать (только что)
-acabar // Acabo de llegar – Я только что пришёл
+acabar // Acabo de llegar – Я только что пришёл. acabar - это по сути "быть на стадии завершения" не путать с terminar - реально закончить, т.е. уже не делать
 
 превращать, конвертировать
 convertir // Convirtió el agua en vino – Он превратил воду в вино
@@ -228,6 +228,12 @@ traer – traigo, traje // Traje un regalo – Я принёс подарок
 
 разделять
 partir // Partí el pan – Я разломал хлеб
+
+плавать (держаться на воде)
+flotar // не путать с nadar - передвигаться по воде. flotar - находиться на поверхности жидкости
+
+погружаться, проваливаться
+hundir(se) // La crisis hundió la empresa. — кризис потопил компанию. El barco se hunde — корабль тонет
 
 кричать
 gritar
