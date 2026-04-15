@@ -176,7 +176,7 @@ class CardState {
 
                while (count < 10 ) {
                    const nextIndex = index + count;
-                   const nextItem = queue.at(nextIndex > queue.length ? queue.length - nextIndex : nextIndex);
+                   const nextItem = queue.at(nextIndex < queue.length ? nextIndex : queue.length - nextIndex);
 
                    selectedItem = selectedItem.stage < nextItem.stage ? selectedItem : nextItem;
                    count++;
