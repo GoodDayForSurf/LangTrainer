@@ -169,12 +169,12 @@ class CardState {
 
        if (!item) {
            if (NEW_PHRASES.length === 0) {
-               console.log('-------QUEUE END--Random from queue--->');
+               console.log('-------QUEUE END--Random from queue--@->');
                let index = Math.round(queue.length * Math.random()) - 1;
                let count = 1;
                let selectedItem = queue.at(index);
 
-               while (count < 5 ) {
+               while (count < 10 ) {
                    const nextIndex = index + count;
                    const nextItem = queue.at(nextIndex > queue.length ? queue.length - nextIndex : nextIndex);
 
