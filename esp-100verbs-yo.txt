@@ -223,6 +223,9 @@ acabar // Acabo de llegar – Я только что пришёл. acabar - эт
 превращать, конвертировать
 convertir // Convirtió el agua en vino – Он превратил воду в вино
 
+опасаться, бояться
+temer // Temo que no venga - Боюсь, что он не придёт
+
 приносить
 traer – traigo, traje // Traje un regalo – Я принёс подарок
 
@@ -254,7 +257,7 @@ suponer – supongo, supuse // Supuse que era verdad – Я предположи
 comprender // Comprendo el problema – Я понимаю проблему
 
 достигать, добиваться
-conseguir (consigo, conseguí), lograr, alcanzar (alcanzo, alcancé) // conseguir - акцент на усилии, lograr - суметь - акцент на факт того что получилось, alcanzar - акцент на степень достижениия  
+conseguir (consigo, conseguí), lograr, alcanzar (alcanzo, alcancé) // conseguir - акцент на усилии, lograr - суметь - акцент на факт того что получилось, alcanzar - акцент на степень достижениия
 
 объяснять
 explicar – explico, expliqué // Expliqué la lección – Я объяснил урок
