@@ -58,7 +58,7 @@ function saveState() {
     if (!(cardState.repeatQueue?.length > 1)) {
         return;
     }
-    
+
     try {
         const dictionariesSelectEl = $('#dictionaries-select');
         const state = {
@@ -79,13 +79,13 @@ function restoreState() {
     const dictFileName = $('#dictionaries-select').value;
     const raw = localStorage.getItem(STORAGE_KEY + '-' + dictFileName);
     NEW_PHRASES = [...PHRASES];
-      
+
     cardState = new CardState();
-    
+
     if (!raw) return cardState;
-    
+
     const state = JSON.parse(raw);
-    
+
     if (state.cardState) {
       cardState.question = state.cardState.question || '';
       cardState.answers = getAnswersForQuestion(cardState.question);
@@ -96,7 +96,7 @@ function restoreState() {
       cardState.repeatQueue.forEach((repeatItem) => {
           const { question } = repeatItem;
           const index = NEW_PHRASES.findIndex((p) => p.startsWith(question + '\n'));
-          
+
           if(PHRASES.find((p) => p.startsWith(question +'\n'))) {
               cleanedRepeatQueue.push(repeatItem)
           }
@@ -108,7 +108,7 @@ function restoreState() {
 
 
       cardState.repeatQueue = cleanedRepeatQueue;
-      
+
     console.log('-----NEW_PHRASES----->', NEW_PHRASES);
     return cardState;
   } catch (e) {
@@ -122,7 +122,7 @@ function randomPhrase() {
     const phrase = NEW_PHRASES.length ? NEW_PHRASES[index] : null;
 
     NEW_PHRASES.splice(index, 1);
-    
+
     return phrase;
 }
 
@@ -130,13 +130,13 @@ let cardState;
 
 function getAnswersForQuestion(question) {
     const entry = PHRASES.find(text => text.startsWith(question + '\n'));
-    
+
     if(!entry) {
         cardState.repeatQueue = cardState.repeatQueue.filter((item) => item.question !== question);
-        
+
         return null;
     }
-    
+
     return entry.split("\n").slice(1);
 }
 
@@ -164,21 +164,33 @@ class CardState {
 
    getItemFromRepeatQueue() {
        const queue = shuffleQueue(this.repeatQueue);
-       
+
       let item = queue.find(item => item.stage < 9 && getItemSecondsPeriod(item) > stages[item.stage]);
 
        if (!item) {
            if (NEW_PHRASES.length === 0) {
                console.log('-------QUEUE END--Random from queue--->');
-               return queue[Math.round(queue.length * Math.random()) - 1];
+               let index = Math.round(queue.length * Math.random()) - 1;
+               let count = 1;
+               let selectedItem = queue.at(index);
+
+               while (count < 5 ) {
+                   const nextIndex = index + count;
+                   const nextItem = queue.at(nextIndex > queue.length ? queue.length - nextIndex : nextIndex);
+
+                   selectedItem = selectedItem.stage < nextItem.stage ? selectedItem : nextItem;
+                   count++;
+               }
+
+               return selectedItem;
            } else {
                item = (Math.random() > 0.6 && queue.find(item => getItemSecondsPeriod(item) >= 3600 * 24 * 4));
 
                item && console.log('---------Random from queue--->');
            }
        }
-       
-       return item 
+
+       return item
    }
 
    addItemToRepeatQueue() {
@@ -210,22 +222,22 @@ class CardState {
 
    getNewQuestion() {
       const repeatItem = this.getItemFromRepeatQueue();
-      
+
        if (repeatItem) {
            this.question = repeatItem.question;
            this.answers = getAnswersForQuestion(this.question);
            console.log('-----item from queue----->', this.question, [repeatItem.stage, (Date.now() - repeatItem.showTime) / (1000 * (repeatItem.stage > 3 ? 60*60 : 60)), repeatItem.stage > 3 ? 'h' : 'm'])
-       } 
-       
+       }
+
        if(!repeatItem || !this.answers) {
            const parts = randomPhrase()?.split("\n");
-           
+
            if(parts) {
                this.question = parts[0] || '';
                this.answers = parts.slice(1);
                console.log('----NEW-item for queue----->',this.question);
            }
-           
+
        }
 
       $('#question').innerText = this.question;
@@ -265,7 +277,7 @@ async function initDictionary(path) {
 }
 
 load().then( () => {
-   
+
    const dictionariesSelectEl = $('#dictionaries-select');
    let optionsHTML = dictionariesSelectEl.innerHTML;
 
@@ -287,14 +299,14 @@ load().then( () => {
             saveState();
         });
     });
-   
+
    $('#card').addEventListener('click', () => cardState.next());
    document.addEventListener("keyup", function(event) {
       if (event.code === "Space") {
          cardState.next();
       }
    });
-   
+
 
   // cardState.next();
 })
