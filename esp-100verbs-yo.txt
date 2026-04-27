@@ -390,3 +390,12 @@ decidir // Ya decidí. Voy a coger la pizza — Я уже решил. Возьм
 
 бросать
 echar // Глагол с довольно широким спектром с акцентом на перемещение. Echa esto en la caja — Закинь это в коробку. Echamos un rato hablando — Мы немного поболтали
+
+тратить / расходовать / изнашивать
+gastar // Gasto mucho dinero en comida - Я трачу много денег на еду. He gastado los zapatos — Я сносил обувь
+
+экономить, сберегать, откладывать
+ahorrar // Estoy ahorrando dinero — Я коплю деньги
+
+злить(ться)
+enfadar(se) // Eso me enfada - Это меня злит. Se enfadó conmigo- Он разозлился на меня
