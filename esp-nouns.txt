@@ -199,6 +199,9 @@ cuenco
 живот
 panza
 
+зуб
+diente
+
 угол
 esquina, ángulo // esquina - угол помещения, здания или улицы. ángulo - угол в геометрии
 
@@ -219,3 +222,15 @@ orilla
 
 поверхность
 superficie
+
+место
+sitio / lugar // sitio - место в смысле размера или пространства. No hay sitio aquí - тут нет места. \n lugar - место с пространстве. El lugar donde nací - Место где я родился
+
+вызов, задача, испытание
+reto, desafío // reto - более позитивный оттенок, ближе к англ. challenge. Desafío - вызов, испытание (более негативный оттенок)
+
+ложь / неправда
+mentira
+
+ягода
+baya // fresas — клубника, arándanos — черника, frambuesas — малина

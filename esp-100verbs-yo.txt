@@ -88,8 +88,8 @@ venir – vengo, vine // Vine temprano – Я пришёл рано
 убивать
 matar
 
-думать
-pensar – pienso, pensé // Pienso en ti – Я думаю о тебе
+думать (o чем-то)
+pensar (en) – pienso, pensé // Pienso en ti – Я думаю о тебе
 
 выходить
 salir – salgo, salí // Salí temprano – Я вышел рано
@@ -399,3 +399,30 @@ ahorrar // Estoy ahorrando dinero — Я коплю деньги
 
 злить(ться)
 enfadar(se) // Eso me enfada - Это меня злит. Se enfadó conmigo- Он разозлился на меня
+
+убегать, сбегать, избегать
+huir // huir - это сбегать импульсивно, эмоционально. evitar - избежать расчетливо, осознанно. he huido del problema — я сбежал от проблемы
+
+судить, осуждать, оценивать
+juzgar // Esto me permite juzgar la calidad - Это мне позволяет судить о качестве
+
+объединять, собирать вместе
+juntar
+
+удалять, стирать (данные, рисунок, надпись)
+borrar // ¿Puedes borrar ese mensaje? — Можешь удалить это сообщение?
+
+бороться, сражаться
+luchar // Tengo una razón para luchar e intentar ser mejor - У меня есть причина бороться и попытаться стать лучше
+
+запускать, выпускать (что то новое)
+lanzar // Ella acaba de lanzar la nueve album - она только что выпустила новый альбом
+
+договариваться, вести переговоры
+negociar
+
+нюхать, пахнуть
+oler - huelo, hueles // Huelo algo raro — я чувствую странный запах
+
+убирать/снимать/забирать
+quitar // quitar la mesa — убрать со стола

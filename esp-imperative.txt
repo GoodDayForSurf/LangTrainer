@@ -1,23 +1,23 @@
-Скажи правду
-Di la verdad
+Не говори ложь, скажи правду
+No digas mentiras, di la verdad
 
-Сделай это сейчас
-Hazlo ahora
+Не делай этого потом, сделай это сейчас
+No lo hagas después, hazlo ahora
 
-Иди домой
-Ve a casa
+Не иди туда, иди домой
+No vayas allí, ve a casa
 
-Положи книгу на стол
-Pon el libro en la mesa
+Не клади книгу на полку, положи ее на стол
+No pongas el libro en la estantería, ponlo en la mesa
 
-Выйди отсюда
-Sal de aquí
+Выйди отсюда / Не выходи от сюда
+Sal de aquí / No salgas de aquí.
 
 Возьми зонт, будет дождь
 Lleva el paraguas, va a llover // Lleva — повелительная форма от llevar («взять с собой», «носить»)
 
-Приходи пораньше
-Ven temprano
+Не приходи подздно, приходи пораньше
+No vengas tarde, ven más temprano
 
 Будь умнее
 Sé más inteligente
@@ -31,23 +31,20 @@ No lo hagas
 Не ходи туда
 No vayas allí
 
-Не клади это сюда
-No pongas eso aquí
-
 Не выходи один
 No salgas solo
 
-Не бойся
-No tengas miedo
+Не бойся / не бойтесь
+No tengas miedo / No tengáis miedo
 
-Не приходи поздно
-No vengas tarde
+Не приходи поздно / Не приходите поздно
+No vengas tarde / No vengáis tarde
 
-Не будь грубым
-No seas grosero
+Не будь грубым, будь вежливым
+No seas grosero, sé educado
 
-Не грусти
-No estés triste
+Не грусти / Не грустите
+No estés triste / No estéis tristes
 
 Не будь всезнайкой
 No sepas tanto
