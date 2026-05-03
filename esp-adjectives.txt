@@ -42,3 +42,6 @@ empalagoso
 
 ароматный
 oloroso
+
+страшный, жуткий
+aterrador
