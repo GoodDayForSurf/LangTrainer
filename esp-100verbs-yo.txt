@@ -58,6 +58,9 @@ creer // Creo en ti – Я верю в тебя
 лгать
 mentir // Me estás mintiendo - ты мне лжешь
 
+обманывать
+engañar
+
 говорить
 hablar // Hablo español – Я говорю по-испански
 
@@ -314,7 +317,7 @@ descubrir // Descubrí la verdad – Я открыл правду
 levantar // Levanté la mano – Я поднял руку
 
 пытаться
-intentar, tratar de // intentar - акцент на результат (получилось или нет), tratar de - акцент на попытку (стараться)
+intentar, tratar de, procurar // intentar - акцент на результат (получилось или нет), tratar de - акцент на попытку (стараться), procurar - стремиться обсепечить
 
 помещаться, быть возможным/уместным
 caber // Aquí caben cinco personas - Тут поместятся 5 человек. No me cabe otra opción - У меня нет другого выбора
@@ -433,8 +436,8 @@ apagar
 разрабатывать, развивать, develop
 desarrollar
 
-иметь дело (с кем-то / чем-то), обращаться с чем-то, обрабатывать/лечить
-tratar // el trato - сделка. Ella recomendó tratarlo con especial cuidado - Она рекомендовала обращаться с этим с особой осторожностью
+иметь дело (с кем-то / чем-то), обращаться с чем-то, обрабатывать/лечить, пытаться (стараться)
+tratar // el trato - сделка. tratar de + инфинитив = пытаться. Ella trataba esto con cuidado y trataba de ser amable - Она отнеслась к этому c осторожностью и старалась быть доброй
 
 швырять
 botar // более резко и эмоционально чем tirar
@@ -462,3 +465,12 @@ temblar
 
 растягивать, тянуть
 estirar
+
+стремиться обеспечить, стараться
+procurar // Debemos procurar mostrar el respeto - Мы должны стремиться проявлять уважение
+
+очень рано вставать
+madrugar
+
+развязать (в т.ч. в значении вызвать, спровоцировать)
+desatar // Este puede desatar una tormenta - это может вызвать бурю
