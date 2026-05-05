@@ -170,7 +170,7 @@ apio
 trozo, pedazo // pedazo - либо больше, либо эмоционально/усиленно
 
 бровь
-ceja
+ceja, ceño // ceño - не просто брови а именно нахмуренные. fruncir el ceño - хмурить брови
 
 дым
 humo
@@ -330,3 +330,9 @@ desastre
 
 путь, тропа
 senda // Podemos hacerlo mucho mejor y volver a la buena senda - Мы можем действовать намного лучше и вернуться на правильный путь
+
+миг, момент
+instante
+
+красота
+belleza
