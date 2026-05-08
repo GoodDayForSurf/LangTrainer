@@ -60,3 +60,6 @@ jubilado
 
 предыдущий
 anterior
+
+вспомогательный
+auxiliar
