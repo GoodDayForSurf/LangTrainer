@@ -127,7 +127,7 @@ It's about time we started
 Не могу не улыбнуться когда слышу эту песню
 I can't help but smile when I hear this song // I can't help but - не могу не ... (не могу сдержаться что бы ...)
 
-Мы уже давно не разговаривали 
+Мы уже давно не разговаривали
 It's been a while since we talked // It's been a while since - для выражения чего то чего давно не было
 
 Он не только проявил к вам неуважение, он солгал вам.
@@ -293,7 +293,7 @@ Good job! Keep practicing.
 Keep up good work!
 
 Так держать, у тебя отлично получается.
-Keep it up, you are doing great. 
+Keep it up, you are doing great.
 
 Здравствуйте, Дэвид, в смысле, сэр.
 Hello, David, I mean, sir.
@@ -405,7 +405,7 @@ I told you so.
 Just lost in thought.
 
 Я трачу много денег в последнее время
-I have been spending much (a lot of) money lately 
+I have been spending much (a lot of) money lately
 
 Я невероятно занят в последнее время
 I have been incredibly busy lately // busy не употребляется в ing форме поэтому тут он используется в V3
@@ -417,7 +417,7 @@ I've been trying to sort out all this mess for the last two days.
 We have known each other since childhood so I can rely on him.
 
 Я буду ждать твоего сообщения.
-I will be waiting for your message. // Если сказать will wait это будет соответствовать "Я подожду" 
+I will be waiting for your message. // Если сказать will wait это будет соответствовать "Я подожду"
 
 Я достигну среднего уровня к следующему месяцу
 I will have reached intermediate level by next month. // т.е. указывается конкретный момент с помощью "к" то нужно использовать perfect, если сказать в следующем месяце то будет обычное future
@@ -562,7 +562,7 @@ He is in charge of for this work // in charge of - отвечать, быть о
 I want us to be friends.
 
 Нет никакой необходимости удлинять этот курс.
-There is no need to lengthen this course. 
+There is no need to lengthen this course.
 
 Когда я пришел туда обсуждались очень важные вещи.
 When I came there the very important things where being discussed.
@@ -574,7 +574,7 @@ I plan the next level will be reached by the end of this month.
 As it seems to me this work will be finished by tomorrow. // могут сказать что здесь перфект ...have been finished, но гугл переводчик переводит без него
 
 Только что все было сделано должным образом (как надо).
-Everything has just been done properly (as it should be.). // Passive 
+Everything has just been done properly (as it should be.). // Passive
 
 Как долго ты это делаешь?
 How long have you been doing this?
@@ -583,7 +583,7 @@ How long have you been doing this?
 I've been waiting for you for about half an hour
 
 Он всегда был верен своим принципам и убеждениям
-He has always been faithful to his principles and beliefs 
+He has always been faithful to his principles and beliefs
 
 Должен сказать что мы знаем друг друга очень давно
 I have to say that we have known each other for a very long time // тут perfect continuous но know не ставиться в -ing
@@ -684,7 +684,7 @@ So, let me get this straight, you've lost my camera, haven't you?
 I can't help it
 
 - Я подумываю о подаче заявки на ту работу. - вперед, действуй!
-- I'm thinking about applying for that job. - go for it! // если сказать "thinking of" то значит просто появилась мысль 
+- I'm thinking about applying for that job. - go for it! // если сказать "thinking of" то значит просто появилась мысль
 
 Не терпится поехать туда и провести остаток нашей жизни вместе.
 I can't wait to go in there and spend the rest of our life together.
@@ -973,7 +973,7 @@ I got him to talk with me // GOT + smb + TO verb  - Убедить кого то
 I got my phone fixed // GOT smth v3 - я получил какую-то вещь v3. Фактически тут не ясно кто сделал, вы сами или вам, важно что эта уещь у вас теперь в новом состоянии
 
 Я заставил их смеяться (сделал так чтобы они смеялись)
-I got they laughing // GOT + smb + verbING - сделать так что бы кто-то начал что-то делать 
+I got they laughing // GOT + smb + verbING - сделать так что бы кто-то начал что-то делать
 
 Мою машину еще чинили когда я пришел
 My car was getting (being) fixed when I came  // being и getting взаимо заменяемы. (лучше использовать getting вместо being в случаях been being)
@@ -1243,7 +1243,7 @@ So I see.
 Она действительно знает свое дело.
 She really knows her stuff.
 
-Мы знаем друг друга по работе 
+Мы знаем друг друга по работе
 We know each other from work // оборот know smb from используется в present simple хотя по смыслу тут perfect
 
 - Это все. Подпишите тут, и все готово.
@@ -1299,7 +1299,7 @@ You are going through hard times (rough patch) right now, but I'm sure that thin
 I can't believe you're taking her side!
 
 Она не знает английский. Он тоже
-She doesn't know english. Neither does He (He doesn't either). 
+She doesn't know english. Neither does He (He doesn't either).
 
 Она должна попробовать. Я тоже
 She has to try. I do too / So do I
@@ -1401,3 +1401,62 @@ They forced me to take part in the negotiations even though I wasn't prepared fo
 Он убедил своего начальника рассмотреть альтернативное предложение до принятия решения.
 He persuaded his boss to consider the alternative proposal before making a decision.
 
+Не смотря на усталость он продолжил работать
+Despite being tired, he continued worked
+
+Говорят, она очень талантлива
+She is said to be very talented
+
+Закончив работать, он пошел домой
+Having finished the work, he went home
+
+Это было такое сложное задние, что я cдался
+It was such a difficult task that I gave up
+
+Она, скорее всего, выиграет соревнование
+She is likely to win the competition
+
+Нет смысла спорить об этом
+There is no point in arguing about this
+
+Я бы предпочел что бы ты больше это не упоминал
+I would rather you didn't mention this anymore
+
+Чем больше я об этом думаю тем меньше понимаю
+The more I think about it the less I understand
+
+Результаты, которые были неожиданными, удивили всех
+The results that were unexpected, surprised everyone
+
+Это именно она решила проблему
+It was she who solved the problem
+
+Отчет сейчас готовиться
+The report is being prepared (at the moment)
+
+Без разницы, начнем ли мы сейчас или позже
+It makes no difference whether we start now or later
+
+К тому времени как мы приехали встреча уже началась
+By the time we arrived, the meeting had already started
+
+Машина, которая сломалась, моя
+The car that broke down is mine
+
+Завершив все задания, он наконец расслабился
+Having completed all the tasks, he finally relaxed
+
+Его заставили пересмотреть свое решение
+He was made to reconsider his decision
+
+Если бы мне далие еще шанс я бы поступил иначе
+If I were given another chance, I would do it differently
+
+Книга написанная в 1995 году до сих пор актуальна
+The book (that was) written in 1995 is still relevant
+
+Это важно, что бы мы пришли во время
+It is essential that we arrive on time
+
+Маловероятно что она поменяет свое мнение
+She is unlikely to change her mind

@@ -44,7 +44,7 @@ empalagoso
 oloroso
 
 страшный, жуткий
-aterrador
+aterrador // буквально "приводящий в ужас"
 
 ошеломленный, изумленный, пораженный
 atónito
@@ -52,8 +52,8 @@ atónito
 грубый
 áspera
 
-уютный
-acogedor
+уютный, гостеприимный
+acogedor // acoger - приветствовать, принимать (гостей)
 
 отставной, на пенсии
 jubilado
@@ -66,3 +66,6 @@ auxiliar
 
 полный, самый
 pleno // Está en pleno centro - Это в самом центре. Tiene pleno control de la situación - Он полностью контролирует ситуацию
+
+обнадёживающий, внушающий надежду
+alentador // alentar - поощрять
