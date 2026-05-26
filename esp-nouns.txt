@@ -163,6 +163,9 @@ escoba
 туман
 niebla
 
+буря, шторм
+tormenta
+
 сельдерей
 apio
 
@@ -182,7 +185,7 @@ cadera
 codo
 
 спина
-espalda
+espalda, lomo // lomo - чаще применяется к животным, и ближе к русск. хребет. В разг. речи может отн. и к человеку
 
 живот
 panza
@@ -215,7 +218,7 @@ sabio
 los obreros
 
 глубина
-profundidad // profundo - глубокий
+profundidad, hondo // profundo, hondo - глубокий. hondo - более материальная, разговорная. profundidad - более абстрактно, научно
 
 дно
 fondo
@@ -331,8 +334,11 @@ cuarto // более бытовой синоним habitacion
 катастрофа
 desastre
 
-путь, тропа
+тропа
 senda // Podemos hacerlo mucho mejor y volver a la buena senda - Мы можем действовать намного лучше и вернуться на правильный путь
+
+отрезок пути
+trecho
 
 миг, момент
 instante
@@ -360,3 +366,9 @@ domicilio
 
 оттенок, нюанс
 matiz
+
+беспорядок, бардак
+lío
+
+работа
+trabajo, curro // curro - разговорное, trabajo - более формальное, нейтральное
