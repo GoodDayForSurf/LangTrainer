@@ -154,8 +154,8 @@ hoguera
 ткань
 tela
 
-ствол
-barril
+ствол, бревно
+tronco
 
 метла
 escoba
