@@ -283,7 +283,6 @@ async function initDictionary(path) {
 }
 
 load().then( () => {
-
    const dictionariesSelectEl = $('#dictionaries-select');
    let optionsHTML = dictionariesSelectEl.innerHTML;
 
