@@ -11,6 +11,9 @@ const dictionaries = [
     {
       name: "Spanish basic", file: "esp-basic.txt"
    },
+    {
+        name: "Spanish \"Tener\"", file: "esp-tener.txt"
+    },
    {
        name: "Spanish nouns", file: "esp-nouns.txt"
    },
