@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Percent Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <form class="calculator" id="calculator" novalidate>
+      <!-- Строка 1 -->
+      <section class="row" aria-label="Стоимость и кредит">
+        <div class="field">
+          <label for="apartmentCost">Стоимость квартиры</label>
+          <input type="number" id="apartmentCost" min="0" step="1000" value="250000">
+        </div>
+        <div class="field">
+          <label for="downPayment">Первоначальный взнос</label>
+          <input type="number" id="downPayment" min="0" step="1000" value="50000">
+        </div>
+        <div class="field">
+          <label for="downPaymentPercent">Первоначальный взнос, %</label>
+          <input type="number" id="downPaymentPercent" min="0" max="100" step="0.1" value="20">
+        </div>
+        <div class="field field--readonly">
+          <label for="loanAmount">Сумма кредита</label>
+          <output id="loanAmount" class="output-value">200&nbsp;000</output>
+        </div>
+      </section>
+
+      <!-- Строка 2 -->
+      <section class="row" aria-label="Ипотека — вариант 1">
+        <div class="field">
+          <label for="rate1">Ипотечный процент 1, % годовых</label>
+          <input type="number" id="rate1" min="0" max="100" step="0.1" value="3">
+        </div>
+        <div class="field">
+          <label for="termYears">Срок кредита, лет</label>
+          <input type="number" id="termYears" min="1" max="40" step="1" value="20">
+        </div>
+        <div class="field field--readonly">
+          <label>Ежемесячный платёж по проценту 1</label>
+          <output id="monthlyPayment1" class="output-value">—</output>
+        </div>
+      </section>
+
+      <!-- Строка 3 -->
+      <section class="row" aria-label="Ипотека — вариант 2">
+        <div class="field">
+          <label for="rate2">Ипотечный процент 2 (сравнение), % годовых</label>
+          <input type="number" id="rate2" min="0" max="100" step="0.1" value="2.5">
+        </div>
+        <div class="field field--spacer" aria-hidden="true"></div>
+        <div class="field field--readonly">
+          <label>Ежемесячный платёж по проценту 2</label>
+          <output id="monthlyPayment2" class="output-value">—</output>
+        </div>
+      </section>
+
+      <!-- Строка 4 -->
+      <section class="row" aria-label="Страховки">
+        <div class="field">
+          <label for="homeInsurance">Годовая страховка жилья</label>
+          <input type="number" id="homeInsurance" min="0" step="100" value="200">
+        </div>
+        <div class="field">
+          <label for="lifeInsurance">Годовая страховка жизни</label>
+          <input type="number" id="lifeInsurance" min="0" step="100" value="200">
+        </div>
+      </section>
+
+      <!-- Строка 5 -->
+      <section class="row row--highlight" aria-label="Итого ежемесячно по ставкам">
+        <div class="field field--readonly">
+          <label>Ежемесячно (ставка 1 + страховки)</label>
+          <output id="totalMonthly1" class="output-value output-value--accent">—</output>
+        </div>
+        <div class="field field--readonly">
+          <label>Ежемесячно (ставка 2 + страховки)</label>
+          <output id="totalMonthly2" class="output-value output-value--accent">—</output>
+        </div>
+      </section>
+
+      <!-- Строка 6 -->
+      <section class="row" aria-label="Налог и комиссии">
+        <div class="field">
+          <label for="purchaseTaxPercent">Налог на покупку, %</label>
+          <input type="number" id="purchaseTaxPercent" min="0" max="100" step="0.1" value="9">
+        </div>
+        <div class="field field--readonly">
+          <label>Налог на покупку</label>
+          <output id="purchaseTaxAmount" class="output-value">—</output>
+        </div>
+        <div class="field">
+          <label for="agent1Percent">Комиссия 1-го агента, % от стоимости</label>
+          <input type="number" id="agent1Percent" min="0" max="100" step="0.01" value="1">
+        </div>
+        <div class="field field--readonly">
+          <label>Комиссия 1-го агента</label>
+          <output id="agent1Amount" class="output-value">—</output>
+        </div>
+      </section>
+
+      <section class="row" aria-label="Комиссия второго агента">
+        <div class="field">
+          <label for="agent2Percent">Комиссия 2-го агента, % от стоимости</label>
+          <input type="number" id="agent2Percent" min="0" max="100" step="0.01" value="3">
+        </div>
+        <div class="field field--readonly">
+          <label>Комиссия 2-го агента</label>
+          <output id="agent2Amount" class="output-value">—</output>
+        </div>
+        <div class="field">
+          <label for="agent2SharePercent">Процент от комиссии 2-го агента, %</label>
+          <input type="number" id="agent2SharePercent" min="0" max="100" step="0.1" value="21">
+        </div>
+        <div class="field field--readonly">
+          <label>Итого по 2-му агенту (комиссия + %)</label>
+          <output id="agent2Payable" class="output-value">—</output>
+        </div>
+      </section>
+
+      <!-- Строка 7 -->
+      <section class="row row--summary" aria-label="Разовые расходы">
+        <div class="field field--readonly field--wide">
+          <label>Разовые первоначальные расходы (взнос + налог + комиссии)</label>
+          <output id="initialExpenses" class="output-value output-value--large">—</output>
+          <p class="hint" id="initialExpensesHint"></p>
+        </div>
+      </section>
+
+      <!-- Строка 8 -->
+      <section class="row row--summary" aria-label="Ежемесячные выплаты">
+        <div class="field field--readonly">
+          <label>Ежемесячно: ставка 1 (ипотека + страховки)</label>
+          <output id="monthlyBreakdown1" class="output-value">—</output>
+          <p class="hint" id="monthlyHint1"></p>
+        </div>
+        <div class="field field--readonly">
+          <label>Ежемесячно: ставка 2 (ипотека + страховки)</label>
+          <output id="monthlyBreakdown2" class="output-value">—</output>
+          <p class="hint" id="monthlyHint2"></p>
+        </div>
+      </section>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
