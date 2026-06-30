@@ -46,52 +46,38 @@
       </section>
 
       <!-- Строка 3 -->
-      <section class="row row--pair" aria-label="Страховки">
-        <div class="field">
-          <label for="homeInsurance">Годовая страховка жилья</label>
+      <section class="row" aria-label="Страховки">
+        <div class="field-duo">
+          <label for="homeInsurance">Страховка жилья</label>
           <input type="number" id="homeInsurance" min="0" step="100" value="400">
-        </div>
-        <div class="field">
-          <label for="lifeInsurance">Годовая страховка жизни</label>
+          <label for="lifeInsurance">Страховка жизни</label>
           <input type="number" id="lifeInsurance" min="0" step="100" value="500">
         </div>
       </section>
 
       <!-- Строка 4 -->
-      <section class="row row--grid-2" aria-label="Налог и комиссии">
-        <div class="field">
+      <section class="row" aria-label="Налог и комиссии">
+        <div class="field field--combo">
           <label for="purchaseTaxPercent">Налог на покупку, %</label>
           <input type="number" id="purchaseTaxPercent" min="0" max="100" step="0.1" value="9">
-        </div>
-        <div class="field field--readonly">
-          <label>Налог на покупку</label>
           <output id="purchaseTaxAmount" class="output-value">—</output>
         </div>
-        <div class="field">
-          <label for="agent1Percent">Комиссия 1-го агента, % от стоимости</label>
+        <div class="field field--combo">
+          <label for="agent1Percent">Комиссия 1-го агента, %</label>
           <input type="number" id="agent1Percent" min="0" max="100" step="0.01" value="1">
-        </div>
-        <div class="field field--readonly">
-          <label>Комиссия 1-го агента</label>
           <output id="agent1Amount" class="output-value">—</output>
         </div>
       </section>
 
-      <section class="row row--grid-2" aria-label="Комиссия второго агента">
-        <div class="field">
-          <label for="agent2Percent">Комиссия 2-го агента, % от стоимости</label>
+      <section class="row" aria-label="Комиссия второго агента">
+        <div class="field field--combo">
+          <label for="agent2Percent">Комиссия 2-го агента, %</label>
           <input type="number" id="agent2Percent" min="0" max="100" step="0.01" value="3">
-        </div>
-        <div class="field field--readonly">
-          <label>Комиссия 2-го агента</label>
           <output id="agent2Amount" class="output-value">—</output>
         </div>
-        <div class="field">
+        <div class="field field--combo">
           <label for="agent2SharePercent">Процент от комиссии 2-го агента, %</label>
           <input type="number" id="agent2SharePercent" min="0" max="100" step="0.1" value="21">
-        </div>
-        <div class="field field--readonly">
-          <label>Итого по 2-му агенту (комиссия + %)</label>
           <output id="agent2Payable" class="output-value">—</output>
         </div>
       </section>
