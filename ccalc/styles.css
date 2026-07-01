@@ -100,6 +100,13 @@ body {
   border-color: var(--summary-border);
 }
 
+.section-title {
+  margin: 0 0 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
 .field {
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--field-value-width);
@@ -178,7 +185,8 @@ body {
   grid-template-columns:
     minmax(0, 1fr) var(--field-value-width-compact)
     minmax(0, 1fr) var(--field-value-width-compact);
-  gap: 0.5rem 0.75rem;
+  row-gap: 0.5rem;
+  column-gap: 1.1rem;
   align-items: center;
   min-width: 0;
 }
@@ -299,6 +307,9 @@ body {
     --stepper-btn-size: 1.85rem;
     --field-input-column: calc(var(--stepper-btn-size) * 2 + 0.4rem + var(--field-value-width));
     --field-percent-column: calc(var(--stepper-btn-size) * 2 + 0.4rem + var(--field-percent-width));
+    --duo-value-width: 3.25rem;
+    --duo-stepper-btn-size: 1.55rem;
+    --duo-input-column: calc(var(--duo-stepper-btn-size) * 2 + 0.3rem + var(--duo-value-width));
   }
 
   .app {
@@ -335,28 +346,44 @@ body {
 
   .field-duo {
     grid-template-columns:
-      minmax(0, 1fr) var(--field-input-column)
-      minmax(0, 1fr) var(--field-input-column);
-    gap: 0.35rem 0.45rem;
+      minmax(0, 1fr) minmax(0, var(--duo-input-column))
+      minmax(0, 1fr) minmax(0, var(--duo-input-column));
+    row-gap: 0.35rem;
+    column-gap: 0.8rem;
   }
 
   .field-duo label {
     font-size: 0.72rem;
+    white-space: nowrap;
   }
 
   .field-duo input {
-    max-width: var(--field-value-width);
+    max-width: var(--duo-value-width);
     padding: 0.4rem 0.45rem;
-    font-size: 0.8rem;
+    font-size: 0.76rem;
+  }
+
+  .field-duo .field-stepper {
+    max-width: var(--duo-input-column);
   }
 
   .field-duo .field-stepper input {
     max-width: none;
   }
 
+  .field-duo .stepper-btn {
+    width: var(--duo-stepper-btn-size);
+    height: var(--duo-stepper-btn-size);
+    font-size: 0.95rem;
+  }
+
   .field label {
     font-size: 0.72rem;
     line-height: 1.25;
+  }
+
+  .section-title {
+    font-size: 0.78rem;
   }
 
   .field input,
