@@ -26,6 +26,10 @@
     initialExpensesHint: $("initialExpensesHint"),
     monthlyBreakdown1: $("monthlyBreakdown1"),
     monthlyHint1: $("monthlyHint1"),
+    totalInterestOverpay: $("totalInterestOverpay"),
+    totalInterestHint: $("totalInterestHint"),
+    totalInsuranceOverpay: $("totalInsuranceOverpay"),
+    totalInsuranceHint: $("totalInsuranceHint"),
   };
 
   let syncSource = null;
@@ -164,6 +168,18 @@
 
     fields.monthlyHint1.textContent =
       `Ипотека: ${formatMoney(mortgage1)}, страховки: ${formatMoney(insuranceMonthly)}`;
+
+    const months = termYears * 12;
+    const totalInterest =
+      loan <= 0 || rate1 <= 0 ? 0 : Math.max(0, mortgage1 * months - loan);
+    const totalInsurance = (homeAnnual + lifeAnnual) * termYears;
+
+    setOutput(fields.totalInterestOverpay, totalInterest);
+    fields.totalInterestHint.textContent = `за весь срок кредита, только проценты по ипотеке`;
+
+    setOutput(fields.totalInsuranceOverpay, totalInsurance);
+    fields.totalInsuranceHint.textContent =
+      `${formatMoney(homeAnnual * termYears)} (имущество) + ${formatMoney(lifeAnnual * termYears)} (жизнь)`;
   }
 
   function bindInput(el, source) {
