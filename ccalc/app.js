@@ -39,6 +39,13 @@
     return Math.min(max, Math.max(min, value));
   }
 
+  function roundToStep(value, step) {
+    if (step <= 0) {
+      return value;
+    }
+    return Math.round(value / step) * step;
+  }
+
   function formatMoney(value) {
     return new Intl.NumberFormat("ru-RU", {
       maximumFractionDigits: 0,
@@ -115,18 +122,35 @@
     setOutput(fields.purchaseTaxAmount, taxAmount);
     const notaryFee = Math.max(0, parseNum(fields.notaryFee));
 
-    const agent1Percent = parseNum(fields.agent1Percent);
-    const agent2Percent = parseNum(fields.agent2Percent);
+    let agent1Percent = clamp(parseNum(fields.agent1Percent), 0, 100);
+    let agent2Percent = clamp(parseNum(fields.agent2Percent), 0, 100);
     const agent2SharePercent = parseNum(fields.agent2SharePercent);
 
-    const agent1Amount = (cost * agent1Percent) / 100;
-    const agent2Amount = (cost * agent2Percent) / 100;
+    let agent1Amount = Math.max(0, parseNum(fields.agent1Amount));
+    let agent2Amount = Math.max(0, parseNum(fields.agent2Amount));
+
+    if (syncSource === "agent1Amount") {
+      agent1Amount = roundToStep(agent1Amount, 50);
+      agent1Percent = cost > 0 ? clamp((agent1Amount / cost) * 100, 0, 100) : 0;
+      fields.agent1Percent.value = agent1Percent.toFixed(1);
+    } else {
+      agent1Amount = roundToStep((cost * agent1Percent) / 100, 50);
+      fields.agent1Amount.value = Math.round(agent1Amount);
+    }
+
+    if (syncSource === "agent2Amount") {
+      agent2Amount = roundToStep(agent2Amount, 50);
+      agent2Percent = cost > 0 ? clamp((agent2Amount / cost) * 100, 0, 100) : 0;
+      fields.agent2Percent.value = agent2Percent.toFixed(1);
+    } else {
+      agent2Amount = roundToStep((cost * agent2Percent) / 100, 50);
+      fields.agent2Amount.value = Math.round(agent2Amount);
+    }
+
     const agent2Extra = (agent2Amount * agent2SharePercent) / 100;
     const agent2Total = agent2Amount + agent2Extra;
     const commissionsTotal = notaryFee + agent1Amount + agent2Total;
 
-    setOutput(fields.agent1Amount, agent1Amount);
-    setOutput(fields.agent2Amount, agent2Amount);
     setOutput(fields.agent2Payable, agent2Extra);
 
     const initial = down + taxAmount + commissionsTotal;
@@ -182,7 +206,9 @@
   }
 
   function initSteppers() {
-    document.querySelectorAll(".calculator input[type='number']").forEach((input) => {
+    document
+      .querySelectorAll(".calculator input[type='number']:not([data-no-stepper])")
+      .forEach((input) => {
       const wrapper = document.createElement("div");
       wrapper.className = "field-stepper";
       input.parentNode.insertBefore(wrapper, input);
@@ -217,8 +243,10 @@
   bindInput(fields.lifeInsurance, null);
   bindInput(fields.purchaseTaxPercent, null);
   bindInput(fields.notaryFee, null);
-  bindInput(fields.agent1Percent, null);
-  bindInput(fields.agent2Percent, null);
+  bindInput(fields.agent1Percent, "agent1Percent");
+  bindInput(fields.agent1Amount, "agent1Amount");
+  bindInput(fields.agent2Percent, "agent2Percent");
+  bindInput(fields.agent2Amount, "agent2Amount");
   bindInput(fields.agent2SharePercent, null);
 
   initSteppers();
