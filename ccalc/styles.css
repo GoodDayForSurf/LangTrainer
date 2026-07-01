@@ -23,6 +23,9 @@
   --field-percent-width: 4.75rem;
   --field-result-width: 6.5rem;
   --stepper-btn-size: 2rem;
+  --field-input-column: calc(var(--stepper-btn-size) * 2 + 0.5rem + var(--field-value-width));
+  --field-input-column-compact: calc(var(--stepper-btn-size) * 2 + 0.5rem + var(--field-value-width-compact));
+  --field-percent-column: calc(var(--stepper-btn-size) * 2 + 0.5rem + var(--field-percent-width));
 }
 
 body {
@@ -109,7 +112,7 @@ body {
 
 .field {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) var(--field-value-width);
+  grid-template-columns: minmax(0, 1fr) var(--field-input-column);
   gap: 0.5rem 0.75rem;
   align-items: center;
   min-width: 0;
@@ -117,12 +120,12 @@ body {
 
 .row--grid-2 .field,
 .row--pair .field {
-  grid-template-columns: minmax(0, 1fr) var(--field-value-width-compact);
+  grid-template-columns: minmax(0, 1fr) var(--field-input-column-compact);
 }
 
 .field--wide {
   grid-column: 1 / -1;
-  grid-template-columns: minmax(0, 1fr) var(--field-value-width);
+  grid-template-columns: minmax(0, 1fr) var(--field-input-column);
   align-items: start;
 }
 
@@ -155,7 +158,7 @@ body {
 .field--combo {
   grid-template-columns:
     minmax(0, 1fr)
-    var(--field-percent-width)
+    var(--field-percent-column)
     var(--field-result-width);
 }
 
@@ -243,11 +246,52 @@ body {
 }
 
 .field-stepper {
-  display: contents;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  justify-self: end;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.field--combo .field-stepper {
+  max-width: 100%;
+}
+
+.field-stepper input {
+  flex: 1;
+  min-width: 0;
+  max-width: none;
+  width: auto;
 }
 
 .stepper-btn {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--stepper-btn-size);
+  height: var(--stepper-btn-size);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.stepper-btn:active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .field--readonly .output-value {
