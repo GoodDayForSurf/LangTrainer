@@ -148,6 +148,64 @@
     });
   }
 
+  const syncSources = {
+    apartmentCost: "cost",
+    downPayment: "down",
+    downPaymentPercent: "percent",
+  };
+
+  function getStepDecimals(step) {
+    const parts = String(step).split(".");
+    return parts.length > 1 ? parts[1].length : 0;
+  }
+
+  function stepInput(input, direction) {
+    const step = parseFloat(input.step) || 1;
+    const min = input.min !== "" ? parseFloat(input.min) : -Infinity;
+    const max = input.max !== "" ? parseFloat(input.max) : Infinity;
+    const decimals = getStepDecimals(step);
+    let value = parseFloat(input.value) || 0;
+    value = clamp(value + direction * step, min, max);
+
+    if (decimals > 0) {
+      value = Number(value.toFixed(decimals));
+    } else {
+      value = Math.round(value);
+    }
+
+    input.value = value;
+    syncSource = syncSources[input.id] ?? null;
+    recalculate();
+    syncSource = null;
+  }
+
+  function initSteppers() {
+    document.querySelectorAll(".calculator input[type='number']").forEach((input) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "field-stepper";
+      input.parentNode.insertBefore(wrapper, input);
+      wrapper.appendChild(input);
+
+      const btnDec = document.createElement("button");
+      btnDec.type = "button";
+      btnDec.className = "stepper-btn stepper-btn--dec";
+      btnDec.setAttribute("aria-label", "Уменьшить");
+      btnDec.textContent = "−";
+
+      const btnInc = document.createElement("button");
+      btnInc.type = "button";
+      btnInc.className = "stepper-btn stepper-btn--inc";
+      btnInc.setAttribute("aria-label", "Увеличить");
+      btnInc.textContent = "+";
+
+      wrapper.appendChild(btnDec);
+      wrapper.appendChild(btnInc);
+
+      btnDec.addEventListener("click", () => stepInput(input, -1));
+      btnInc.addEventListener("click", () => stepInput(input, 1));
+    });
+  }
+
   bindInput(fields.apartmentCost, "cost");
   bindInput(fields.downPayment, "down");
   bindInput(fields.downPaymentPercent, "percent");
@@ -160,5 +218,6 @@
   bindInput(fields.agent2Percent, null);
   bindInput(fields.agent2SharePercent, null);
 
+  initSteppers();
   recalculate();
 })();
