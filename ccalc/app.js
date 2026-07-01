@@ -15,6 +15,7 @@
     lifeInsurance: $("lifeInsurance"),
     purchaseTaxPercent: $("purchaseTaxPercent"),
     purchaseTaxAmount: $("purchaseTaxAmount"),
+    notaryFee: $("notaryFee"),
     agent1Percent: $("agent1Percent"),
     agent1Amount: $("agent1Amount"),
     agent2Percent: $("agent2Percent"),
@@ -112,6 +113,7 @@
     const taxPercent = parseNum(fields.purchaseTaxPercent);
     const taxAmount = (cost * taxPercent) / 100;
     setOutput(fields.purchaseTaxAmount, taxAmount);
+    const notaryFee = Math.max(0, parseNum(fields.notaryFee));
 
     const agent1Percent = parseNum(fields.agent1Percent);
     const agent2Percent = parseNum(fields.agent2Percent);
@@ -121,18 +123,18 @@
     const agent2Amount = (cost * agent2Percent) / 100;
     const agent2Extra = (agent2Amount * agent2SharePercent) / 100;
     const agent2Total = agent2Amount + agent2Extra;
+    const commissionsTotal = notaryFee + agent1Amount + agent2Total;
 
     setOutput(fields.agent1Amount, agent1Amount);
     setOutput(fields.agent2Amount, agent2Amount);
-    setOutput(fields.agent2Payable, agent2Total);
+    setOutput(fields.agent2Payable, agent2Extra);
 
-    const initial = down + taxAmount + agent1Amount + agent2Total;
+    const initial = down + taxAmount + commissionsTotal;
     setOutput(fields.initialExpenses, initial);
 
     fields.initialExpensesHint.textContent =
       `${formatMoney(down)} (взнос) + ${formatMoney(taxAmount)} (налог) + ` +
-      `${formatMoney(agent1Amount)} (агент 1) + ${formatMoney(agent2Amount)} (агент 2) + ` +
-      `${formatMoney(agent2Extra)} (${agent2SharePercent}% от комиссии агента 2)`;
+      `${formatMoney(commissionsTotal)} (комиссии)`;
 
     fields.monthlyBreakdown1.textContent = formatMoney(total1);
 
@@ -214,6 +216,7 @@
   bindInput(fields.homeInsurance, null);
   bindInput(fields.lifeInsurance, null);
   bindInput(fields.purchaseTaxPercent, null);
+  bindInput(fields.notaryFee, null);
   bindInput(fields.agent1Percent, null);
   bindInput(fields.agent2Percent, null);
   bindInput(fields.agent2SharePercent, null);
