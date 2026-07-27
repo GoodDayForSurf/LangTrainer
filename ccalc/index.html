@@ -13,7 +13,7 @@
       <section class="row row--grid-2" aria-label="Стоимость и кредит">
         <div class="field">
           <label for="apartmentCost">Стоимость квартиры</label>
-          <input type="number" id="apartmentCost" min="0" step="1000" value="250000">
+          <input type="number" id="apartmentCost" min="0" step="5000" value="315000">
         </div>
         <div class="field">
           <label for="downPayment">Первоначальный взнос</label>
@@ -21,7 +21,7 @@
         </div>
         <div class="field">
           <label for="downPaymentPercent">Первоначальный взнос, %</label>
-          <input type="number" id="downPaymentPercent" min="0" max="100" step="0.1" value="20">
+          <input type="number" id="downPaymentPercent" min="0" max="100" step="5" value="10">
         </div>
         <div class="field field--readonly">
           <label for="loanAmount">Сумма кредита</label>
@@ -37,7 +37,7 @@
         </div>
         <div class="field">
           <label for="termYears">Срок кредита, лет</label>
-          <input type="number" id="termYears" min="1" max="40" step="1" value="20">
+          <input type="number" id="termYears" min="1" max="40" step="5" value="30">
         </div>
         <div class="field field--readonly">
           <label>Ежемесячный платёж</label>
@@ -49,7 +49,7 @@
       <section class="row" aria-label="Налог на покупку">
         <div class="field field--combo">
           <label for="purchaseTaxPercent">Налог на покупку, %</label>
-          <input type="number" id="purchaseTaxPercent" min="0" max="100" step="0.1" value="9">
+          <input type="number" id="purchaseTaxPercent" min="0" max="100" step="0.5" value="9">
           <output id="purchaseTaxAmount" class="output-value">—</output>
         </div>
       </section>
@@ -73,12 +73,12 @@
         </div>
         <div class="field field--combo">
           <label for="agent1Percent">Агент покупателя, %</label>
-          <input type="number" id="agent1Percent" min="0" max="100" step="0.1" value="1">
+          <input type="number" id="agent1Percent" min="0" max="100" step="0.5" value="1">
           <input type="number" id="agent1Amount" min="0" step="50" value="2500" data-no-stepper class="field-input--soft">
         </div>
         <div class="field field--combo">
           <label for="agent2Percent">Агент продавца, %</label>
-          <input type="number" id="agent2Percent" min="0" max="100" step="0.1" value="3">
+          <input type="number" id="agent2Percent" min="0" max="100" step="0.5" value="3">
           <input type="number" id="agent2Amount" min="0" step="50" value="7500" data-no-stepper class="field-input--soft">
         </div>
         <div class="field field--combo">
