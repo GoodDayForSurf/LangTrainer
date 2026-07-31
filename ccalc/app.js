@@ -13,6 +13,7 @@
     monthlyPayment1: $("monthlyPayment1"),
     homeInsurance: $("homeInsurance"),
     lifeInsurance: $("lifeInsurance"),
+    alarmaInsurance: $("alarmaInsurance"),
     purchaseTaxPercent: $("purchaseTaxPercent"),
     purchaseTaxAmount: $("purchaseTaxAmount"),
     notaryFee: $("notaryFee"),
@@ -118,7 +119,8 @@
 
     const homeAnnual = Math.max(0, parseNum(fields.homeInsurance));
     const lifeAnnual = Math.max(0, parseNum(fields.lifeInsurance));
-    const insuranceMonthly = (homeAnnual + lifeAnnual) / 12;
+    const alarmaAnnual = Math.max(0, parseNum(fields.alarmaInsurance));
+    const insuranceMonthly = (homeAnnual + lifeAnnual + alarmaAnnual) / 12;
 
     const total1 = mortgage1 + insuranceMonthly;
 
@@ -174,14 +176,16 @@
     const months = termYears * 12;
     const totalInterest =
       loan <= 0 || rate1 <= 0 ? 0 : Math.max(0, mortgage1 * months - loan);
-    const totalInsurance = (homeAnnual + lifeAnnual) * termYears;
+    const totalInsurance = (homeAnnual + lifeAnnual + alarmaAnnual) * termYears;
 
     setOutput(fields.totalInterestOverpay, totalInterest);
     fields.totalInterestHint.textContent = `за весь срок кредита, только проценты по ипотеке`;
 
     setOutput(fields.totalInsuranceOverpay, totalInsurance);
     fields.totalInsuranceHint.textContent =
-      `${formatMoney(homeAnnual * termYears)} (имущество) + ${formatMoney(lifeAnnual * termYears)} (жизнь)`;
+      `${formatMoney(homeAnnual * termYears)} (имущество) + ` +
+      `${formatMoney(lifeAnnual * termYears)} (жизнь) + ` +
+      `${formatMoney(alarmaAnnual * termYears)} (alarma)`;
   }
 
   function bindInput(el, source) {
@@ -259,6 +263,7 @@
   bindInput(fields.termYears, null);
   bindInput(fields.homeInsurance, null);
   bindInput(fields.lifeInsurance, null);
+  bindInput(fields.alarmaInsurance, null);
   bindInput(fields.purchaseTaxPercent, null);
   bindInput(fields.notaryFee, null);
   bindInput(fields.appraiserFee, null);

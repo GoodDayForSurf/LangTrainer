@@ -203,12 +203,14 @@ body {
 .field-duo {
   display: grid;
   grid-template-columns:
-    minmax(0, 1fr) minmax(0, var(--duo-input-column))
-    minmax(0, 1fr) minmax(0, var(--duo-input-column));
-  row-gap: 0.5rem;
-  column-gap: 1.1rem;
+    max-content minmax(0, var(--duo-input-column))
+    max-content minmax(0, var(--duo-input-column))
+    max-content minmax(0, var(--duo-input-column));
+  row-gap: 0.75rem;
+  column-gap: 0.4rem;
   align-items: center;
   min-width: 0;
+  justify-content: space-between;
 }
 
 .field-duo label {
@@ -216,12 +218,14 @@ body {
   font-weight: 600;
   color: var(--muted);
   line-height: 1.25;
+  justify-self: end;
+  white-space: nowrap;
 }
 
 .field-duo input {
   width: 100%;
   max-width: var(--duo-value-width);
-  justify-self: end;
+  justify-self: start;
   padding: 0.55rem 0.6rem;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -239,6 +243,7 @@ body {
 
 .field-duo .field-stepper {
   max-width: var(--duo-input-column);
+  justify-self: start;
 }
 
 .field input {
@@ -422,15 +427,17 @@ body {
 
   .field-duo {
     grid-template-columns:
-      minmax(0, 1fr) minmax(0, var(--duo-input-column))
-      minmax(0, 1fr) minmax(0, var(--duo-input-column));
-    row-gap: 0.35rem;
-    column-gap: 0.8rem;
+      max-content minmax(0, var(--duo-input-column))
+      max-content minmax(0, var(--duo-input-column));
+    row-gap: 0.6rem;
+    column-gap: 0.3rem;
+    justify-content: space-between;
   }
 
   .field-duo label {
     font-size: 0.72rem;
     white-space: nowrap;
+    justify-self: end;
   }
 
   .field-duo input {
