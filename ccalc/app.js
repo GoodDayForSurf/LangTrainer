@@ -16,6 +16,7 @@
     purchaseTaxPercent: $("purchaseTaxPercent"),
     purchaseTaxAmount: $("purchaseTaxAmount"),
     notaryFee: $("notaryFee"),
+    appraiserFee: $("appraiserFee"),
     agent1Percent: $("agent1Percent"),
     agent1Amount: $("agent1Amount"),
     agent2Percent: $("agent2Percent"),
@@ -125,6 +126,7 @@
     const taxAmount = (cost * taxPercent) / 100;
     setOutput(fields.purchaseTaxAmount, taxAmount);
     const notaryFee = Math.max(0, parseNum(fields.notaryFee));
+    const appraiserFee = Math.max(0, parseNum(fields.appraiserFee));
 
     let agent1Percent = clamp(parseNum(fields.agent1Percent), 0, 100);
     let agent2Percent = clamp(parseNum(fields.agent2Percent), 0, 100);
@@ -153,7 +155,7 @@
 
     const agent2Extra = (agent2Amount * agent2SharePercent) / 100;
     const agent2Total = agent2Amount + agent2Extra;
-    const commissionsTotal = notaryFee + agent1Amount + agent2Total;
+    const commissionsTotal = notaryFee + appraiserFee + agent1Amount + agent2Total;
 
     setOutput(fields.agent2Payable, agent2Extra);
 
@@ -259,6 +261,7 @@
   bindInput(fields.lifeInsurance, null);
   bindInput(fields.purchaseTaxPercent, null);
   bindInput(fields.notaryFee, null);
+  bindInput(fields.appraiserFee, null);
   bindInput(fields.agent1Percent, "agent1Percent");
   bindInput(fields.agent1Amount, "agent1Amount");
   bindInput(fields.agent2Percent, "agent2Percent");
