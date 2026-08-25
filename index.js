@@ -17,6 +17,9 @@ const dictionaries = [
     {
         name: "Spanish \"Dar\"", file: "esp-dar.txt"
     },
+    {
+        name: "Spanish \"Dar, flipar, echar de menos\"", file: "esp-dar-2.txt"
+    },
    {
        name: "Spanish nouns", file: "esp-nouns.txt"
    },
