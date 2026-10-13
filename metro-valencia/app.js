@@ -1,7 +1,20 @@
 const STATIONS = [
-  { id: "amistat", tab: "Amistat", page: "https://horariosvlc.es/metro/estacion/amistat" },
-  { id: "angel-guimera", tab: "Angel Guimera", page: "https://horariosvlc.es/metro/estacion/angel-guimera" },
+  { id: "amistat", tab: "Amistat", code: "121", page: "https://horariosvlc.es/metro/estacion/amistat" },
+  { id: "angel-guimera", tab: "Angel Guimera", code: "25", page: "https://horariosvlc.es/metro/estacion/angel-guimera" },
 ];
+
+const LINE_COLORS = {
+  1: ["#E6B325", "#1b1714"],
+  2: ["#D4145A", "#fff"],
+  3: ["#DD052C", "#fff"],
+  4: ["#6FBE44", "#1b1714"],
+  5: ["#3A30C0", "#fff"],
+  6: ["#7B3F8D", "#fff"],
+  7: ["#18AAD8", "#fff"],
+  8: ["#7A7A7A", "#fff"],
+  9: ["#F18F01", "#1b1714"],
+  10: ["#00A3A1", "#fff"],
+};
 
 const REFRESH_MS = 45_000;
 const app = document.querySelector("#app");
@@ -22,16 +35,56 @@ function stationFromHash() {
   return stationById(id) ? id : "amistat";
 }
 
-function pageParam(station) {
-  const remote = location.protocol === "http:" || location.protocol === "https:";
-  if (!remote) return encodeURIComponent(station.page);
-  const url = new URL(location.href);
-  url.hash = "";
-  return encodeURIComponent(url.href);
+function endpoint(station) {
+  return `https://geoportal.valencia.es/geoportal-services/api/v1/salidas-metro.html?estacion=${station.code}&lang=es`;
 }
 
-function endpoint(station) {
-  return `https://horariosvlc.es/api/widget/parada/metro/${station.id}?n=16&u=${pageParam(station)}`;
+function decodeHtml(value) {
+  return value
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, num) => String.fromCodePoint(Number(num)))
+    .replace(/&apos;|&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
+function madridSeconds(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Madrid",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const read = (type) => Number(parts.find((part) => part.type === type).value);
+  return read("hour") * 3600 + read("minute") * 60 + read("second");
+}
+
+function parseDepartures(html) {
+  const now = madridSeconds();
+  const departures = [];
+  const pattern = /linea_metro_(\d+)\.png[\s\S]*?<b>([^<]*)<\/b>\s*-\s*<span>(\d{2}:\d{2}:\d{2})<\/span>/g;
+  for (const match of html.matchAll(pattern)) {
+    const [hour, minute, second] = match[3].split(":").map(Number);
+    let delta = hour * 3600 + minute * 60 + second - now;
+    let tomorrow = false;
+    if (delta < -90) {
+      delta += 24 * 3600;
+      tomorrow = true;
+    }
+    const [color, text] = LINE_COLORS[match[1]] || ["#555", "#fff"];
+    departures.push({
+      time: `${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}`,
+      headsign: decodeHtml(match[2]),
+      tomorrow,
+      at: Date.now() + delta * 1000,
+      line: { chip: `L${match[1]}`, color, text },
+    });
+    if (departures.length === 16) break;
+  }
+  return departures;
 }
 
 function formatWait(minutes) {
@@ -57,6 +110,10 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function chip(code, color, text) {
+  return `<span class="chip" style="--c:${escapeHtml(color)};color:${escapeHtml(text || "#fff")}">${escapeHtml(code)}</span>`;
+}
+
 function waitLabel(departure) {
   const delay = typeof departure.delay === "number" && departure.delay !== 0
     ? ` ${departure.delay > 0 ? "+" : ""}${departure.delay}`
@@ -68,7 +125,7 @@ function departureRows(departures) {
   if (!departures.length) return '<p class="empty">No hay salidas.</p>';
   return departures.map((departure) => `<article class="row">
       <span class="time">${escapeHtml(departure.time || "")}${departure.tomorrow ? '<small class="day">mañana</small>' : ""}</span>
-      <span class="chip" style="--c:${escapeHtml(departure.line?.color || "#333")}">${escapeHtml(departure.line?.chip || "")}</span>
+      ${chip(departure.line?.chip || "", departure.line?.color || "#333", departure.line?.text)}
       <span class="dest">${escapeHtml(departure.headsign || "")}</span>
       <span class="wait">${escapeHtml(waitLabel(departure))}</span>
     </article>`).join("");
@@ -95,18 +152,6 @@ function render(data) {
   `;
 }
 
-function remember(station, payload) {
-  view = {
-    id: station.id,
-    page: payload.stop?.url || station.page,
-    departures: payload.departures || [],
-    realtime: Boolean(payload.realtime),
-    updated: payload.updated || "",
-    fetchedAt: Date.now(),
-  };
-  cache.set(station.id, view);
-}
-
 async function load(id) {
   const station = stationById(id);
   const cached = cache.get(id);
@@ -121,12 +166,23 @@ async function load(id) {
   }
 
   const response = await fetch(endpoint(station));
-  const payload = await response.json();
-  if (!response.ok || payload.error) {
-    throw new Error(payload.error || "No se pudo cargar el horario");
-  }
+  if (!response.ok) throw new Error("No se pudo cargar el horario");
+  const departures = parseDepartures(await response.text());
   if (activeId !== id) return;
-  remember(station, payload);
+  view = {
+    id: station.id,
+    page: station.page,
+    departures,
+    realtime: true,
+    updated: new Intl.DateTimeFormat("es-ES", {
+      timeZone: "Europe/Madrid",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    }).format(new Date()),
+    fetchedAt: Date.now(),
+  };
+  cache.set(station.id, view);
   render(view);
 }
 
