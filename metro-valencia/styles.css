@@ -171,6 +171,11 @@ main {
   white-space: nowrap;
 }
 
+.links {
+  display: flex;
+  gap: 10px;
+}
+
 .empty {
   margin: 12px 2px;
   color: var(--muted);

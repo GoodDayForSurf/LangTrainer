@@ -24,7 +24,10 @@ function stationFromHash() {
 
 function pageParam(station) {
   const remote = location.protocol === "http:" || location.protocol === "https:";
-  return encodeURIComponent(remote ? location.href : station.page);
+  if (!remote) return encodeURIComponent(station.page);
+  const url = new URL(location.href);
+  url.hash = "";
+  return encodeURIComponent(url.href);
 }
 
 function endpoint(station) {
@@ -84,10 +87,10 @@ function render(data) {
   status.hidden = true;
   const fresh = data.realtime ? "en directo" : "horario";
   const updated = data.updated ? ` ${data.updated}` : "";
+  document.querySelector("#fresh").textContent = `${fresh}${updated}`;
   app.innerHTML = `
     <section class="board" aria-label="Próximas salidas">
       <div id="rows">${departureRows(data.departures)}</div>
-      <p class="meta"><span>${fresh}${escapeHtml(updated)}</span><a href="${escapeHtml(data.page)}" target="_blank" rel="noopener">Horario completo</a></p>
     </section>
   `;
 }
@@ -128,9 +131,9 @@ async function load(id) {
 }
 
 function showError(error) {
-  const meta = document.querySelector(".meta span");
-  if (view && view.id === activeId && meta) {
-    meta.textContent = "sin actualizar";
+  const fresh = document.querySelector("#fresh");
+  if (view && view.id === activeId && fresh && document.querySelector("#rows")) {
+    fresh.textContent = "sin actualizar";
     return;
   }
   app.hidden = false;
