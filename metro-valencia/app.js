@@ -555,7 +555,7 @@ function sizeMap() {
   const width = mapScroll.clientWidth;
   const height = mapScroll.clientHeight;
   if (!width || !height) return;
-  planoImg.style.width = `${Math.max(width * 2, 1680)}px`;
+  planoImg.style.width = `${Math.max(width, 840)}px`;
   requestAnimationFrame(() => centerMapOn("xativa"));
 }
 
