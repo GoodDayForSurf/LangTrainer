@@ -362,16 +362,6 @@ main {
   font-size: 0.75rem;
 }
 
-.meta a {
-  color: var(--red);
-  white-space: nowrap;
-}
-
-.links {
-  display: flex;
-  gap: 10px;
-}
-
 .empty {
   margin: 12px 2px;
   color: var(--muted);

@@ -227,8 +227,6 @@ const planoImg = document.querySelector("#plano-img");
 const planoHits = document.querySelector("#plano-hits");
 const slotEls = [...document.querySelectorAll(".slot")];
 const recentEl = document.querySelector("#recent");
-const links = document.querySelector("#links");
-
 const cache = new Map();
 let activeId = "amistat";
 let view = null;
@@ -308,7 +306,6 @@ function ensureSlot(id) {
   saveSlots();
   remember(previous);
   paintSlot(index);
-  paintLinks();
 }
 
 function paintSlot(index) {
@@ -376,14 +373,6 @@ function syncDock() {
 function recall(station) {
   const index = slotEls.findIndex((slot) => slot.querySelector(".tab").getAttribute("aria-selected") === "true");
   assignSlot(index === -1 ? 0 : index, station);
-}
-
-function paintLinks() {
-  links.innerHTML = slots.flatMap((id) => {
-    const station = stationById(id);
-    if (!station) return [];
-    return [`<a href="${escapeHtml(station.page)}" target="_blank" rel="noopener">${escapeHtml(station.tab)}</a>`];
-  }).join("");
 }
 
 function matchingStations(query) {
@@ -730,7 +719,6 @@ function assignSlot(index, station) {
   saveSlots();
   remember(previous === station.id ? null : previous);
   paintSlot(index);
-  paintLinks();
   selectTab(station.id, true);
 }
 
@@ -940,7 +928,6 @@ const hashId = location.hash.replace("#", "");
 if (stationById(hashId)) ensureSlot(hashId);
 slotEls.forEach((_, index) => paintSlot(index));
 paintRecent();
-paintLinks();
 saveSlots();
 saveRecent();
 
