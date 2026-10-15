@@ -347,7 +347,7 @@ function paintRecent() {
   const rows = [];
   for (let index = 0; index < recent.length; index += 2) rows.push(recent.slice(index, index + 2));
   const body = document.createElement("tbody");
-  rows.reverse().forEach((pair) => {
+  rows.forEach((pair) => {
     const cell = document.createElement("td");
     const line = document.createElement("div");
     line.className = "recent-pair";
@@ -359,15 +359,6 @@ function paintRecent() {
   });
   recentEl.replaceChildren(body);
   recentEl.hidden = recent.length === 0;
-  syncDock();
-}
-
-function syncDock() {
-  const finding = document.body.classList.contains("is-finding");
-  requestAnimationFrame(() => {
-    const extra = finding ? 8 : dock.offsetHeight + 20;
-    document.querySelector("main").style.paddingBottom = `calc(${extra}px + env(safe-area-inset-bottom))`;
-  });
 }
 
 function recall(station) {
@@ -663,7 +654,6 @@ function sizeMap() {
 function syncMap() {
   const open = document.querySelector(".slot.is-search");
   document.body.classList.toggle("is-finding", Boolean(open));
-  syncDock();
   mapEl.hidden = !open;
   if (!open) return;
   paintFinder(open);
@@ -962,7 +952,6 @@ if (window.visualViewport) {
 }
 
 window.addEventListener("resize", () => {
-  syncDock();
   if (!mapEl.hidden) sizeMap();
 });
 
