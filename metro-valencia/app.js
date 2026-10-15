@@ -53,7 +53,7 @@ const STATIONS = CATALOG.map(([code, name]) => {
   return { id, tab: name, code, page: `https://horariosvlc.es/metro/estacion/${id}` };
 });
 
-const DEFAULT_SLOTS = [null, null, "amistat", "angel-guimera"];
+const DEFAULT_SLOTS = ["amistat", "angel-guimera"];
 
 const LINE_COLORS = {
   1: ["#E6B325", "#1b1714"],
@@ -226,12 +226,15 @@ const mapHint = document.querySelector("#map-hint");
 const planoImg = document.querySelector("#plano-img");
 const planoHits = document.querySelector("#plano-hits");
 const slotEls = [...document.querySelectorAll(".slot")];
+const recentEl = document.querySelector("#recent");
 const links = document.querySelector("#links");
 
 const cache = new Map();
 let activeId = "amistat";
 let view = null;
-let slots = readSlots();
+const loadedDock = readSlots();
+let slots = loadedDock.slots;
+let recent = readRecent(loadedDock.seed);
 
 function stationById(id) {
   return STATIONS.find((station) => station.id === id);
@@ -247,33 +250,58 @@ function keptId(id) {
   return id && stationById(id) ? id : null;
 }
 
-function dedupe(ids) {
-  const seen = new Set();
-  return ids.map((id) => {
-    if (!id || seen.has(id)) return null;
-    seen.add(id);
-    return id;
-  });
+function pairSlots(ids) {
+  const next = [ids[0] || "amistat", ids[1] || "angel-guimera"];
+  if (next[0] === next[1]) next[1] = next[0] === "angel-guimera" ? "amistat" : "angel-guimera";
+  return next;
 }
 
 function readSlots() {
   try {
     const saved = JSON.parse(localStorage.getItem("metro-valencia-slots"));
-    if (Array.isArray(saved) && saved.length === 2) {
-      const bottom = [keptId(saved[0]) || "amistat", keptId(saved[1]) || "angel-guimera"];
-      if (bottom[0] === bottom[1]) bottom[1] = bottom[0] === "angel-guimera" ? "amistat" : "angel-guimera";
-      return [null, null, bottom[0], bottom[1]];
-    }
     if (Array.isArray(saved) && saved.length === 4) {
-      const next = dedupe(saved.map(keptId));
-      if (next.some(Boolean)) return next;
+      const ids = saved.map(keptId);
+      return { slots: pairSlots([ids[2], ids[3]]), seed: [ids[0], ids[1]] };
     }
-  } catch { /* keep the home stations on the lower buttons */ }
-  return [...DEFAULT_SLOTS];
+    if (Array.isArray(saved) && saved.length === 2) {
+      return { slots: pairSlots(saved.map(keptId)), seed: [] };
+    }
+  } catch { /* keep the two home stations */ }
+  return { slots: [...DEFAULT_SLOTS], seed: [] };
+}
+
+function normalizeRecent(ids) {
+  const seen = new Set();
+  const next = [];
+  for (const id of ids) {
+    if (!id || seen.has(id) || slots.includes(id) || !stationById(id)) continue;
+    seen.add(id);
+    next.push(id);
+    if (next.length === 4) break;
+  }
+  return next;
+}
+
+function readRecent(seed) {
+  try {
+    const saved = JSON.parse(localStorage.getItem("metro-valencia-recent"));
+    if (Array.isArray(saved)) return normalizeRecent(saved.map(keptId));
+  } catch { /* use stations that used to sit on the extra buttons */ }
+  return normalizeRecent(seed);
 }
 
 function saveSlots() {
   try { localStorage.setItem("metro-valencia-slots", JSON.stringify(slots)); } catch { /* private mode */ }
+}
+
+function saveRecent() {
+  try { localStorage.setItem("metro-valencia-recent", JSON.stringify(recent)); } catch { /* private mode */ }
+}
+
+function remember(id) {
+  recent = normalizeRecent(id ? [id, ...recent] : recent);
+  saveRecent();
+  paintRecent();
 }
 
 function ensureSlot(id) {
@@ -281,8 +309,10 @@ function ensureSlot(id) {
   let index = slots.findIndex((slotId) => !slotId);
   if (index === -1) index = slots.findIndex((slotId) => slotId !== activeId);
   if (index === -1) index = 0;
+  const previous = slots[index];
   slots[index] = id;
   saveSlots();
+  remember(previous);
   paintSlot(index);
   paintLinks();
 }
@@ -308,6 +338,26 @@ function paintSlot(index) {
   tab.textContent = station.tab;
   tab.title = station.tab;
   find.setAttribute("aria-label", `Buscar estación en lugar de ${station.tab}`);
+}
+
+function paintRecent() {
+  recent = normalizeRecent(recent);
+  recentEl.replaceChildren(...recent.map((id) => {
+    const station = stationById(id);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "recent-stop";
+    button.textContent = station.tab;
+    button.title = station.tab;
+    button.addEventListener("click", () => recall(station));
+    return button;
+  }));
+  recentEl.hidden = recent.length === 0;
+}
+
+function recall(station) {
+  const index = slotEls.findIndex((slot) => slot.querySelector(".tab").getAttribute("aria-selected") === "true");
+  assignSlot(index === -1 ? 0 : index, station);
 }
 
 function paintLinks() {
@@ -609,8 +659,10 @@ function assignSlot(index, station) {
     selectTab(station.id, true);
     return;
   }
+  const previous = slots[index];
   slots[index] = station.id;
   saveSlots();
+  remember(previous === station.id ? null : previous);
   paintSlot(index);
   paintLinks();
   selectTab(station.id, true);
@@ -821,6 +873,7 @@ function onQueryKey(event, slot, index) {
 const hashId = location.hash.replace("#", "");
 if (stationById(hashId)) ensureSlot(hashId);
 slotEls.forEach((_, index) => paintSlot(index));
+paintRecent();
 paintLinks();
 
 slotEls.forEach((slot, index) => {
