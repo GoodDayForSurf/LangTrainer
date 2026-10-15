@@ -643,12 +643,52 @@ function pinDock() {
   dock.style.transform = overlap ? `translateY(-${overlap}px)` : "";
 }
 
-function sizeMap() {
+const ZOOM_MIN = 0.55;
+const ZOOM_MAX = 2.5;
+const ZOOM_STEP = 1.25;
+let mapZoom = 1;
+const zoomInBtn = document.querySelector("#zoom-in");
+const zoomOutBtn = document.querySelector("#zoom-out");
+
+function paintZoom() {
+  zoomInBtn.disabled = mapZoom >= ZOOM_MAX - 0.01;
+  zoomOutBtn.disabled = mapZoom <= ZOOM_MIN + 0.01;
+}
+
+function applyMapSize(recenterId) {
   const width = mapScroll.clientWidth;
   const height = mapScroll.clientHeight;
   if (!width || !height) return;
-  planoImg.style.width = `${Math.max(width, 840)}px`;
-  requestAnimationFrame(() => centerMapOn("xativa"));
+  const prevW = planoImg.getBoundingClientRect().width;
+  const prevH = planoImg.getBoundingClientRect().height;
+  const cx = prevW ? (mapScroll.scrollLeft + width / 2) / prevW : 0.5;
+  const cy = prevH ? (mapScroll.scrollTop + height / 2) / prevH : 0.5;
+  planoImg.style.width = `${Math.max(width, 840) * mapZoom}px`;
+  requestAnimationFrame(() => {
+    if (recenterId) {
+      centerMapOn(recenterId);
+      return;
+    }
+    const nextW = planoImg.getBoundingClientRect().width;
+    const nextH = planoImg.getBoundingClientRect().height;
+    mapScroll.scrollLeft = cx * nextW - mapScroll.clientWidth / 2;
+    mapScroll.scrollTop = cy * nextH - mapScroll.clientHeight / 2;
+  });
+}
+
+function sizeMap() {
+  applyMapSize();
+}
+
+function setMapZoom(next) {
+  const zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(next * 1000) / 1000));
+  if (Math.abs(zoom - mapZoom) < 0.001) {
+    paintZoom();
+    return;
+  }
+  mapZoom = zoom;
+  paintZoom();
+  applyMapSize();
 }
 
 function syncMap() {
@@ -656,10 +696,12 @@ function syncMap() {
   document.body.classList.toggle("is-finding", Boolean(open));
   mapEl.hidden = !open;
   if (!open) return;
+  mapZoom = 1;
+  paintZoom();
   paintFinder(open);
   requestAnimationFrame(() => {
-    sizeMap();
-    requestAnimationFrame(sizeMap);
+    applyMapSize("xativa");
+    requestAnimationFrame(() => applyMapSize("xativa"));
   });
 }
 
@@ -942,8 +984,12 @@ slotEls.forEach((slot, index) => {
   slot.querySelector(".query").addEventListener("keydown", (event) => onQueryKey(event, slot, index));
 });
 
+zoomInBtn.addEventListener("click", () => setMapZoom(mapZoom * ZOOM_STEP));
+zoomOutBtn.addEventListener("click", () => setMapZoom(mapZoom / ZOOM_STEP));
+paintZoom();
+
 document.addEventListener("pointerdown", (event) => {
-  if (!event.target.closest(".slot.is-search") && !event.target.closest("#map")) closeFinders();
+  if (!event.target.closest(".slot.is-search") && !event.target.closest("#map") && !event.target.closest(".zoom")) closeFinders();
 });
 
 if (window.visualViewport) {

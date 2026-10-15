@@ -47,6 +47,47 @@ body.is-finding .tabs {
   bottom: max(8px, env(safe-area-inset-bottom));
 }
 
+.dock-row { display: contents; }
+
+body.is-finding .dock-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.zoom { display: none; }
+
+body.is-finding .zoom {
+  display: flex;
+  gap: 8px;
+}
+
+.zoom-btn {
+  appearance: none;
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fffdf8;
+  color: var(--ink);
+  box-shadow: 0 4px 14px rgba(27, 23, 20, 0.14);
+  font: 550 1.45rem/1 system-ui, sans-serif;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.zoom-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.zoom-btn:focus { outline: none; }
+
+.zoom-btn:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: -4px;
+}
+
 .recent { border-collapse: collapse; }
 
 .recent td { padding: 0 0 8px; }
