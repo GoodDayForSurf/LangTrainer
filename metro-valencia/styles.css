@@ -32,34 +32,26 @@ body {
   right: max(8px, env(safe-area-inset-right));
   bottom: max(8px, env(safe-area-inset-bottom));
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column-reverse;
   align-items: flex-end;
+  gap: 8px;
   width: max-content;
+  max-width: calc(100vw - 16px - env(safe-area-inset-left) - env(safe-area-inset-right));
   margin: 0;
   padding: 0;
   background: transparent;
 }
 
-.tabs.has-recent {
-  left: max(8px, env(safe-area-inset-left));
-  display: block;
-  width: auto;
-  pointer-events: none;
-}
+.recent { border-collapse: collapse; }
 
-.tabs.has-recent .slot {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: max-content;
-  pointer-events: auto;
-}
+.recent td { padding: 0 0 8px; }
 
-.recent { display: contents; }
+.recent tr:last-child td { padding-bottom: 0; }
 
-.tabs.has-recent .recent-stop {
-  position: absolute;
-  pointer-events: auto;
+.recent-pair {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
 }
 
 .recent[hidden],

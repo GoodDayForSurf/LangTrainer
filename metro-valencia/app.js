@@ -334,86 +334,43 @@ function paintSlot(index) {
   find.setAttribute("aria-label", `Buscar estación en lugar de ${station.tab}`);
 }
 
+function recentButton(id) {
+  const station = stationById(id);
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "recent-stop";
+  button.textContent = station.tab;
+  button.title = station.tab;
+  button.addEventListener("click", () => recall(station));
+  return button;
+}
+
 function paintRecent() {
   recent = normalizeRecent(recent);
-  recentEl.replaceChildren(...recent.map((id) => {
-    const station = stationById(id);
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "recent-stop";
-    button.textContent = station.tab;
-    button.title = station.tab;
-    button.addEventListener("click", () => recall(station));
-    return button;
-  }));
+  const rows = [];
+  for (let index = 0; index < recent.length; index += 2) rows.push(recent.slice(index, index + 2));
+  const body = document.createElement("tbody");
+  rows.reverse().forEach((pair) => {
+    const cell = document.createElement("td");
+    const line = document.createElement("div");
+    line.className = "recent-pair";
+    pair.forEach((id) => line.append(recentButton(id)));
+    cell.append(line);
+    const row = document.createElement("tr");
+    row.append(cell);
+    body.append(row);
+  });
+  recentEl.replaceChildren(body);
   recentEl.hidden = recent.length === 0;
   syncDock();
 }
 
 function syncDock() {
   const finding = document.body.classList.contains("is-finding");
-  dock.classList.toggle("has-recent", !finding && recent.length > 0);
   requestAnimationFrame(() => {
-    if (dock.classList.contains("has-recent")) layoutStack();
-    else dock.style.height = "";
     const extra = finding ? 8 : dock.offsetHeight + 20;
     document.querySelector("main").style.paddingBottom = `calc(${extra}px + env(safe-area-inset-bottom))`;
   });
-}
-
-function layoutStack() {
-  const buttons = [...recentEl.querySelectorAll(".recent-stop")];
-  if (!dock.classList.contains("has-recent") || !buttons.length) return;
-  const gap = 8;
-  const zoneW = dock.clientWidth;
-  const slotW = slotEls[0].offsetWidth;
-  const slotH = slotEls[0].offsetHeight;
-  const slotLeft = zoneW - slotW;
-  const placed = [];
-  let dir = -1;
-  let x = slotLeft - gap;
-  let bottom = 0;
-  let rowH = 0;
-  let rowBottom = 0;
-
-  const hits = (left, y, w, h) => {
-    if (left < 0 || left + w > zoneW) return true;
-    const boxTop = y + h;
-    if (left < zoneW && left + w > slotLeft && y < slotH && boxTop > 0) return true;
-    return placed.some((item) =>
-      left < item.left + item.w + gap && item.left < left + w + gap &&
-      y < item.bottom + item.h + gap && item.bottom < y + h + gap);
-  };
-
-  buttons.forEach((button) => {
-    const w = button.offsetWidth;
-    const h = button.offsetHeight;
-    let left = dir < 0 ? x - w : x;
-    if (!placed.length) left = slotLeft - gap - w;
-    if (hits(left, bottom, w, h)) {
-      const last = placed[placed.length - 1];
-      dir = -dir;
-      bottom = rowBottom + rowH + gap;
-      rowH = 0;
-      x = dir > 0 ? last.left : last.left + last.w;
-      left = dir < 0 ? x - w : x;
-      if (hits(left, bottom, w, h)) {
-        bottom = Math.max(bottom, slotH + gap);
-        left = Math.max(0, Math.min(left, zoneW - w));
-      }
-    }
-    left = Math.max(0, Math.min(left, zoneW - w));
-    button.style.right = "auto";
-    button.style.left = `${left}px`;
-    button.style.bottom = `${bottom}px`;
-    placed.push({ left, bottom, w, h });
-    rowH = Math.max(rowH, h);
-    rowBottom = bottom;
-    x = dir < 0 ? left - gap : left + w + gap;
-  });
-
-  const height = Math.max(slotH, ...placed.map((item) => item.bottom + item.h));
-  dock.style.height = `${height}px`;
 }
 
 function recall(station) {
