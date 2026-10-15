@@ -219,8 +219,49 @@ body.is-finding .slot:not(.is-search) { opacity: 0.38; }
 
 .query[hidden] { display: none; }
 
-.suggest,
+.suggest {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: calc(100% + 6px);
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  min-width: 100%;
+  max-width: min(16rem, calc(100vw - 24px));
+  max-height: min(240px, 42dvh);
+  margin: 0;
+  padding: 4px;
+  overflow: auto;
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fffdf8;
+  box-shadow: 0 8px 22px rgba(27, 23, 20, 0.16);
+}
+
 .suggest[hidden] { display: none; }
+
+.suggest-item,
+.suggest-empty {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font: 600 0.92rem/1.2 system-ui, sans-serif;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggest-item { cursor: pointer; }
+
+.suggest-item.is-active {
+  background: var(--ink);
+  color: #fff8ee;
+}
+
+.suggest-empty { color: var(--muted); }
 
 main {
   flex: 1 0 auto;

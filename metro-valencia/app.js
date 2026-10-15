@@ -589,6 +589,50 @@ function paintMap(query) {
   if (folded && activeId) requestAnimationFrame(() => centerMapOn(activeId));
 }
 
+function paintSuggestions(slot, query) {
+  const list = slot.querySelector(".suggest");
+  const folded = query.trim();
+  const matches = matchingStations(query);
+  if (!folded) {
+    list.hidden = true;
+    list.replaceChildren();
+    return;
+  }
+  if (mapCursor >= matches.length) mapCursor = 0;
+  list.hidden = false;
+  if (!matches.length) {
+    const empty = document.createElement("li");
+    empty.className = "suggest-empty";
+    empty.textContent = "Sin estaciones";
+    list.replaceChildren(empty);
+    return;
+  }
+  const index = slotEls.indexOf(slot);
+  list.replaceChildren(...matches.map((station, itemIndex) => {
+    const item = document.createElement("li");
+    item.className = "suggest-item";
+    item.setAttribute("role", "option");
+    item.setAttribute("aria-selected", itemIndex === mapCursor ? "true" : "false");
+    if (itemIndex === mapCursor) item.classList.add("is-active");
+    item.textContent = station.tab;
+    item.addEventListener("pointerdown", (event) => event.preventDefault());
+    item.addEventListener("click", () => assignSlot(index, station));
+    return item;
+  }));
+  const active = list.querySelector(".is-active");
+  if (!active) return;
+  const top = active.offsetTop;
+  const bottom = top + active.offsetHeight;
+  if (top < list.scrollTop) list.scrollTop = top;
+  else if (bottom > list.scrollTop + list.clientHeight) list.scrollTop = bottom - list.clientHeight;
+}
+
+function paintFinder(slot) {
+  const query = slot.querySelector(".query").value;
+  paintMap(query);
+  paintSuggestions(slot, query);
+}
+
 function pinDock() {
   if (!window.visualViewport) return;
   const open = dock.querySelector(".slot.is-search");
@@ -614,7 +658,7 @@ function syncMap() {
   document.body.classList.toggle("is-finding", Boolean(open));
   mapEl.hidden = !open;
   if (!open) return;
-  paintMap(open.querySelector(".query").value);
+  paintFinder(open);
   requestAnimationFrame(() => {
     sizeMap();
     requestAnimationFrame(sizeMap);
@@ -628,6 +672,9 @@ function closeFinder(slot, sync = true) {
   find.setAttribute("aria-expanded", "false");
   input.hidden = true;
   input.value = "";
+  const list = slot.querySelector(".suggest");
+  list.hidden = true;
+  list.replaceChildren();
   pinDock();
   if (sync) syncMap();
 }
@@ -852,7 +899,7 @@ function onQueryKey(event, slot, index) {
     mapCursor = event.key === "ArrowDown"
       ? (mapCursor + 1) % matches.length
       : (mapCursor - 1 + matches.length) % matches.length;
-    paintMap(slot.querySelector(".query").value);
+    paintFinder(slot);
     return;
   }
   if (event.key === "Enter") {
@@ -892,7 +939,7 @@ slotEls.forEach((slot, index) => {
   });
   slot.querySelector(".query").addEventListener("input", () => {
     mapCursor = 0;
-    paintMap(slot.querySelector(".query").value);
+    paintFinder(slot);
   });
   slot.querySelector(".query").addEventListener("keydown", (event) => onQueryKey(event, slot, index));
 });
