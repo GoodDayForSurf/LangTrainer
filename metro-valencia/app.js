@@ -53,7 +53,7 @@ const STATIONS = CATALOG.map(([code, name]) => {
   return { id, tab: name, code, page: `https://horariosvlc.es/metro/estacion/${id}` };
 });
 
-const DEFAULT_SLOTS = ["amistat", "angel-guimera"];
+const DEFAULT_SLOTS = ["amistat"];
 
 const LINE_COLORS = {
   1: ["#E6B325", "#1b1714"],
@@ -250,23 +250,16 @@ function keptId(id) {
   return id && stationById(id) ? id : null;
 }
 
-function pairSlots(ids) {
-  const next = [ids[0] || "amistat", ids[1] || "angel-guimera"];
-  if (next[0] === next[1]) next[1] = next[0] === "angel-guimera" ? "amistat" : "angel-guimera";
-  return next;
-}
-
 function readSlots() {
   try {
     const saved = JSON.parse(localStorage.getItem("metro-valencia-slots"));
-    if (Array.isArray(saved) && saved.length === 4) {
+    if (Array.isArray(saved) && saved.length) {
       const ids = saved.map(keptId);
-      return { slots: pairSlots([ids[2], ids[3]]), seed: [ids[0], ids[1]] };
+      const kept = saved.length >= 4 ? ids[2] : ids[0];
+      const displaced = saved.length >= 4 ? [ids[3], ids[0], ids[1]] : ids.slice(1);
+      return { slots: [kept || "amistat"], seed: displaced };
     }
-    if (Array.isArray(saved) && saved.length === 2) {
-      return { slots: pairSlots(saved.map(keptId)), seed: [] };
-    }
-  } catch { /* keep the two home stations */ }
+  } catch { /* keep the home station */ }
   return { slots: [...DEFAULT_SLOTS], seed: [] };
 }
 
@@ -283,11 +276,12 @@ function normalizeRecent(ids) {
 }
 
 function readRecent(seed) {
+  let saved = [];
   try {
-    const saved = JSON.parse(localStorage.getItem("metro-valencia-recent"));
-    if (Array.isArray(saved)) return normalizeRecent(saved.map(keptId));
-  } catch { /* use stations that used to sit on the extra buttons */ }
-  return normalizeRecent(seed);
+    const raw = JSON.parse(localStorage.getItem("metro-valencia-recent"));
+    if (Array.isArray(raw)) saved = raw.map(keptId);
+  } catch { /* keep stations that left the extra button */ }
+  return normalizeRecent([...seed, ...saved]);
 }
 
 function saveSlots() {
@@ -353,6 +347,73 @@ function paintRecent() {
     return button;
   }));
   recentEl.hidden = recent.length === 0;
+  syncDock();
+}
+
+function syncDock() {
+  const finding = document.body.classList.contains("is-finding");
+  dock.classList.toggle("has-recent", !finding && recent.length > 0);
+  requestAnimationFrame(() => {
+    if (dock.classList.contains("has-recent")) layoutStack();
+    else dock.style.height = "";
+    const extra = finding ? 8 : dock.offsetHeight + 20;
+    document.querySelector("main").style.paddingBottom = `calc(${extra}px + env(safe-area-inset-bottom))`;
+  });
+}
+
+function layoutStack() {
+  const buttons = [...recentEl.querySelectorAll(".recent-stop")];
+  if (!dock.classList.contains("has-recent") || !buttons.length) return;
+  const gap = 8;
+  const zoneW = dock.clientWidth;
+  const slotW = slotEls[0].offsetWidth;
+  const slotH = slotEls[0].offsetHeight;
+  const slotLeft = zoneW - slotW;
+  const placed = [];
+  let dir = -1;
+  let x = slotLeft - gap;
+  let bottom = 0;
+  let rowH = 0;
+  let rowBottom = 0;
+
+  const hits = (left, y, w, h) => {
+    if (left < 0 || left + w > zoneW) return true;
+    const boxTop = y + h;
+    if (left < zoneW && left + w > slotLeft && y < slotH && boxTop > 0) return true;
+    return placed.some((item) =>
+      left < item.left + item.w + gap && item.left < left + w + gap &&
+      y < item.bottom + item.h + gap && item.bottom < y + h + gap);
+  };
+
+  buttons.forEach((button) => {
+    const w = button.offsetWidth;
+    const h = button.offsetHeight;
+    let left = dir < 0 ? x - w : x;
+    if (!placed.length) left = slotLeft - gap - w;
+    if (hits(left, bottom, w, h)) {
+      const last = placed[placed.length - 1];
+      dir = -dir;
+      bottom = rowBottom + rowH + gap;
+      rowH = 0;
+      x = dir > 0 ? last.left : last.left + last.w;
+      left = dir < 0 ? x - w : x;
+      if (hits(left, bottom, w, h)) {
+        bottom = Math.max(bottom, slotH + gap);
+        left = Math.max(0, Math.min(left, zoneW - w));
+      }
+    }
+    left = Math.max(0, Math.min(left, zoneW - w));
+    button.style.right = "auto";
+    button.style.left = `${left}px`;
+    button.style.bottom = `${bottom}px`;
+    placed.push({ left, bottom, w, h });
+    rowH = Math.max(rowH, h);
+    rowBottom = bottom;
+    x = dir < 0 ? left - gap : left + w + gap;
+  });
+
+  const height = Math.max(slotH, ...placed.map((item) => item.bottom + item.h));
+  dock.style.height = `${height}px`;
 }
 
 function recall(station) {
@@ -656,6 +717,7 @@ function sizeMap() {
 function syncMap() {
   const open = document.querySelector(".slot.is-search");
   document.body.classList.toggle("is-finding", Boolean(open));
+  syncDock();
   mapEl.hidden = !open;
   if (!open) return;
   paintFinder(open);
@@ -922,6 +984,8 @@ if (stationById(hashId)) ensureSlot(hashId);
 slotEls.forEach((_, index) => paintSlot(index));
 paintRecent();
 paintLinks();
+saveSlots();
+saveRecent();
 
 slotEls.forEach((slot, index) => {
   slot.querySelector(".find").addEventListener("click", () => {
@@ -954,6 +1018,7 @@ if (window.visualViewport) {
 }
 
 window.addEventListener("resize", () => {
+  syncDock();
   if (!mapEl.hidden) sizeMap();
 });
 
